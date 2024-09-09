@@ -5,7 +5,7 @@ This repository contains the collaborative efforts of our team for the Software 
 
 ## Project Structure
 - **Project Proposal:** [project-proposal.md](./project-proposal.md) - Contains our project proposal outlining the open-source software selection, environment description, perceived threats, security features, and team reflection.
-- **Task Assignments & Collaboration:** The GitHub Project Board is used to track internal task assignments and team collaboration. [View Project Board](https://github.com/your-repo/project-board).
+- **Task Assignments & Collaboration:** The GitHub Project Board is used to track internal task assignments and team collaboration. [View Project Board](https://github.com/users/mhenke/projects/3).
 - **Diagrams:** Systems engineering view and other visual representations of the project's operational environment are included.
 
 ## Open-Source Software: [Name of Software]
