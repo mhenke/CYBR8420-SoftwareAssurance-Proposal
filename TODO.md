@@ -1,7 +1,5 @@
 # Team Project TODO Checklist
 
-## Project: Software Assurance Assignment - CYBR8420-850
-
 ### Task Assignments and Collaboration
 - [ ] Set up GitHub Project Board to track task assignments and progress.
 - [ ] Assign team members to specific tasks (project lead, task owners, documentation, etc.).
