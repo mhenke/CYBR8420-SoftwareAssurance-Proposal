@@ -2,8 +2,6 @@
 
 ## Project: Software Assurance Assignment - CYBR8420-850
 
-### Repository: [Link to Public GitHub Repository](#)
-
 ---
 
 ### Task Assignments and Collaboration
