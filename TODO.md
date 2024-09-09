@@ -1,9 +1,9 @@
 # Team Project TODO Checklist
 
 ### Task Assignments and Collaboration
-- [ ] Set up GitHub Project Board to track task assignments and progress.
+- [X] Set up GitHub Project Board to track task assignments and progress.
 - [ ] Assign team members to specific tasks (project lead, task owners, documentation, etc.).
-
+ - Also Team Lead, Technical, Administrative/Project Management, Writing/Documenting, and Reviewer.
 ---
 
 ### Project Tasks
