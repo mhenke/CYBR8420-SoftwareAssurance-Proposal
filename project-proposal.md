@@ -5,11 +5,16 @@
 - State the purpose of the proposal and the goals for this assignment.
 
 ## 2. Open-Source Project Selection
-- **Project Name:** [Name of the selected project]
-- **Description:** Provide an overview of the project (e.g., what it does, key features).
+- **Project Name:**  [T3 create-t3-app](https://github.com/t3-oss/create-t3-app)
+- **Description:** Interactive CLI to start a full-stack, typesafe Next.js app.
+  - The _"T3 Stack"_ is a web development stack made by [Theo](https://twitter.com/t3dotgg) focused on **simplicity**, **modularity**, and **full-stack typesafety**. It consists of: [Next.js](https://nextjs.org), [tRPC](https://trpc.io), [Tailwind CSS](https://tailwindcss.com), [TypeScript](https://typescriptlang.org), [Prisma](https://prisma.io), [Drizzle](https://orm.drizzle.team), and [NextAuth.js](https://next-auth.js.org)
 - **Project Details:**
-  - Contributors
+  - Contributors (90 days as of 8/20/2024)
+    - Outside Contributors 19 
   - Activity (How active is the project? Regular updates?)
+    - Medium activity
+    - 22 commits
+    - Average per week 3.1 
   - Use (Who uses this software? How popular is it?)
   - Programming languages, platforms, and tools used.
   - Documentation sources (e.g., GitHub, OpenHub).
