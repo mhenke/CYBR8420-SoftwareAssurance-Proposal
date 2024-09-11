@@ -1,4 +1,4 @@
-# Project Proposal: Software Assurance for Open-Source Software
+# Project Proposal
 
 ## 1. Introduction
 - Briefly introduce the open-source software project your team has selected.
