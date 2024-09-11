@@ -2,6 +2,8 @@
 
 ## 1. Introduction
 - Briefly introduce the open-source software project your team has selected.
+  - Create T3 App is an open-source project designed to streamline the setup of full-stack, typesafe Next.js applications. This CLI tool allows you to quickly scaffold a modular T3 Stack app tailored to your specific needs.
+  - The T3 Stack includes technologies like Next.js, TypeScript, Prisma, Tailwind CSS, tRPC, and NextAuth.js2. Each component is optional, giving you the flexibility to include only what you need for your project.
 - State the purpose of the proposal and the goals for this assignment.
 
 ## 2. Open-Source Project Selection
