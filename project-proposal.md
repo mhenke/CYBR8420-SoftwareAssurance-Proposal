@@ -22,17 +22,17 @@
     - The project has gained significant traction since its inception. For instance, within just a few months of its launch, it amassed thousands of stars on GitHub.
   - Programming languages, platforms, and tools used.
     - [TypeScript](https://typescriptlang.org): Ensures type safety and enhances the developer experience with static typing.
-    - JavaScript: Used alongside TypeScript, especially in the context of Next.js.
+    - [JavaScript](https://ecma-international.org/publications-and-standards/standards/ecma-262/): Used alongside TypeScript, especially in the context of Next.js.
     - [Next.js](https://nextjs.org): A React framework that enables server-side rendering and static site generation.
-    - Node.js: The runtime environment for executing JavaScript code server-side.
+    - [Node.js](https://nodejs.org): The runtime environment for executing JavaScript code server-side.
     - [Prisma](https://prisma.io): An ORM (Object-Relational Mapping) tool for database management.
     - [Drizzle](https://orm.drizzle.team): An ORM (Object-Relational Mapping) tool for database management.
     - [Tailwind CSS](https://tailwindcss.com): A utility-first CSS framework for rapidly building custom user interfaces.
     - [tRPC](https://trpc.io): A library for building end-to-end typesafe APIs.
     - [NextAuth.js](https://next-auth.js.org): A library for authentication in Next.js applications.
   - Documentation sources (e.g., GitHub, OpenHub).
-    - https://create.t3.gg/en/introduction
-    - https://github.com/t3-oss/create-t3-app
+    - [T3 Introduction](https://create.t3.gg/en/introduction)
+    - [create-t3-app GithHub](https://github.com/t3-oss/create-t3-app)
 - **Team Motivation:** Describe why your team chose this project.
 
 ## 3. Hypothetical Operational Environment
