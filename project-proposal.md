@@ -32,7 +32,7 @@
     - [NextAuth.js](https://next-auth.js.org): A library for authentication in Next.js applications.
   - Documentation sources (e.g., GitHub, OpenHub).
     - [T3 Introduction](https://create.t3.gg/en/introduction)
-    - [create-t3-app GithHub](https://github.com/t3-oss/create-t3-app)
+    - [create-t3-app GithHub repository](https://github.com/t3-oss/create-t3-app)
 - **Team Motivation:** Describe why your team chose this project.
 
 ## 3. Hypothetical Operational Environment
