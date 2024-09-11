@@ -7,7 +7,7 @@
 ## 2. Open-Source Project Selection
 - **Project Name:**  [T3 create-t3-app](https://github.com/t3-oss/create-t3-app)
 - **Description:** Interactive CLI to start a full-stack, typesafe Next.js app.
-  - The _"T3 Stack"_ is a web development stack made by [Theo](https://twitter.com/t3dotgg) focused on **simplicity**, **modularity**, and **full-stack typesafety**. It consists of: [Next.js](https://nextjs.org), [tRPC](https://trpc.io), [Tailwind CSS](https://tailwindcss.com), [TypeScript](https://typescriptlang.org), [Prisma](https://prisma.io), [Drizzle](https://orm.drizzle.team), and [NextAuth.js](https://next-auth.js.org)
+  - The _"T3 Stack"_ is a web development stack made by [Theo](https://twitter.com/t3dotgg) focused on **simplicity**, **modularity**, and **full-stack typesafety**.
 - **Project Details:**
   - Contributors (90 days as of 8/20/2024)
     - Outside Contributors 19 
@@ -16,7 +16,18 @@
     - 22 commits
     - Average per week 3.1 
   - Use (Who uses this software? How popular is it?)
+    - It is widely used by developers who value typesafety and modularity in their full-stack applications. The stack is particularly popular among those building modern web applications with a focus on performance and developer experience.
+    - The project has gained significant traction since its inception. For instance, within just a few months of its launch, it amassed thousands of stars on GitHub.
   - Programming languages, platforms, and tools used.
+    - [TypeScript](https://typescriptlang.org): Ensures type safety and enhances the developer experience with static typing.
+    - JavaScript: Used alongside TypeScript, especially in the context of Next.js.
+    - [Next.js](https://nextjs.org): A React framework that enables server-side rendering and static site generation.
+    - Node.js: The runtime environment for executing JavaScript code server-side.
+    - [Prisma](https://prisma.io): An ORM (Object-Relational Mapping) tool for database management.
+    - [Drizzle](https://orm.drizzle.team): An ORM (Object-Relational Mapping) tool for database management.
+    - [Tailwind CSS](https://tailwindcss.com): A utility-first CSS framework for rapidly building custom user interfaces.
+    - [tRPC](https://trpc.io): A library for building end-to-end typesafe APIs.
+    - [NextAuth.js](https://next-auth.js.org): A library for authentication in Next.js applications.
   - Documentation sources (e.g., GitHub, OpenHub).
 - **Team Motivation:** Describe why your team chose this project.
 
