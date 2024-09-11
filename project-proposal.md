@@ -5,7 +5,7 @@
 - State the purpose of the proposal and the goals for this assignment.
 
 ## 2. Open-Source Project Selection
-- **Project Name:**  [T3 create-t3-app](https://github.com/t3-oss/create-t3-app)
+- **Project Name:** [create-t3-app](https://github.com/t3-oss/create-t3-app)
 - **Description:** Interactive CLI to start a full-stack, typesafe Next.js app.
   - The _"T3 Stack"_ is a web development stack made by [Theo](https://twitter.com/t3dotgg) focused on **simplicity**, **modularity**, and **full-stack typesafety**.
 - **Project Details:**
