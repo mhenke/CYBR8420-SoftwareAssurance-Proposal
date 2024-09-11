@@ -29,6 +29,8 @@
     - [tRPC](https://trpc.io): A library for building end-to-end typesafe APIs.
     - [NextAuth.js](https://next-auth.js.org): A library for authentication in Next.js applications.
   - Documentation sources (e.g., GitHub, OpenHub).
+    - https://create.t3.gg/en/introduction
+    - https://github.com/t3-oss/create-t3-app
 - **Team Motivation:** Describe why your team chose this project.
 
 ## 3. Hypothetical Operational Environment
