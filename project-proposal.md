@@ -22,7 +22,6 @@ Here's an updated project proposal focusing on Keycloak:
   - Documentation sources (e.g., GitHub, official website).
     - [Keycloak Documentation](https://www.keycloak.org/documentation)
     - [Keycloak GitHub repository](https://github.com/keycloak/keycloak)
-- **Team Motivation:** Describe why your team chose this project.
 
 ## 2. Hypothetical Operational Environment
 - **Environment Description:** Describe the operational environment (e.g., home, office, enterprise, bank, government).
