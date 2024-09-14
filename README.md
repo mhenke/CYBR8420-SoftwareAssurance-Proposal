@@ -28,7 +28,7 @@ We provide an analysis of the software's open-source license and any contributor
 This project is a team effort. We use GitHub Issues and the Project Board to collaborate and manage tasks effectively. Our teamwork reflection is documented in the [project-proposal.md](./project-proposal.md).
 
 ## How to Contribute
-1. **Fork** this repository. **OR** skip to step 4
+1. **Fork** this repository **OR** skip to step 4
 3. **Clone** the repository to your local machine.
 4. Create a new **branch** for your task.
 5. Make and **commit** your changes.
