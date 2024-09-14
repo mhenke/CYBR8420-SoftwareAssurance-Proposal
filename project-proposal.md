@@ -28,7 +28,7 @@ Here's an updated project proposal focusing on Keycloak:
 - **Environment Description:** Describe the operational environment (e.g., home, office, enterprise, bank, government).
 - **Security Expectations:** Discuss the security needs and expectations in this environment.
 
-## 3. Security Needs
+## 3. Security Needss, Threats, and Features
 - **Security Features:** List the key security features that the software currently offers.
 - **Analysis:** Evaluate how well these features address the security threats identified.
 - Threats**
