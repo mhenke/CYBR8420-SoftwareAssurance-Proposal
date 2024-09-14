@@ -1,5 +1,3 @@
-Here's an updated project proposal focusing on Keycloak:
-
 # Project Proposal
 ## 1. OSS project description
 - **Project Name:** [Keycloak](https://github.com/keycloak/keycloak)
