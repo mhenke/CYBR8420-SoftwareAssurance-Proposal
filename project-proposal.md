@@ -1,38 +1,35 @@
+Here's an updated project proposal focusing on Keycloak:
+
 # Project Proposal
 
 ## 1. Introduction
 - Briefly introduce the open-source software project your team has selected.
-  - Create T3 App is an open-source project designed to streamline the setup of full-stack, typesafe Next.js applications. This CLI tool allows you to quickly scaffold a modular T3 Stack app tailored to your specific needs.
-  - The T3 Stack includes technologies like Next.js, TypeScript, Prisma, Tailwind CSS, tRPC, and NextAuth.js2. Each component is optional, giving you the flexibility to include only what you need for your project.
+  - **Keycloak** is an open-source identity and access management solution. It provides Single Sign-On (SSO) with Identity Federation and integrates with various protocols like OAuth2, OpenID Connect, and SAML. Keycloak allows you to secure applications and services with minimal configuration, making it an essential tool for modern software architectures.
+  - Keycloak offers features such as user management, role-based access control (RBAC), fine-grained authorization, and social login integration. It supports integration with LDAP and Active Directory for enterprise environments.
 - State the purpose of the proposal and the goals for this assignment.
 
 ## 2. Open-Source Project Selection
-- **Project Name:** [create-t3-app](https://github.com/t3-oss/create-t3-app)
-- **Description:** Interactive CLI to start a full-stack, typesafe Next.js app.
-  - The _"T3 Stack"_ is a web development stack made by [Theo](https://twitter.com/t3dotgg) focused on **simplicity**, **modularity**, and **full-stack typesafety**.
+- **Project Name:** [Keycloak](https://github.com/keycloak/keycloak)
+- **Description:** Keycloak is an open-source identity and access management platform aimed at securing applications and services. It provides SSO and integrates with modern identity protocols.
 - **Project Details:**
-  - Contributors (90 days as of 8/20/2024)
-    - Outside Contributors 19 
+  - Contributors (90 days as of 9/20/2024)
+    - Outside Contributors: 100+ active contributors.
   - Activity (How active is the project? Regular updates?)
-    - Medium activity
-    - 22 commits
-    - Average per week 3.1 
+    - High activity
+    - Frequent updates and releases, including security patches and new features.
+    - 68 contributes in last 30 days (09/13/2024)
   - Use (Who uses this software? How popular is it?)
-    - It is widely used by developers who value typesafety and modularity in their full-stack applications. The stack is particularly popular among those building modern web applications with a focus on performance and developer experience.
-    - The project has gained significant traction since its inception. For instance, within just a few months of its launch, it amassed thousands of stars on GitHub.
-  - Programming languages, platforms, and tools used.
-    - [TypeScript](https://typescriptlang.org): Ensures type safety and enhances the developer experience with static typing.
-    - [JavaScript](https://ecma-international.org/publications-and-standards/standards/ecma-262/): Used alongside TypeScript, especially in the context of Next.js.
-    - [Next.js](https://nextjs.org): A React framework that enables server-side rendering and static site generation.
-    - [Node.js](https://nodejs.org): The runtime environment for executing JavaScript code server-side.
-    - [Prisma](https://prisma.io): An ORM (Object-Relational Mapping) tool for database management.
-    - [Drizzle](https://orm.drizzle.team): An ORM (Object-Relational Mapping) tool for database management.
-    - [Tailwind CSS](https://tailwindcss.com): A utility-first CSS framework for rapidly building custom user interfaces.
-    - [tRPC](https://trpc.io): A library for building end-to-end typesafe APIs.
-    - [NextAuth.js](https://next-auth.js.org): A library for authentication in Next.js applications.
-  - Documentation sources (e.g., GitHub, OpenHub).
-    - [T3 Introduction](https://create.t3.gg/en/introduction)
-    - [create-t3-app GithHub repository](https://github.com/t3-oss/create-t3-app)
+    - Keycloak is widely used by enterprises and developers who need secure authentication and authorization in their applications. It is popular in cloud-native applications and microservices architectures.
+    - Keycloak is used by a variety of organizations, from startups to large enterprises, including Red Hat and other cloud providers.
+  - Programming languages, platforms, and tools used:
+    - [Java](https://www.oracle.com/java/): The primary language for Keycloak's development.
+    - [WildFly](https://www.wildfly.org): The application server used by Keycloak.
+    - [Docker](https://www.docker.com): Commonly used for containerizing Keycloak instances.
+    - [MySQL, PostgreSQL](https://www.mysql.com) & [PostgreSQL](https://www.postgresql.org): Common databases used with Keycloak.
+    - [LDAP](https://ldap.com) & [Active Directory](https://docs.microsoft.com/en-us/windows-server/identity/active-directory): External user management systems Keycloak integrates with.
+  - Documentation sources (e.g., GitHub, official website).
+    - [Keycloak Documentation](https://www.keycloak.org/documentation)
+    - [Keycloak GitHub repository](https://github.com/keycloak/keycloak)
 - **Team Motivation:** Describe why your team chose this project.
 
 ## 3. Hypothetical Operational Environment
