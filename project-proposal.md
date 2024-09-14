@@ -3,7 +3,7 @@ Here's an updated project proposal focusing on Keycloak:
 # Project Proposal
 ## 1. OSS project description
 - **Project Name:** [Keycloak](https://github.com/keycloak/keycloak)
-- **Description:** Keycloak is an open-source identity and access management platform aimed at securing applications and services. It provides SSO and integrates with modern identity protocols.
+- **What is it:** Keycloak is an open-source identity and access management platform aimed at securing applications and services. It provides SSO and integrates with modern identity protocols.
 - **Project Details:**
   - Contributors (30 days as of 9/13/2024)
     - Outside Contributors: 68
@@ -13,7 +13,7 @@ Here's an updated project proposal focusing on Keycloak:
   - Use (Who uses this software? How popular is it?)
     - Keycloak is widely used by enterprises and developers who need secure authentication and authorization in their applications. It is popular in cloud-native applications and microservices architectures.
     - Keycloak is used by a variety of organizations, from startups to large enterprises, including Red Hat and other cloud providers.
-  - Programming languages, platforms, and tools used:
+  - Programming languages and platforms:
     - [Java](https://www.oracle.com/java/): The primary language for Keycloak's development.
     - [WildFly](https://www.wildfly.org): The application server used by Keycloak.
     - [Docker](https://www.docker.com): Commonly used for containerizing Keycloak instances.
