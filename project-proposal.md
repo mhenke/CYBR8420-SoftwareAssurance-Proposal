@@ -12,12 +12,11 @@ Here's an updated project proposal focusing on Keycloak:
 - **Project Name:** [Keycloak](https://github.com/keycloak/keycloak)
 - **Description:** Keycloak is an open-source identity and access management platform aimed at securing applications and services. It provides SSO and integrates with modern identity protocols.
 - **Project Details:**
-  - Contributors (90 days as of 9/20/2024)
-    - Outside Contributors: 100+ active contributors.
+  - Contributors (30 days as of 9/13/2024)
+    - Outside Contributors: 68
   - Activity (How active is the project? Regular updates?)
     - High activity
     - Frequent updates and releases, including security patches and new features.
-    - 68 contributes in last 30 days (09/13/2024)
   - Use (Who uses this software? How popular is it?)
     - Keycloak is widely used by enterprises and developers who need secure authentication and authorization in their applications. It is popular in cloud-native applications and microservices architectures.
     - Keycloak is used by a variety of organizations, from startups to large enterprises, including Red Hat and other cloud providers.
