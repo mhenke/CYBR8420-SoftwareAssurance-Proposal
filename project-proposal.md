@@ -31,10 +31,11 @@ Here's an updated project proposal focusing on Keycloak:
 ## 3. Security Needs
 - **Security Features:** List the key security features that the software currently offers.
 - **Analysis:** Evaluate how well these features address the security threats identified.
-
-## 4. Threats
-- **Perceived Threats:** List the security threats perceived by users of the software in the operational environment.
+- Threats**
+- ****Perceived Threats:** List the security threats perceived by users of the software in the operational environment.
 - **Risk Assessment:** Evaluate the significance of each threat and its impact on security.
+
+## 4. Motivation
 
 ## 5. License and Contributor Agreements
 - **License Overview:** Provide a summary of the software’s license (e.g., GPL, MIT).
