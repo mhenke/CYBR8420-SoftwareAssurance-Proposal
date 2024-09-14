@@ -6,7 +6,7 @@ Here's an updated project proposal focusing on Keycloak:
 - Briefly introduce the open-source software project your team has selected.
   - **Keycloak** is an open-source identity and access management solution. It provides Single Sign-On (SSO) with Identity Federation and integrates with various protocols like OAuth2, OpenID Connect, and SAML. Keycloak allows you to secure applications and services with minimal configuration, making it an essential tool for modern software architectures.
   - Keycloak offers features such as user management, role-based access control (RBAC), fine-grained authorization, and social login integration. It supports integration with LDAP and Active Directory for enterprise environments.
-- State the purpose of the proposal and the goals for this assignment.
+- TODO: **State the purpose of the proposal and the goals for this assignment.**
 
 ## 2. Open-Source Project Selection
 - **Project Name:** [Keycloak](https://github.com/keycloak/keycloak)
