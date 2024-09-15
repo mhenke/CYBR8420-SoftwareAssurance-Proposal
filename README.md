@@ -13,7 +13,7 @@ This repository contains the collaborative efforts of our team for the Software 
 3. **Clone** the repository to your local machine.
 4. Create a new **branch** for your task.
 5. Make and **commit** your changes.
-6. (Only if Step 4 done) Submit a **pull request** for review.
+6. (Only if Step 3 done) Submit a **pull request** for review.
 
 ## License
 This project follows the open-source license of the selected software. See the [LICENSE](./LICENSE) file for more details.
