@@ -46,6 +46,4 @@
 ## 7. Project Planning and Reflection
 Overall team planning and Individual Contribution
 - **Teamwork Reflection:** Reflect on the team's process throughout the project.
-  - What issues did you encounter?
-  - How were they resolved?
-  - What improvements will be made for future teamwork?
+  During the introduction this assignment, it was very clear that collaboration and open communication were going to play a crucial role in ensuring this semester's initiative. Our team briefly experienced upfront challenges with deciding which project to pursue and how that played into everyone's experience. It led to minor role distribution confusion. To resolve these issues, our team scheduled a meeting to discuss potential projects, scheduled a second meeting once all team members were able to provide example proposals, and then finally create a github project with tasks organized out across team members. A simple poll helped finalize the selection process in a fair way thanks to one of our workflow geniuses! In addition, it seems that all team members have taken leadership roles in ways to make the workload easier for our peers. Regular check-ins, a Discord communication channel, and organized taskloads were all implemented to help us tack progress. Our team has used the organization and communication channels to move tasks along way more efficiently. Moving forward, the group plans to prioritize upfront planning, foster open communication, and keep building a strong ethos of team collaboration.
