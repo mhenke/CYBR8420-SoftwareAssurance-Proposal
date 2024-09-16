@@ -83,7 +83,7 @@ Keycloak welcomes outside contributors and feedback and has provided some guidel
 
 Here is the high level checklist they provide to help ensure a good pull request:
 
-   1. A discussion around the change (https://github.com/keycloak/keycloak/discussions/categories/ideas)
+   1. [A discussion around the change](https://github.com/keycloak/keycloak/discussions/categories/ideas)
    2. A GitHub Issue with a good description associated with the PR
    3. One feature/change per PR
    4. One commit per PR
@@ -95,7 +95,7 @@ Here is the high level checklist they provide to help ensure a good pull request
 
 Once complete, you should monitor your PR for comments and feedback in case any further modifications should be made.
 
-More in-depth details regarding each step one should take to contribute to Keycloak can be found here - https://github.com/keycloak/keycloak/blob/main/CONTRIBUTING.md
+More in-depth details regarding each step one should take to contribute to Keycloak can be found [here](https://github.com/keycloak/keycloak/blob/main/CONTRIBUTING.md).
 
 ## 6. Security History
 **Vulnerabilities and Fixes:**
