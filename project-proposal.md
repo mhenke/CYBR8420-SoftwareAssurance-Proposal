@@ -28,7 +28,7 @@ The handling of identities within a big corporate environment can be extremely c
 ![image](https://github.com/user-attachments/assets/8ffcd9d6-e125-4c6b-a5fc-dce287b89025)
 
 
-- **Security Expectations:** Discuss the security needs and expectations in this environment.
+
 
 ## 3. Security Needss, Threats, and Features
 - Security Features:
