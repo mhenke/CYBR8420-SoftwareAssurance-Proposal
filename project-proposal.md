@@ -46,24 +46,21 @@ Brute Force Attacks - attackers attempt to guess user credentials.
 Sessions Hijacking - Hijack authorized users session.
 
 
-- **Risk Assessment:** Evaluate the significance of each threat and its impact on security.
-Unauthorized access is a concern in identity and control management systems like Keyclock. Vulnerabilities, misconfigurations or poor password standards can increase the likelihood of exploitation. If an unauthorized user gains access, sensitive data and systmes can be compromised which lead to data breaches and compliance violations.
-Likelihood - Moderate
-Impact - Critical
+**Risk Assessment:** Evaluate the significance of each threat and its impact on security.
 
-Brute Force Attack - 
-Brute force attacks are common on login pages, especially when users are able to access a system remotely. Attackers usually target weak and reused passwords. Proper use of MFA and account lockout policies can minimize the impact of a brute force attack from occuring. 
+Unauthorized access - is a concern in identity and control management systems like Keyclock. Vulnerabilities, misconfigurations or poor password standards can increase the likelihood of exploitation. If an unauthorized user gains access, sensitive data and systmes can be compromised which lead to data breaches and compliance violations.
+(Likelihood - Moderate)
+(Impact - Critical)
 
-Likelihood - High
 
-Impact - Moderate 
+Brute force attacks - are common on login pages, especially when users are able to access a system remotely. Attackers usually target weak and reused passwords. Proper use of MFA and account lockout policies can minimize the impact of a brute force attack from occuring. 
+(Likelihood - High)
+(Impact - Moderate)
 
 Sessions Hijacking -
 Session token theft is a threat to the system if an unauthorized users gains access to an "authorized user" session. This could lead to unauthorized actions to be performed. 
-
-Likelihood - Moderate 
-
-Impact: High 
+(Likelihood - Moderate)
+(Impact: High)
 
 
 ## 4. Motivation
