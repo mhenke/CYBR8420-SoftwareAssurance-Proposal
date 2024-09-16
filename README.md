@@ -16,7 +16,7 @@ This repository contains the collaborative efforts of our team for the Software 
 6. (Only if Step 3 done) Submit a **pull request** for review.
 
 ## License
-This project follows the open-source license of the selected software. See the [LICENSE](./LICENSE) file for more details.
+This project follows the open-source license of CC0 1.0 Universal. See the [LICENSE](./LICENSE) file for more details.
 
 ## Contact
 For any questions or collaboration inquiries, please reach out to the team via the repository’s issues or discussions page.
