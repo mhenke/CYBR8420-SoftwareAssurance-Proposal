@@ -30,8 +30,11 @@ The handling of identities within a big corporate environment can be extremely c
 ### System Engineering Diagram
 ![image](https://github.com/user-attachments/assets/8ffcd9d6-e125-4c6b-a5fc-dce287b89025)
 
+### Threats Perceived
+  See "Perceived Threats" below.
 
-
+### List of Security Features
+  See "Security Features" below.
 
 ## 3. Security Needs, Threats, and Features
 - **Security Features:**
