@@ -67,29 +67,29 @@ Session token theft is a threat to the system if an unauthorized users gains acc
  The team chose a project to work on that was a combination of challenge, popularity, and familiarity.  Keycloak is an open-source identity and access management platform that is widely used by those needing authentication and authorization in their applications, from startups and large enterprises to developers.  The project has a 10/10 OpenSSF (Open Source Security Foundation or OSSF) score, implying it is very safe to use and passes their security checks, but also has a low (15%) Contributor Confidence score.  This low confidence score implies that it can be an intimidating project to work on, a challenge.  The project is popular, average of 23 contributors per week and 68 contributors in the last 30 days, with about 327 issues opened and 415 closed in the last 30 days.  As an Identity and Access Management (IAM) solution, it provides an opportunity for federated, secure access, something much in demand and use with the depth of login management needed for any single user, let alone across an organization.  Keycloak also uses Java, a well-known programming language, Docker, commonly used for containerizing, and MySQL, a common database language, allowing those of us with various levels of experience to come together on this project’s work.  We are motivated to work towards Core Infrastructure Initiative (CII) Best Practices recognition, which is a way for OSS projects to show they do follow best practices and aim to produce e higher-quality secure software, as well as explore and harden its vulnerabilities.  
 
 ## 5. License and Contributor Agreements
-Summary of License
+#Summary of License
 
 https://www.apache.org/licenses/LICENSE-2.0
 
 The Apache License 2.0 grants you the freedom to use, modify, and adapt the Keycloak codebase as you see fit. You can integrate the code into your own products, whether they are open-source or proprietary, and you can also sell products that include the code. The license indicates that there are no warranties or liabilities related to the code, so the original authors are not responsible for any problems or damages arising from your use or alterations. Although you can apply other licenses to your modifications or extensions, the original Keycloak code will always remain under the Apache License.
 
-    Definitions: Establishes the legal meanings for terms like "You" (the user of the code), "Licensor" (the copyright holder), "Work" (the software being licensed), and "Contributor." Notably, "You" is the entity utilizing the license permissions, and "Work" refers to the software made available under the license.
+  Definitions: Establishes the legal meanings for terms like "You" (the user of the code), "Licensor" (the copyright holder), "Work" (the software being licensed), and "Contributor." Notably, "You" is the entity utilizing the license permissions, and "Work" refers to the software made available under the license.
 
-    Grant of Copyright License: Grants you the right to use, reproduce, prepare derivative works of, publicly display, publicly perform, sublicense, and distribute copies of the original Keycloak software.
+  Grant of Copyright License: Grants you the right to use, reproduce, prepare derivative works of, publicly display, publicly perform, sublicense, and distribute copies of the original Keycloak software.
 
-    Grant of Patent License: Allows you to use any patents the Licensor holds on the Work. However, if you initiate a lawsuit claiming that the Work infringes on a patent, this license is terminated.
+  Grant of Patent License: Allows you to use any patents the Licensor holds on the Work. However, if you initiate a lawsuit claiming that the Work infringes on a patent, this license is terminated.
 
-    Redistribution: You can distribute the Work, but you must include a copy of the Apache License in any distribution of the original code, clearly indicate which parts are original and which are your modifications, and retain the source form of any changes you distribute. If there is a "NOTICE" file in the Work, you must include this file with the notices when you distribute the Work.
+   Redistribution: You can distribute the Work, but you must include a copy of the Apache License in any distribution of the original code, clearly indicate which parts are original and which are your modifications, and retain the source form of any changes you distribute. If there is a "NOTICE" file in the Work, you must include this file with the notices when you distribute the Work.
 
-    Submission of Contributions: Unless otherwise stated, any contributions you make to the project are automatically licensed under the Apache License.
+  Submission of Contributions: Unless otherwise stated, any contributions you make to the project are automatically licensed under the Apache License.
 
-    Trademarks: The license does not grant permission to use the Licensor's trademarks.
+  Trademarks: The license does not grant permission to use the Licensor's trademarks.
 
-    Disclaimer of Warranty: The software is provided "as is," without any express or implied warranties.
+  Disclaimer of Warranty: The software is provided "as is," without any express or implied warranties.
 
-    Limitation of Liability: Contributors and the Licensor are not liable for any damages, including direct, indirect, incidental, special, exemplary, or consequential damages arising from the use of the software.
+  Limitation of Liability: Contributors and the Licensor are not liable for any damages, including direct, indirect, incidental, special, exemplary, or consequential damages arising from the use of the software.
 
-    Accepting Warranty or Additional Liability: If you offer warranties or assume additional liabilities for the Work, you are solely responsible for those warranties or liabilities.
+  Accepting Warranty or Additional Liability: If you offer warranties or assume additional liabilities for the Work, you are solely responsible for those warranties or liabilities.
     
 - **Contributor Agreements:** Discuss the procedures for making contributions, including any contributor agreements.
 
