@@ -28,6 +28,8 @@ The handling of identities within a big corporate environment can be extremely c
 ![image](https://github.com/user-attachments/assets/8ffcd9d6-e125-4c6b-a5fc-dce287b89025)
 
 
+- **Security Expectations:** Discuss the security needs and expectations in this environment.
+
 ## 3. Security Needss, Threats, and Features
 - Security Features:
 -     Single Sign-On, Multifactor Authentication, OAuth2 and Open ID Connect, RBAC, Token-Based Authentication, User Federation
@@ -35,6 +37,9 @@ The handling of identities within a big corporate environment can be extremely c
 - **Analysis:** Evaluate how well these features address the security threats identified.
 - Threats**
 - ****Perceived Threats:** List the security threats perceived by users of the software in the operational environment.
+Unauthorized Access - attackers gain unauthorized access to sensitive information by bypassing authentication and authorization mechanisms.
+Brute Force Attacks - attackers attempt to guess user credentials 
+Phishing - Users receive email requesting to provide login credentials or sensitive information.
 - **Risk Assessment:** Evaluate the significance of each threat and its impact on security.
 
 ## 4. Motivation
@@ -45,8 +50,14 @@ The handling of identities within a big corporate environment can be extremely c
 - **Contributor Agreements:** Discuss the procedures for making contributions, including any contributor agreements.
 
 ## 6. Security History
-- **Vulnerabilities and Fixes:** Summarize known vulnerabilities and security-related issues.
+- **Vulnerabilities and Fixes:**
+CVE-2020-1717 - Flaw that allows a Cross-Site Request Forgery (CSRF) attack that could potentially lead to privilege escalation
+CVE-2021-36296 - Impact to the SAML broker that could potentially allow attackers to bypass authentication.
+  
 - **Security Improvements:** Discuss any security feature additions, removals, or engineering decisions over time.
+Keycloak has added features like MFA (Multi-Factor Authentication), authentication mechanisms, and a token introspection to increate security. Additional security features are made to maiaint compliance with standards such as OpenID Connect, OAuth 2.0 and SAML 2.0. There have also been efforts to harden Keycloak's defense against common web vulnerabilities like XSS and CSRF.
+
+Security has always been prioritized with regular updates focusong on strenghtening areas such as Single Sign-on (SSO) protocols and OAuth/OIDC implementations. There's also been continuous work to ensure that encryption standards and authentication mechanisms are robust. 
 
 ## 7. Project Planning and Reflection
 Overall team planning and Individual Contribution
