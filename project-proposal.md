@@ -71,13 +71,13 @@ Session token theft is a threat to the system if an unauthorized users gains acc
 - **Contributor Agreements:** Discuss the procedures for making contributions, including any contributor agreements.
 
 ## 6. Security History
-- **Vulnerabilities and Fixes:**
+**Vulnerabilities and Fixes:**
 
 CVE-2020-1717 - Flaw that allows a Cross-Site Request Forgery (CSRF) attack that could potentially lead to privilege escalation.
 
 CVE-2021-36296 - Impact to the SAML broker that could potentially allow attackers to bypass authentication.
   
-- **Security Improvements:** Discuss any security feature additions, removals, or engineering decisions over time.
+**Security Improvements:** Discuss any security feature additions, removals, or engineering decisions over time.
 Keycloak has added features like MFA (Multi-Factor Authentication), authentication mechanisms, and a token introspection to increate security. Additional security features are made to maiaint compliance with standards such as OpenID Connect, OAuth 2.0 and SAML 2.0. There have also been efforts to harden Keycloak's defense against common web vulnerabilities like XSS and CSRF.
 
 Security has always been prioritized with regular updates focusong on strenghtening areas such as Single Sign-on (SSO) protocols and OAuth/OIDC implementations. There's also been continuous work to ensure that encryption standards and authentication mechanisms are robust. 
