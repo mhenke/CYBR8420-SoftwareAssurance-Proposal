@@ -1,6 +1,7 @@
 # Project Proposal
 ## 1. OSS project description
 - **Project Name:** [Keycloak](https://github.com/keycloak/keycloak)
+- **Project Task Assignments:** The [GitHub Project Board](https://github.com/users/mhenke/projects/3) is used to track internal task assignments and team collaboration.
 - **What is it:** Keycloak is an open-source identity and access management platform aimed at securing applications and services. It provides SSO and integrates with modern identity protocols.
 - **Project Details:**
   - Contributors (30 days as of 9/13/2024)
