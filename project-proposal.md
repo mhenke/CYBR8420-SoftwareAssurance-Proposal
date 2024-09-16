@@ -37,11 +37,30 @@ The handling of identities within a big corporate environment can be extremely c
 - **Analysis:** Evaluate how well these features address the security threats identified.
 - Threats**
 - ****Perceived Threats:** List the security threats perceived by users of the software in the operational environment.
-Unauthorized Access - attackers gain unauthorized access to sensitive information by bypassing authentication and authorization mechanisms.
-Brute Force Attacks - attackers attempt to guess user credentials 
-Phishing - Users receive email requesting to provide login credentials or sensitive information.
-- **Risk Assessment:** Evaluate the significance of each threat and its impact on security.
 
+Unauthorized Access - attackers gain unauthorized access to sensitive information by bypassing authentication and authorization mechanisms.
+
+Brute Force Attacks - attackers attempt to guess user credentials.
+
+Sessions Hijacking - Hijack authorized users session.
+
+
+- **Risk Assessment:** Evaluate the significance of each threat and its impact on security.
+Unauthorized access is a concern in identity and control management systems like Keyclock. Vulnerabilities, misconfigurations or poor password standards can increase the likelihood of exploitation. If an unauthorized user gains access, sensitive data and systmes can be compromised which lead to data breaches and compliance violations.
+Likelihood - Moderate
+Impact - Critical
+
+Brute Force Attack - 
+Brute force attacks are common on login pages, especially when users are able to access a system remotely. Attackers usually target weak and reused passwords. Proper use of MFA and account lockout policies can minimize the impact of a brute force attack from occuring. 
+Likelihood - High
+Impact - Moderate 
+
+Sessions Hijacking -
+Session token theft is a threat to the system if an unauthorized users gains access to an "authorized user" session. This could lead to unauthorized actions to be performed. 
+Likelihood - Moderate 
+Impact: High 
+
+Unauthorized Access 
 ## 4. Motivation
  The team chose a project to work on that was a combination of challenge, popularity, and familiarity.  Keycloak is an open-source identity and access management platform that is widely used by those needing authentication and authorization in their applications, from startups and large enterprises to developers.  The project has a 10/10 OpenSSF (Open Source Security Foundation or OSSF) score, implying it is very safe to use and passes their security checks, but also has a low (15%) Contributor Confidence score.  This low confidence score implies that it can be an intimidating project to work on, a challenge.  The project is popular, average of 23 contributors per week and 68 contributors in the last 30 days, with about 327 issues opened and 415 closed in the last 30 days.  As an Identity and Access Management (IAM) solution, it provides an opportunity for federated, secure access, something much in demand and use with the depth of login management needed for any single user, let alone across an organization.  Keycloak also uses Java, a well-known programming language, Docker, commonly used for containerizing, and MySQL, a common database language, allowing those of us with various levels of experience to come together on this project’s work.  We are motivated to work towards Core Infrastructure Initiative (CII) Best Practices recognition, which is a way for OSS projects to show they do follow best practices and aim to produce e higher-quality secure software, as well as explore and harden its vulnerabilities.  
 
