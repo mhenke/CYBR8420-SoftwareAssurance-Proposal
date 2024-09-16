@@ -22,7 +22,12 @@
     - [Keycloak GitHub repository](https://github.com/keycloak/keycloak)
 
 ## 2. Hypothetical Operational Environment
-- **Environment Description:** Describe the operational environment (e.g., home, office, enterprise, bank, government).
+Keycloak serves a diverse range of corporate environment, from small to large and complex organizations, thanks to its powerful means of identity and access management solutions. Keycloak access control is considered an integral part, especially by large enterprises, in handling their complex security requirements. These organizations often have several departments that make them up, each with different roles, each having different access levels from general staff to high levels of executives. Keycloak allows these organizations to implements access control rules; thus, permissions can be granted for each selected role or even for each particular user. This ensures sensitive data and resources will be available only to those who actually need them.
+
+The handling of identities within a big corporate environment can be extremely complex. In the case of Keycloak, this will come easier with centralized management of authentication and authorization. Centralization in this context involves the capability of the administrators to define and enforce security policies across an organization from a single point, therefor minimizing any  inconsistency's and potential vulnerabilities. Role-based access contol (RBAC) along with multi-factor authentication (MFA) can be set up within the environment to ensure users have the access they need and also provide an extra layer or security.
+![image](https://github.com/user-attachments/assets/8ffcd9d6-e125-4c6b-a5fc-dce287b89025)
+
+
 - **Security Expectations:** Discuss the security needs and expectations in this environment.
 
 ## 3. Security Needss, Threats, and Features
