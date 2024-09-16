@@ -36,7 +36,8 @@ The handling of identities within a big corporate environment can be extremely c
 -     Implements security standards: SAML 2.0 and X.509 Certificate Authentication
 - **Analysis:** Evaluate how well these features address the security threats identified.
 - Threats**
-- ****Perceived Threats:** List the security threats perceived by users of the software in the operational environment.
+  
+****Perceived Threats:** List the security threats perceived by users of the software in the operational environment.
 
 Unauthorized Access - attackers gain unauthorized access to sensitive information by bypassing authentication and authorization mechanisms.
 
