@@ -91,7 +91,8 @@ The Apache License 2.0 grants you the freedom to use, modify, and adapt the Keyc
 
 - Accepting Warranty or Additional Liability: If you offer warranties or assume additional liabilities for the Work, you are solely responsible for those warranties or liabilities.
     
-- **Contributor Agreements:**
+### Contributor Agreements
+
 Keycloak welcomes outside contributors and feedback and has provided some guidelines in order for individuals to be successful with their contribution. For larger changes, they request that a discussion regarding the issue be opened first while minor ones can be contributed without a discussion. Discussions can help ensure the change will be accepted if unsure.
 
 Here is the high level checklist they provide to help ensure a good pull request:
