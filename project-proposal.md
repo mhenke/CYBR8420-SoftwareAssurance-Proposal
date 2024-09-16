@@ -28,8 +28,6 @@ The handling of identities within a big corporate environment can be extremely c
 ![image](https://github.com/user-attachments/assets/8ffcd9d6-e125-4c6b-a5fc-dce287b89025)
 
 
-- **Security Expectations:** Discuss the security needs and expectations in this environment.
-
 ## 3. Security Needss, Threats, and Features
 - Security Features:
 -     Single Sign-On, Multifactor Authentication, OAuth2 and Open ID Connect, RBAC, Token-Based Authentication, User Federation
