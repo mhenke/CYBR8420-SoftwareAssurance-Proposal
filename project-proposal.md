@@ -27,7 +27,7 @@ Keycloak serves a diverse range of corporate environment, from small to large an
 
 The handling of identities within a big corporate environment can be extremely complex. In the case of Keycloak, this will come easier with centralized management of authentication and authorization. Centralization in this context involves the capability of the administrators to define and enforce security policies across an organization from a single point, therefor minimizing any  inconsistency's and potential vulnerabilities. Role-based access contol (RBAC) along with multi-factor authentication (MFA) can be set up within the environment to ensure users have the access they need and also provide an extra layer or security.
 
-### System Engineering Diagram
+### System Engineering View
 ![image](https://github.com/user-attachments/assets/8ffcd9d6-e125-4c6b-a5fc-dce287b89025)
 
 ### Threats Perceived
