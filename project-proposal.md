@@ -67,7 +67,7 @@ Session token theft is a threat to the system if an unauthorized users gains acc
  The team chose a project to work on that was a combination of challenge, popularity, and familiarity.  Keycloak is an open-source identity and access management platform that is widely used by those needing authentication and authorization in their applications, from startups and large enterprises to developers.  The project has a 10/10 OpenSSF (Open Source Security Foundation or OSSF) score, implying it is very safe to use and passes their security checks, but also has a low (15%) Contributor Confidence score.  This low confidence score implies that it can be an intimidating project to work on, a challenge.  The project is popular, average of 23 contributors per week and 68 contributors in the last 30 days, with about 327 issues opened and 415 closed in the last 30 days.  As an Identity and Access Management (IAM) solution, it provides an opportunity for federated, secure access, something much in demand and use with the depth of login management needed for any single user, let alone across an organization.  Keycloak also uses Java, a well-known programming language, Docker, commonly used for containerizing, and MySQL, a common database language, allowing those of us with various levels of experience to come together on this project’s work.  We are motivated to work towards Core Infrastructure Initiative (CII) Best Practices recognition, which is a way for OSS projects to show they do follow best practices and aim to produce e higher-quality secure software, as well as explore and harden its vulnerabilities.  
 
 ## 5. License and Contributor Agreements
-#Summary of License
+# Summary of License
 
 https://www.apache.org/licenses/LICENSE-2.0
 
