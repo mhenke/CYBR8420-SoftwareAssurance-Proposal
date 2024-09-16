@@ -72,7 +72,9 @@ Session token theft is a threat to the system if an unauthorized users gains acc
 
 ## 6. Security History
 - **Vulnerabilities and Fixes:**
-CVE-2020-1717 - Flaw that allows a Cross-Site Request Forgery (CSRF) attack that could potentially lead to privilege escalation
+
+CVE-2020-1717 - Flaw that allows a Cross-Site Request Forgery (CSRF) attack that could potentially lead to privilege escalation.
+
 CVE-2021-36296 - Impact to the SAML broker that could potentially allow attackers to bypass authentication.
   
 - **Security Improvements:** Discuss any security feature additions, removals, or engineering decisions over time.
