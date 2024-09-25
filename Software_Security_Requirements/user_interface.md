@@ -1,18 +1,33 @@
-# User Interface (UI)
- - Interaction: Keycloak provides a web-based user interface for administrators to manage realms, users, groups, clients, and other configuration settings.
- - Enablers: Web browser, HTTP server.
+```text
+This assignment focuses on identifying external interactors, developing use and misuse case diagrams, and deriving security requirements. You will also assess the alignment of these requirements with features provided by an open-source software (OSS) project and reflect on any gaps identified.
+```
 
 # Overview
-This assignment focuses on identifying external interactors, developing use and misuse case diagrams, and deriving security requirements. You will also assess the alignment of these requirements with features provided by an open-source software (OSS) project and reflect on any gaps identified.
+Keycloak provides a web-based Admin Console for administrators (human interaction) to manage realms, users, roles, clients, identity brokering, and other security configurations.
+
+# Web-based Admin Console
+- Interaction:
+   - Administrators interact with the Admin Console via a web browser.
+   - The Admin Console communicates with the Keycloak server over HTTP.
+- Enablers:
+   - Web browser
+   - HTTP server
+   - Database
+   - Authentication and Authorization mechanisms
+   - Session management
 
 # 1. Identify External Interactors
-Define and document the external actors interacting with your system of interest.
-
+- External Interactors:
+  - Human Users: Administrators interact with the Admin Console to manage realms, users, roles, clients, and other security configurations.
+  - Web Servers: The Admin Console is accessed via a web browser, which communicates with the Keycloak server over HTTP.
+  - Databases: The Keycloak server accesses the database and provides information to the Admin Console.
+  - Authentication and Authorization Mechanisms: The Admin Console relies on Keycloak's authentication and authorization mechanisms to control access to its features.
+  - Session Management: Keycloak uses session management to maintain user sessions and state information.
 # 2. Develop Use Case Diagrams
 Create use case diagrams illustrating the interactions of actors with your system.
 - Use the provided [Use Case Sample](Use_Case_Sample.drawio) file as a template for diagramming.
-- Keep diagrams simple and straightforward.
-
+- ![Access Admin Console](web_console/Access_Admin_Console.png)
+- ![Management](web_console/Management.png)
 # 3. Derive Security Requirements
 For each use case, perform a security analysis to identify associated security requirements.
 - Focus on misuses that are relevant to your environment and context.
@@ -56,3 +71,4 @@ Example prompt to enhance your use and misuse case diagrams using AI:
 ```text
 You are an expert software security requirement engineer. Your job is to suggest misuse cases for a particular use case diagram. Misuse cases need to be introduced in stages as back and forth analysis, introducing security countermeasures in response to each misuse case. Analyze the following use case:
 An Actor is associated with the "Login" use case, which depends on "Password Hashing" and "Input Sanitization."
+```
