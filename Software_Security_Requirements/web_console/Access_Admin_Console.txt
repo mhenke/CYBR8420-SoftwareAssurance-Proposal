@@ -1,0 +1,14 @@
+@startuml
+actor Administrator
+
+rectangle "Keycloak System" {
+    usecase "Access Admin Console" as AccessConsole
+    usecase "Authenticate Admin" as AuthenticateAdmin
+    usecase "Maintain Session" as MaintainSession
+}
+
+Administrator --> AccessConsole: Open Web Browser
+AccessConsole --> AuthenticateAdmin: Admin enters credentials
+AuthenticateAdmin --> MaintainSession: Create session if authenticated
+MaintainSession --> Administrator: Provide access to Admin Console
+@enduml
