@@ -27,9 +27,9 @@ Keycloak provides a web-based Admin Console for administrators (human interactio
 # 2. Develop Use Case Diagrams
 Create use case diagrams illustrating the interactions of actors with your system.
 - Use the provided [Use Case Sample](Use_Case_Sample.drawio) file as a template for diagramming.
-- ![Access Admin Console](web_console/Access_Admin_Console.png)
-- ![Management](web_console/Management.png)
-- ![Realm Management](web_console/Realm_Management.png)
+  - ![Access Admin Console](web_console/Access_Admin_Console.png)
+  - ![Management](web_console/Management.png)
+  - ![Realm Management](web_console/Realm_Management.png)
 
 # 3. Derive Security Requirements
 For each use case, perform a security analysis to identify associated security requirements.
