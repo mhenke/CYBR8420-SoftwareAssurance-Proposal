@@ -1,0 +1,17 @@
+@startuml
+actor Administrator
+
+rectangle "Realm Management" {
+    usecase "Create new realm" as CreateRealm
+    usecase "Configure settings" as ConfigureSettings
+    usecase "Manage roles and groups" as ManageRolesGroups
+    usecase "Set up identity brokering" as IdentityBrokering
+}
+
+Administrator --> CreateRealm
+Administrator --> ConfigureSettings
+Administrator --> ManageRolesGroups
+Administrator --> IdentityBrokering
+
+@enduml
+

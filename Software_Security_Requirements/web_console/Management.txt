@@ -6,7 +6,7 @@ rectangle "Keycloak Admin Console" {
     usecase "Configure Security Settings" as ConfigureSecurity
 }
 
-Administrator --> ManageMulti: Create/Update/Delete Realms
+Administrator --> ManageMulti: Create/Update/Delete Users, Roles, Clients, and Realms
 Administrator --> ConfigureSecurity: Adjust security-related configurations
 
 ManageMulti --> Administrator: Realms updated
