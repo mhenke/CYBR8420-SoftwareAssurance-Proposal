@@ -10,3 +10,6 @@ Keycloak can federate identities by integrating with external Identity Providers
 
 # Use Case - Transport Layer Security encryption
 ![Use Case - Transport Layer Security Encryption Authenticate with External IDP drawio](https://github.com/user-attachments/assets/794258a8-27e1-462d-8b45-a0c551a0b19d)
+
+# Mis Use Case - Brute Force Attacker
+![image](https://github.com/user-attachments/assets/0af31e1c-96a7-4f31-912f-bfd6e85c5b77)
