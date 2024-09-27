@@ -13,3 +13,7 @@ Keycloak can federate identities by integrating with external Identity Providers
 
 # Mis Use Case - Brute Force Attacker
 ![image](https://github.com/user-attachments/assets/0af31e1c-96a7-4f31-912f-bfd6e85c5b77)
+
+# Use Case - Rate Limiting and Account Lockout
+![image](https://github.com/user-attachments/assets/3287e225-99d2-4004-a46a-74c597a89acd)
+
