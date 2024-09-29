@@ -41,9 +41,9 @@
 
 ---
 
-### Use Case 2: blah blah
+### Use Case 2: User Authentication
 
-**Objective:** Blah blah blah
+**Overview:** Blah blah blah
 
 #### Diagram
 *Illustrate Use Case 1.*  
