@@ -19,24 +19,14 @@
 ![Access Admin Console](/Software_Security_Requirements/web_console/Access_Admin_Console00.png)
 
 ### **Misuse Case Analysis**
+
 #### Malicious Configuration Changes by Administrator (Insider Threat)
-- **Motives**: Employee seeks to sabotage operations due to grievances with management.
-- **Resources**: Legitimate access credentials, knowledge of internal systems, policies, configurations, and administrative privileges within Keycloak for modifying roles, users, and security settings.
-- **Attack Methods**: Privilege abuse (misusing administrative privileges for unauthorized changes) and configuration manipulation (altering settings to disable security features or permit unauthorized access).
-- **Access Level**: Full administrative access to all realms, users, roles, and security configurations.
+Victor is a long-serving IT administrator who has grown increasingly bitter due to being overlooked for promotions. Despite his loyalty to the company, he feels neglected and wronged by management’s lack of recognition for his contributions. This frustration has turned into a vendetta, and he decides to "teach the company a lesson" by sabotaging the very systems he’s entrusted to maintain.
 
-#### Privilege Escalation through Exploitation by Employee (Insider Threat)
-- **Motives**: Employee aims to misuse company data for personal projects or competitive advantage.
-- **Resources**: Knowledge of system vulnerabilities (e.g., bugs, misconfigurations) and access to lower-privileged accounts to identify weaknesses.
-- **Attack Methods**: Exploit vulnerabilities (leveraging system flaws to escalate privileges) and misuse of existing access (utilizing valid access to gain unauthorized privileges).
-- **Access Level**: Starting with low to moderate access, with the intent to escalate to full administrative access.
-
-#### Session Hijacking (External Attacker)
-- **Motives**: Attacker aims to disrupt operations by taking over an active administrator session.
-- **Resources**: Tools for intercepting network traffic (e.g., packet sniffers, malware) and knowledge of the target's operational environment and network structure.
-- **Attack Methods**: Man-in-the-middle attack (capturing session tokens or cookies to impersonate the administrator) and cross-site scripting (XSS) (exploiting vulnerabilities to execute scripts in the administrator's session context).
-- **Access Level**: Temporary full administrative access, enabling actions as the legitimate administrator.
-
+- **Motives**: Victor seeks to sabotage operations due to grievances with management.
+- **Resources**: Victor has legitimate access credentials, knowledge of internal systems, policies, configurations, and administrative privileges within Keycloak for modifying roles, users, and security settings.
+- **Attack Methods**: Victor uses privilege abuse to take advantage of his high-level access to make unauthorized changes. He modifies user roles, removes security constraints, and elevates privileges for malicious actors or himself.
+- **Access Level**: Victor holds full administrative access within Keycloak. This enables him to manipulate all realms, users, roles, and security configurations, effectively giving him control over the organization’s entire authentication and authorization infrastructure.
 
 #### Misuse Diagram
 *Include a visual representation of the misuse case tied to this interaction.*  
