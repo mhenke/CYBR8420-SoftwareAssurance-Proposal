@@ -11,29 +11,12 @@
    - Clean up notations, ensuring **actors**, **threats**, and **security requirements** are clearly defined and aligned with established standards.
 ```
 
-# Table of Contents
-
-- [Requirements for Software Security Engineering](#requirements-for-software-security-engineering)
-  - [Part 1: Essential Interactions](#part-1-essential-interactions)
-    - [Use Case 1: Blah blah blah](#use-case-1-blah-blah-blah)
-    - [Use Case 2: Blah blah blah](#use-case-2-blah-blah-blah)
-    - [Use Case 3: ldap-password-update-operation](#use-case-3-ldap-password-update-operation)
-    - [Use Case 4: blah blah blah](#use-case-4-blah-blah-blah)
-    - [Use Case 5: Blah blah blah](#use-case-5-blah-blah-blah)
-
-  - [Project Task Assignment and Collaboration](#project-task-assignment-and-collaboration)
-    - [Github Project Board Link](#github-project-board-link)
-    - [Individual Contributions](#individual-contributions)
-    - [Team Reflection](#team-reflection)
- - [Part 2: Review OSS project documentation](#part-1-essential-interactions)
-
 ## Part 1: Essential Interactions
 ### Use Case 1: Web-Based Admin Console
 **Overview:** Keycloak provides a web-based Admin Console for administrators (human interaction) to manage realms, users, roles, clients, identity brokering, and other security configurations.
 
-#### Diagram
-*Illustrate Use Case 1.*  
-![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
+#### Diagram 
+![Access Admin Console](/Software_Security_Requirements/web_console/Access_Admin_Console00.png)
 
 ### **Misuse Case Analysis**
 ```
