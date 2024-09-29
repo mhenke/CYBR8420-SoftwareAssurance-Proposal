@@ -27,7 +27,7 @@
 
 ---
 
-### Use Case 2: 
+### Use Case 2: [Insert Use Case Title]
 
 #### Use Case Description
 - **Actor**: 
@@ -52,7 +52,7 @@
 
 ---
 
-### Use Case 3: 
+### Use Case 3: [Insert Use Case Title]
 
 #### Use Case Description
 - **Actor**: 
@@ -77,7 +77,7 @@
 
 ---
 
-### Use Case 4: 
+### Use Case 4: [Insert Use Case Title]
 
 #### Use Case Description
 - **Actor**: 
@@ -102,7 +102,7 @@
 
 ---
 
-### Use Case 5: 
+### Use Case 5: [Insert Use Case Title]
 
 #### Use Case Description
 - **Actor**: 
