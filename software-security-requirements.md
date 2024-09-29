@@ -13,9 +13,8 @@
 
 # Requirements for Software Security Engineering
 ## Part 1: Essential Interactions
-### Use Case 1: LDAP Authentication (BIND Operation)
-
-- **Objective:** Analyze an essential interaction involving LDAP authentication using the BIND operation. Develop simple use-case diagrams initially to outline actor-system interactions.
+### Use Case 1: Blah blah blah
+**Objective:** Blah blah blah
 
 #### Diagram
 *Illustrate Use Case 1.*  
@@ -34,7 +33,7 @@
     ![Misuse-Case-1](https://placehold.co/400x200/EEE/31343C)  
 
 ### Misuse Remedy
-blah blah
+blah blah blah
 
 ---
 
