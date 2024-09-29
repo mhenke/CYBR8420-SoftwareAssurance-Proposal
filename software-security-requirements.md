@@ -15,7 +15,7 @@
 ### Use Case 1: Web-Based Admin Console
 **Overview:** Keycloak provides a web-based Admin Console for administrators (human interaction) to manage realms, users, roles, clients, identity brokering, and other security configurations.
 
-#### Diagram 
+#### Use Case Diagram 
 ![Access Admin Console](/Software_Security_Requirements/web_console/Access_Admin_Console00.png)
 
 ### **Misuse Case Analysis**
