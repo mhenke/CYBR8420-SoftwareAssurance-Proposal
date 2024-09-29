@@ -5,122 +5,20 @@
 ### Use Case 1: LDAP Authentication (BIND Operation)
 
 #### Use Case Description
-- **Actor**: 
-- **Goal**: 
-- **Dependencies**: 
-- **Preconditions**: 
-- **Postconditions**: 
 
 #### Diagram:
 ![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
 
-#### Misuse Case Description
-- **Misuser**: 
-- **Goal**: 
-- **Vulnerabilities**: 
-
-#### Misuse Diagram:
-![Misuse-Case-1](https://placehold.co/400x200/EEE/31343C)
-
-#### Misuse Remedy:
-- **Mitigations**: 
-
----
-
-### Use Case 2: [Insert Use Case Title]
-
-#### Use Case Description
-- **Actor**: 
-- **Goal**: 
-- **Dependencies**: 
-- **Preconditions**: 
-- **Postconditions**: 
-
-#### Diagram:
-![Use-Case-2](https://placehold.co/400x200/EEE/31343C)
-
-#### Misuse Case Description
-- **Misuser**: 
-- **Goal**: 
-- **Vulnerabilities**: 
-
-#### Misuse Diagram:
-![Misuse-Case-2](https://placehold.co/400x200/EEE/31343C)
-
-#### Misuse Remedy:
-- **Mitigations**: 
-
----
-
-### Use Case 3: [Insert Use Case Title]
-
-#### Use Case Description
-- **Actor**: 
-- **Goal**: 
-- **Dependencies**: 
-- **Preconditions**: 
-- **Postconditions**: 
-
-#### Diagram:
-![Use-Case-3](https://placehold.co/400x200/EEE/31343C)
-
-#### Misuse Case Description
-- **Misuser**: 
-- **Goal**: 
-- **Vulnerabilities**: 
-
-#### Misuse Diagram:
-![Misuse-Case-3](https://placehold.co/400x200/EEE/31343C)
-
-#### Misuse Remedy:
-- **Mitigations**: 
-
----
-
-### Use Case 4: [Insert Use Case Title]
-
-#### Use Case Description
-- **Actor**: 
-- **Goal**: 
-- **Dependencies**: 
-- **Preconditions**: 
-- **Postconditions**: 
-
-#### Diagram:
-![Use-Case-4](https://placehold.co/400x200/EEE/31343C)
-
-#### Misuse Case Description
-- **Misuser**: 
-- **Goal**: 
-- **Vulnerabilities**: 
-
-#### Misuse Diagram:
-![Misuse-Case-4](https://placehold.co/400x200/EEE/31343C)
-
-#### Misuse Remedy:
-- **Mitigations**: 
-
----
-
-### Use Case 5: [Insert Use Case Title]
-
-#### Use Case Description
-- **Actor**: 
-- **Goal**: 
-- **Dependencies**: 
-- **Preconditions**: 
-- **Postconditions**: 
-
-#### Diagram:
-![Use-Case-5](https://placehold.co/400x200/EEE/31343C)
-
-#### Misuse Case Description
-- **Misuser**: 
-- **Goal**: 
-- **Vulnerabilities**: 
-
-#### Misuse Diagram:
-![Misuse-Case-5](https://placehold.co/400x200/EEE/31343C)
+#### Misuse Case Analysis
+* Derive security requirements using misuse case analysis.
+    * Identify misusers with descriptive names.
+        * Motives
+        * Resources
+        * Attack of choice
+        * Access level
+    * Include a simple use-misuse case diagram for each interaction.
+        * Reference: Use-Misuse Case Sample.drawio (link provided)
+    * Derive security requirements based on the misuse cases.
 
 #### Misuse Remedy:
 - **Mitigations**: 
