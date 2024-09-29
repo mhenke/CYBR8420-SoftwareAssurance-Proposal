@@ -127,18 +127,13 @@
 
 ---
 
-## Part 2: Security Requirements Across All Use Cases
-
-1. **Requirement 1**: 
-2. **Requirement 2**: 
-3. **Requirement 3**: 
-4. **Requirement 4**: 
-5. **Requirement 5**: 
+## Review OSS project documentation and codebase to support your observations. 
+Provide a summary of your findings, reflecting on the sufficiency of security features offered by the open source project versus those expected by the mis use case analysis.
 
 ---
 
-## Part 3: Project Task Assignment and Collaboration
-
+## Project Task Assignment and Collaboration
+Show your internal project task assignments and collaborations to finish this task in a Github Project Board. 
 - **Github Project Board Link**: [Insert link here]
 - **Individual Contributions**: 
 - **Team Reflection**: 
