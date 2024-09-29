@@ -1,28 +1,37 @@
 # Requirements for Software Security Engineering
-
 ## Part 1: Essential Interactions
-Based on the enabling systems or other systems in your systems engineering view (previous assignment)
+### Use Case 1: XXXXX
 
-### Use Case 1: LDAP Authentication (BIND Operation)
-Develop use-cases diagrams of the five interactions. Remember, that a use-case should be a feature supported by your software (system of interest) that an actor interacts with. Keep these diagrams simple at the beginning and avoid introducing complexity early. 
+- **Objective:** Analyze an essential interaction involving LDAP authentication using the BIND operation. Develop simple use-case diagrams initially to outline actor-system interactions.
 
-#### Diagram:
+#### **Diagram:**
+*Illustrate Use Case 1.*  
 ![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
 
-#### Misuse Case Analysis
-* For each use case, derive security requirements using misuse case analysis.  
-    * Identify misusers with descriptive names.
-        * Motives
-        * Resources
-        * Attack of choice
-        * Access level
-    * Include a simple use-misuse case diagram for each interaction.
-        * ![Misuse-Case-1](https://placehold.co/400x200/EEE/31343C) 
-        * Reference: Use-Misuse Case Sample.drawio (link provided)
-    * Derive security requirements based on the misuse cases.
-#### Security Requirements & OSS Features
-- Build a list of security requirements derived from misuse case analysis. 
-- Assess the alignment of security requirements derived from misuse case analysis with advertised features of the open-source software. Review OSS project documentation and codebase to support your observations. Provide a summary of your findings, reflecting on the sufficiency of security features offered by the open source project versus those expected by the mis use case analysis.
+### **Misuse Case Analysis**
+**Security Threats:** Identify potential threats from malicious actors (e.g., disgruntled employees or external attackers attempting impersonation).
+- **Misuser Details:**
+    - **Motives:** Understanding user motives such as insider threats or unauthorized access.
+    - **Resources:** Identify the resources misusers might leverage (e.g., stolen credentials).
+    - **Attack of Choice:** Specify types of attacks such as impersonation or brute force.
+    - **Access Level:** Define the potential access misusers might achieve.
+
+- **Misuse Diagram:**
+    *Include a visual representation of the misuse case tied to this interaction.*  
+    ![Misuse-Case-1](https://placehold.co/400x200/EEE/31343C)  
+
+- **Security Requirements:** Derive security requirements aimed at countering threats.
+    - **Examples:** Multi-factor authentication (MFA), rate limiting, stronger session management, and detailed audit logs.
+    - **Logical Attacks:** Link requirements to logical attack vectors identified in misuse cases.
+
+### **Security Requirements & OSS Features**
+- **Alignment with Keycloak:**
+    - Compare the derived security requirements with **Keycloak’s advertised features** (e.g., LDAP integration, authorization mechanisms, session management, logging).
+    - **Key Considerations:**
+        - Evaluate whether Keycloak’s current security features sufficiently address identified misuse cases.
+        - Propose contributions or improvements where gaps are found (e.g., documentation updates, feature enhancements).
+
+
 
 ---
 
