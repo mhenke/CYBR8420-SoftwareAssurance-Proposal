@@ -10,18 +10,19 @@
 ![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
 
 #### Misuse Case Analysis
-* Derive security requirements using misuse case analysis.
+* For each use case, derive security requirements using misuse case analysis.  
     * Identify misusers with descriptive names.
         * Motives
         * Resources
         * Attack of choice
         * Access level
     * Include a simple use-misuse case diagram for each interaction.
+        * ![Misuse-Case-1](https://placehold.co/400x200/EEE/31343C) 
         * Reference: Use-Misuse Case Sample.drawio (link provided)
     * Derive security requirements based on the misuse cases.
-
-#### Misuse Remedy:
-- **Mitigations**: 
+#### Security Requirements & OSS Features
+- Build a list of security requirements derived from misuse case analysis. 
+- Assess the alignment of security requirements derived from misuse case analysis with advertised features of the open-source software. Review OSS project documentation and codebase to support your observations. Provide a summary of your findings, reflecting on the sufficiency of security features offered by the open source project versus those expected by the mis use case analysis.
 
 ---
 
