@@ -138,7 +138,7 @@ A common misuse case involves attackers attempting to exploit vulnerabilities in
 ---
 
 
-### Use Case 5: Implementing a Logging for Service Health Monitoring
+### Use Case 5: Implementing Logging for Service Health Monitoring
 **Objective:** Blah blah blah
 
 **System of Interest:** XXXX
