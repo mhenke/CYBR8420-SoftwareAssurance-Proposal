@@ -28,10 +28,8 @@
  - [Part 2: Review OSS project documentation](#part-1-essential-interactions)
 
 ## Part 1: Essential Interactions
-### Use Case 1: Blah blah blah
-**Objective:** Blah blah blah
-
-**System of Interest:** XXXX
+### Use Case 1: Web-Based Admin Console
+**Overview:** Keycloak provides a web-based Admin Console for administrators (human interaction) to manage realms, users, roles, clients, identity brokering, and other security configurations.
 
 #### Diagram
 *Illustrate Use Case 1.*  
@@ -64,7 +62,6 @@
 
 **Objective:** Blah blah blah
 
-**System of Interest:** XXXX
 #### Diagram
 *Illustrate Use Case 1.*  
 ![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
