@@ -134,17 +134,17 @@ A common misuse case involves attackers attempting to exploit vulnerabilities in
 ### Use Case 5: Implementing a Logging for Service Health Monitoring
 **Overview:** Configuring Keycloak to include logging and monitoring systems is important to properly maintain good system health. This includes tracking performance metrics and securing logs within a centralized log store to detect performance issues, potential security threats, or any other anomalies. Logs assist administrators with reviewing essential operational behaviors while also being able to investigate any suspicious activities.
 
-#### Diagram
-*Illustrate Use Case 1.*  
-![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
-
 #### Use Case: 
 A non-privileged user connects to an external server via a Keycloak authentication method. The user is able to log in to the resource successfully. With no prior knowledge relating to the security infrastructure of the method they are using to log in, the user expects their information and credentials to be properly protected and stored when logging in. This essentially means that a standard user would expect all necessary configurations in the security of the application that they are logging in with have been set up to prevent any breaches of security or information to external threats. 
+
+#### Use Case Diagram
+*Illustrate Use Case 1.*  
+![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
 
 #### Misuse Case:
 
 
-#### Misuse Diagram
+#### Misuse Case Diagram
 *Include a visual representation of the misuse case tied to this interaction.*  
 
 ![Misuse-Case-1](https://placehold.co/400x200/EEE/31343C)  
