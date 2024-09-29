@@ -6,6 +6,9 @@
 ![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
 
 #### Use Case: 
+Keycloak is configured to log events and system performance data to a log store. These logs track pertinent information regarding activities such as log-in attempts, server performance/health, along with any error that may be occurring in the environment.
+
+
 In this scenario, the system requesting authorized access could be an application or service interacting with Keycloak, rather than an individual user. For instance, when a user attempts to log in, Keycloak verifies the credentials and issues an access token. If SSO is enabled, once the user logs in to one application, Keycloak seamlessly authorizes access to other connected applications without prompting for credentials again. Additionally, if a new device is used for access, Keycloak can trigger multi-factor authentication to ensure secure access. Throughout this process, passwords and other sensitive information should be encrypted and stored securely, ensuring that access tokens, session cookies, and credentials are protected from unauthorized access.
 
 #### Misuse Case:
