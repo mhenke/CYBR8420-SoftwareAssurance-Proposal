@@ -19,15 +19,43 @@
 ![Access Admin Console](/Software_Security_Requirements/web_console/Access_Admin_Console00.png)
 
 ### **Misuse Case Analysis**
-```
-**Security Threats:** Identify potential threats from malicious actors (e.g., disgruntled employees or external attackers attempting impersonation).
+#### Malicious Configuration Changes by Administrator (Insider Threat)
+- **Motives**:
+    - The employee feels wronged by management or the organization and seeks to sabotage operations by gaining higher access to manipulate configurations.
+- **Resources**:
+    - Legitimate access credentials.
+    - Knowledge of internal systems, policies, and configurations.
+    - Administrative privileges within Keycloak, allowing changes to roles, users, and security settings.
+- **Attack of Choice**:
+    - **Privilege Abuse**: Misusing existing administrative privileges to make unauthorized changes.
+    - **Configuration Manipulation**: Altering settings that could disable security features or allow unauthorized access.
+- **Access Level**:
+    - Full administrative access, enabling changes to all realms, users, roles, and security configurations.
+    - 
+#### Privilege Escalation through Exploitation by Employee (Insider Threat)
+- **Motives**:
+    - The employee aims to leverage their access to create a personal side project or gain a competitive advantage by misusing company data.
+- **Resources**:
+    - Knowledge of system vulnerabilities (e.g., software bugs or misconfigurations).
+    - Access to lower-privileged accounts with insights on how to exploit weaknesses.
+- **Attack of Choice**:
+    - **Exploit Vulnerabilities**: Utilizing knowledge of system flaws to escalate privileges illegitimately.
+    - **Misuse of Existing Access**: Taking advantage of valid access to gain unauthorized privileges.
+- **Access Level**:
+    - Initially low to moderate access, but the goal is to gain full administrative access through exploitation.
 
-- Misuser Details:
-    - **Motives:** Understanding user motives such as insider threats or unauthorized access.
-    - **Resources:** Identify the resources misusers might leverage (e.g., stolen credentials).
-    - **Attack of Choice:** Specify types of attacks such as impersonation or brute force.
-    - **Access Level:** Define the potential access misusers might achieve.
-```
+#### Session Hijacking (External Attacker)
+- **Motives**:
+    - The attacker aims to disrupt the organization’s operations by taking over an active administrator session.
+- **Resources**:
+    - Tools for intercepting network traffic (e.g., packet sniffers, malware).
+    - Knowledge of the target's operational environment and network structure.
+- **Attack of Choice**:
+    - **Man-in-the-Middle Attack**: Capturing session tokens or cookies to impersonate the administrator.
+    - **Cross-Site Scripting (XSS)**: Exploiting vulnerabilities to execute scripts in the context of the administrator's session.
+- **Access Level**:
+    - Temporary full administrative access, allowing the attacker to perform actions as if they were the legitimate administrator.
+
 #### Misuse Diagram
 *Include a visual representation of the misuse case tied to this interaction.*  
 
