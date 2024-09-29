@@ -20,41 +20,23 @@
 
 ### **Misuse Case Analysis**
 #### Malicious Configuration Changes by Administrator (Insider Threat)
-- **Motives**:
-    - The employee feels wronged by management or the organization and seeks to sabotage operations by gaining higher access to manipulate configurations.
-- **Resources**:
-    - Legitimate access credentials.
-    - Knowledge of internal systems, policies, and configurations.
-    - Administrative privileges within Keycloak, allowing changes to roles, users, and security settings.
-- **Attack of Choice**:
-    - **Privilege Abuse**: Misusing existing administrative privileges to make unauthorized changes.
-    - **Configuration Manipulation**: Altering settings that could disable security features or allow unauthorized access.
-- **Access Level**:
-    - Full administrative access, enabling changes to all realms, users, roles, and security configurations.
-    - 
+- **Motives**: Employee seeks to sabotage operations due to grievances with management.
+- **Resources**: Legitimate access credentials, knowledge of internal systems, policies, configurations, and administrative privileges within Keycloak for modifying roles, users, and security settings.
+- **Attack Methods**: Privilege abuse (misusing administrative privileges for unauthorized changes) and configuration manipulation (altering settings to disable security features or permit unauthorized access).
+- **Access Level**: Full administrative access to all realms, users, roles, and security configurations.
+
 #### Privilege Escalation through Exploitation by Employee (Insider Threat)
-- **Motives**:
-    - The employee aims to leverage their access to create a personal side project or gain a competitive advantage by misusing company data.
-- **Resources**:
-    - Knowledge of system vulnerabilities (e.g., software bugs or misconfigurations).
-    - Access to lower-privileged accounts with insights on how to exploit weaknesses.
-- **Attack of Choice**:
-    - **Exploit Vulnerabilities**: Utilizing knowledge of system flaws to escalate privileges illegitimately.
-    - **Misuse of Existing Access**: Taking advantage of valid access to gain unauthorized privileges.
-- **Access Level**:
-    - Initially low to moderate access, but the goal is to gain full administrative access through exploitation.
+- **Motives**: Employee aims to misuse company data for personal projects or competitive advantage.
+- **Resources**: Knowledge of system vulnerabilities (e.g., bugs, misconfigurations) and access to lower-privileged accounts to identify weaknesses.
+- **Attack Methods**: Exploit vulnerabilities (leveraging system flaws to escalate privileges) and misuse of existing access (utilizing valid access to gain unauthorized privileges).
+- **Access Level**: Starting with low to moderate access, with the intent to escalate to full administrative access.
 
 #### Session Hijacking (External Attacker)
-- **Motives**:
-    - The attacker aims to disrupt the organization’s operations by taking over an active administrator session.
-- **Resources**:
-    - Tools for intercepting network traffic (e.g., packet sniffers, malware).
-    - Knowledge of the target's operational environment and network structure.
-- **Attack of Choice**:
-    - **Man-in-the-Middle Attack**: Capturing session tokens or cookies to impersonate the administrator.
-    - **Cross-Site Scripting (XSS)**: Exploiting vulnerabilities to execute scripts in the context of the administrator's session.
-- **Access Level**:
-    - Temporary full administrative access, allowing the attacker to perform actions as if they were the legitimate administrator.
+- **Motives**: Attacker aims to disrupt operations by taking over an active administrator session.
+- **Resources**: Tools for intercepting network traffic (e.g., packet sniffers, malware) and knowledge of the target's operational environment and network structure.
+- **Attack Methods**: Man-in-the-middle attack (capturing session tokens or cookies to impersonate the administrator) and cross-site scripting (XSS) (exploiting vulnerabilities to execute scripts in the administrator's session context).
+- **Access Level**: Temporary full administrative access, enabling actions as the legitimate administrator.
+
 
 #### Misuse Diagram
 *Include a visual representation of the misuse case tied to this interaction.*  
