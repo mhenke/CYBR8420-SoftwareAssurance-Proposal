@@ -29,9 +29,8 @@ Victor is a long-serving IT administrator who has grown increasingly bitter due 
 - **Access Level**: Victor holds full administrative access within Keycloak. This enables him to manipulate all realms, users, roles, and security configurations, effectively giving him control over the organization’s entire authentication and authorization infrastructure.
 
 #### Misuse Diagram
-*Include a visual representation of the misuse case tied to this interaction.*  
 
-![Misuse-Case-1](https://placehold.co/400x200/EEE/31343C)  
+![Mitigating Unauthorized User Modifications and Log Tampering in Keycloak](/Software_Security_Requirements/web_console/Audit_Logs.png)  
 
 #### Misuse Remedy
 - Build a list of security requirements derived from misuse case analysis. 
