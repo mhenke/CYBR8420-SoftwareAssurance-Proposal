@@ -141,7 +141,7 @@ A common misuse case involves attackers attempting to exploit vulnerabilities in
 #### Use Case: 
 A non-privileged user connects to an external server via a Keycloak authentication method. The user is able to log in to the resource successfully. With no prior knowledge relating to the security infrastructure of the method they are using to log in, the user expects their information and credentials to be properly protected and stored when logging in. This essentially means that a standard user would expect all necessary configurations in the security of the application that they are logging in with have been set up to prevent any breaches of security or information to external threats. 
 
-#### Use Case:
+#### Misuse Case:
 
 
 #### Misuse Diagram
