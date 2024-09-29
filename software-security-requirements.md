@@ -142,6 +142,7 @@ A non-privileged user connects to an external server via a Keycloak authenticati
 ![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
 
 #### Misuse Case:
+An external malicious actor attempts to breach the Keycloak infrastructure with a desire to exploit any vulnerabilities within the log store and logging mechanisms. In an attempt to gain access they are not authorized for, the actor could initially attempt to exploit any weaknesses in the logging process by attempting to remove or alter logs, therefore allowing for the removal of any events as a result of any of their actions, meaning admins would be unaware of their presence. Of those actions, gaining access to the log store could be one of them, which would allow them to intercept and possibly manipulate any data that is being transferred between the client and server, effectively performing a man-in-the-middle attack.
 
 
 #### Misuse Case Diagram
