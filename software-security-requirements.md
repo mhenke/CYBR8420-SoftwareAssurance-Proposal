@@ -1,10 +1,10 @@
 # Requirements for Software Security Engineering
 
 ## Part 1: Essential Interactions
+Based on the enabling systems or other systems in your systems engineering view (previous assignment)
 
 ### Use Case 1: LDAP Authentication (BIND Operation)
-
-#### Use Case Description
+Develop use-cases diagrams of the five interactions. Remember, that a use-case should be a feature supported by your software (system of interest) that an actor interacts with. Keep these diagrams simple at the beginning and avoid introducing complexity early. 
 
 #### Diagram:
 ![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
