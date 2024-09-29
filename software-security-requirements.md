@@ -15,6 +15,7 @@
 ## Part 1: Essential Interactions
 ### Use Case 1: Blah blah blah
 **Objective:** Blah blah blah
+
 **System of Interest:** XXXX
 
 #### Diagram
@@ -46,7 +47,9 @@ Assess the alignment of security requirements derived from misuse case analysis 
 ---
 
 ### Use Case 2: blah blah
+
 **Objective:** Blah blah blah
+
 **System of Interest:** XXXX
 #### Diagram
 *Illustrate Use Case 1.*  
@@ -77,7 +80,9 @@ Assess the alignment of security requirements derived from misuse case analysis 
 ---
 
 ### Use Case 3: LDAP Password Update Operation
+
 **Objective:** Blah blah blah
+
 **System of Interest:** XXXX
 #### Diagram
 *Illustrate Use Case 1.*  
@@ -109,6 +114,7 @@ Assess the alignment of security requirements derived from misuse case analysis 
 
 ### Use Case 4: blah blah
 **Objective:** Blah blah blah
+
 **System of Interest:** XXXX
 #### Diagram
 *Illustrate Use Case 1.*  
@@ -141,6 +147,7 @@ Assess the alignment of security requirements derived from misuse case analysis 
 
 ### Use Case 5: Blah
 **Objective:** Blah blah blah
+
 **System of Interest:** XXXX
 
 #### Diagram
