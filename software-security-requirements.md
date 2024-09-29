@@ -99,7 +99,7 @@ A common misuse case involves attackers attempting to exploit vulnerabilities in
 
 ---
 
-### Use Case 4: blah blah
+### Use Case 4: Role and Permission Requests
 **Objective:** Blah blah blah
 
 **System of Interest:** XXXX
