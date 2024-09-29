@@ -66,8 +66,11 @@ In this scenario, the system requesting authorized access could be an applicatio
 A common misuse case involves attackers attempting to exploit vulnerabilities in the authentication process. For instance, an attacker might perform a session hijacking attack by intercepting session cookies or access tokens over unsecured connections. With these, they could gain unauthorized access to an active session without needing the user’s credentials. Another potential attack could involve credential stuffing, where compromised user credentials from other breaches are used to attempt logins, leveraging the fact that users often reuse passwords across different platforms. In more sophisticated attacks, adversaries might try SQL injection or similar exploits to compromise the backend database storing user credentials, which could lead to mass exposure of sensitive data. Even hashed passwords can be vulnerable if weak hashing algorithms are used, making it imperative that robust cryptographic methods are employed.
 
 
-#### Misuse Remedy
-- Build a list of security requirements derived from misuse case analysis. 
+#### Security Requirements
+- Implement session expiration policies to limi the window for session hijacking.
+- Use device fingerpirintg to ensure session tokens or cookies can only be used on authorized devices
+- Enforce Multi-Factor Authentication (MFA) to add an additional layer of security, especially for first-time logins or new devices.
+- Utilize strong pasword hashing algorithms to protect user passwords from brute-force attacks.
 
 ### Reflection
 - Assess the alignment of security requirements derived from misuse case analysis with advertised features of the open-source software. Review OSS project documentation and codebase to support your observations. Provide a summary of your findings, reflecting on the sufficiency of security features offered by the open source project versus those expected by the mis use case analysis.
