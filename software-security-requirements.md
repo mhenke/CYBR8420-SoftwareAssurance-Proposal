@@ -38,6 +38,10 @@
 #### Misuse Remedy
 blah blah blah
 
+#### Reflection
+Assess the alignment of security requirements derived from misuse case analysis with advertised features of the open-source software:
+- Nextcloud supports anti-virus scans, two-factor authentication, role based access controls, and audit logging.
+
 ---
 
 ### Use Case 2: blah blah
@@ -65,6 +69,10 @@ blah blah blah
 #### Misuse Remedy
 blah blah blah
 
+#### Reflection
+Assess the alignment of security requirements derived from misuse case analysis with advertised features of the open-source software:
+- Nextcloud supports anti-virus scans, two-factor authentication, role based access controls, and audit logging.
+
 ---
 
 ### Use Case 3: LDAP Password Update Operation
@@ -91,6 +99,11 @@ blah blah blah
 
 #### Misuse Remedy
 blah blah blah
+
+#### Reflection
+Assess the alignment of security requirements derived from misuse case analysis with advertised features of the open-source software:
+- Nextcloud supports anti-virus scans, two-factor authentication, role based access controls, and audit logging.
+
 ---
 
 ### Use Case 5: LDAP User Deletion
@@ -117,6 +130,10 @@ blah blah blah
 
 #### Misuse Remedy
 blah blah blah
+
+#### Reflection
+Assess the alignment of security requirements derived from misuse case analysis with advertised features of the open-source software:
+- Nextcloud supports anti-virus scans, two-factor authentication, role based access controls, and audit logging.
 
 ---
 
