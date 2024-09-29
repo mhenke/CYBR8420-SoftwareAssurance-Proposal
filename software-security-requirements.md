@@ -15,6 +15,7 @@
 ## Part 1: Essential Interactions
 ### Use Case 1: Blah blah blah
 **Objective:** Blah blah blah
+**System of Interest:** XXXX
 
 #### Diagram
 *Illustrate Use Case 1.*  
@@ -46,7 +47,7 @@ Assess the alignment of security requirements derived from misuse case analysis 
 
 ### Use Case 2: blah blah
 **Objective:** Blah blah blah
-
+**System of Interest:** XXXX
 #### Diagram
 *Illustrate Use Case 1.*  
 ![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
@@ -77,7 +78,7 @@ Assess the alignment of security requirements derived from misuse case analysis 
 
 ### Use Case 3: LDAP Password Update Operation
 **Objective:** Blah blah blah
-
+**System of Interest:** XXXX
 #### Diagram
 *Illustrate Use Case 1.*  
 ![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
@@ -106,8 +107,41 @@ Assess the alignment of security requirements derived from misuse case analysis 
 
 ---
 
+### Use Case 4: blah blah
+**Objective:** Blah blah blah
+**System of Interest:** XXXX
+#### Diagram
+*Illustrate Use Case 1.*  
+![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
+
+### **Misuse Case Analysis**
+```
+**Security Threats:** Identify potential threats from malicious actors (e.g., disgruntled employees or external attackers attempting impersonation).
+
+- Misuser Details:
+    - **Motives:** Understanding user motives such as insider threats or unauthorized access.
+    - **Resources:** Identify the resources misusers might leverage (e.g., stolen credentials).
+    - **Attack of Choice:** Specify types of attacks such as impersonation or brute force.
+    - **Access Level:** Define the potential access misusers might achieve.
+```
+#### Misuse Diagram
+*Include a visual representation of the misuse case tied to this interaction.*  
+
+![Misuse-Case-1](https://placehold.co/400x200/EEE/31343C)  
+
+#### Misuse Remedy
+blah blah blah
+
+#### Reflection
+Assess the alignment of security requirements derived from misuse case analysis with advertised features of the open-source software:
+- Nextcloud supports anti-virus scans, two-factor authentication, role based access controls, and audit logging.
+
+---
+
+
 ### Use Case 5: LDAP User Deletion
 **Objective:** Blah blah blah
+**System of Interest:** XXXX
 
 #### Diagram
 *Illustrate Use Case 1.*  
