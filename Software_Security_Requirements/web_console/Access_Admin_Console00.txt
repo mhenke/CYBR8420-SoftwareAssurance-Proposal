@@ -1,0 +1,19 @@
+@startuml
+actor Administrator
+
+rectangle "Keycloak System" {
+    usecase "Access Admin Console" as AccessConsole
+    usecase "Manage Realms" as ManageRealms
+    usecase "Manage Users" as ManageUsers
+    usecase "Manage Roles" as ManageRoles
+    usecase "Manage Clients" as ManageClients
+    usecase "Identity Brokering" as IdentityBrokering
+}
+
+Administrator --> AccessConsole: Open Web Browser
+AccessConsole --> ManageRealms: Select Realm
+AccessConsole --> ManageUsers: Manage Users
+AccessConsole --> ManageRoles: Assign Roles
+AccessConsole --> ManageClients: Configure Clients
+AccessConsole --> IdentityBrokering: Set Up Identity Providers
+@enduml
