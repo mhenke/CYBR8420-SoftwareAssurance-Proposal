@@ -9,14 +9,14 @@ A non-privileged user connects to an external server via a Keycloak authenticati
 ![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
 
 #### Misuse Case:
-An external malicious actor attempts to breach the Keycloak infrastructure with a desire to exploit any vulnerabilities within the log store and logging mechanisms. In an attempt to gain access they are not authorized for, the actor could initially attempt to exploit any weaknesses in the logging process by attempting to remove or alter logs, therefore allowing for the removal of any events as a result of any of their actions, meaning admins would be unaware of their presence. Of those actions, gaining access to the log store could be one of them, which would allow them to intercept and possibly manipulate any data that is being transferred between the client and server, effectively performing a man-in-the-middle attack.
+An external malicious actor attempts to breach the Keycloak infrastructure with a desire to exploit any vulnerabilities within the log store and logging mechanisms. In an attempt to gain access they are not authorized for, the actor could initially attempt to exploit any weaknesses in the logging process by removing or altering logs, therefore allowing for the removal of any events as a result of any of their actions, meaning admins would be unaware of their presence. Of those actions, gaining access to the log store could be one of them, which would allow them to intercept and possibly manipulate any data that is being transferred between the client and server, effectively performing a man-in-the-middle attack.
 
 
 #### Security Requirements
-- Implement session expiration policies to limi the window for session hijacking.
-- Use device fingerpirintg to ensure session tokens or cookies can only be used on authorized devices
-- Enforce Multi-Factor Authentication (MFA) to add an additional layer of security, especially for first-time logins or new devices.
-- Utilize strong pasword hashing algorithms to protect user passwords from brute-force attacks.
+- Ensure all access to the log store and logging system is logged with alerts configured for suspicious activities like log deletions or modifications.
+- Procedure for revoking compromised certificates and regularly auditing valid trusted certificates.
+- Implement a robust security policy for the log store with MFA or a better password policy.
+- Utilize digital signatures or checksums within each log entry to verify its integrity along with encryption for each entry.
 
 ### Reflection
 - Assess the alignment of security requirements derived from misuse case analysis with advertised features of the open-source software. Review OSS project documentation and codebase to support your observations. Provide a summary of your findings, reflecting on the sufficiency of security features offered by the open-source project versus those expected by the misuse case analysis.
