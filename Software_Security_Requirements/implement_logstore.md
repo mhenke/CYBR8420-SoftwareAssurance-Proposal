@@ -6,6 +6,8 @@
 ![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
 
 #### Use Case: 
+A non-privileged user connects to an external server via a Keycloak authentication method. The user is able to log in to the resource successfully. The user 
+
 Keycloak is configured to log events and system performance data to a log store. These logs track pertinent information regarding activities such as log-in attempts, server performance/health, along with any error that may be occurring in the environment. Administrators are then able to access these logs to maintain system health, spot unusual patters, and respond to potential issues swiftly. Certain thresholds can be set up to be monitored, such as driver events or login event. If a certain threshold is met when monitoring these, an alert will be configured to trigger and notify the proper team to be able to take immediate action. Additionally, sensitive information within these logs is protected through encryption and access is l restricted to authorized users, ensuring that logs are secure from any form of tampering.
 
 #### Misuse Case:
