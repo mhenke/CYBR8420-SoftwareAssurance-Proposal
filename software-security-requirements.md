@@ -131,25 +131,19 @@ A common misuse case involves attackers attempting to exploit vulnerabilities in
 ---
 
 
-### Use Case 5: Implementing Logging for Service Health Monitoring
-**Objective:** Blah blah blah
-
-**System of Interest:** XXXX
+### Use Case 5: Implementing a Logging for Service Health Monitoring
+**Overview:** Configuring Keycloak to include logging and monitoring systems is important to properly maintain good system health. This includes tracking performance metrics and securing logs within a centralized log store to detect performance issues, potential security threats, or any other anomalies. Logs assist administrators with reviewing essential operational behaviors while also being able to investigate any suspicious activities.
 
 #### Diagram
 *Illustrate Use Case 1.*  
 ![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
 
-### **Misuse Case Analysis**
-```
-**Security Threats:** Identify potential threats from malicious actors (e.g., disgruntled employees or external attackers attempting impersonation).
+#### Use Case: 
+A non-privileged user connects to an external server via a Keycloak authentication method. The user is able to log in to the resource successfully. With no prior knowledge relating to the security infrastructure of the method they are using to log in, the user expects their information and credentials to be properly protected and stored when logging in. This essentially means that a standard user would expect all necessary configurations in the security of the application that they are logging in with have been set up to prevent any breaches of security or information to external threats. 
 
-- Misuser Details:
-    - **Motives:** Understanding user motives such as insider threats or unauthorized access.
-    - **Resources:** Identify the resources misusers might leverage (e.g., stolen credentials).
-    - **Attack of Choice:** Specify types of attacks such as impersonation or brute force.
-    - **Access Level:** Define the potential access misusers might achieve.
-```
+#### Use Case:
+
+
 #### Misuse Diagram
 *Include a visual representation of the misuse case tied to this interaction.*  
 
