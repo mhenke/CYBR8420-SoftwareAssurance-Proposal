@@ -8,12 +8,28 @@ This repository contains the collaborative efforts of our team for the Software 
 - **Task Assignments & Collaboration:** The GitHub Project Board is used to track internal task assignments and team collaboration. [View Project Board](https://github.com/users/mhenke/projects/3).
 - **Diagram:** Systems engineering view representations of the project's operational environment are included. [Systems Engineering Diagram](https://github.com/user-attachments/assets/8ffcd9d6-e125-4c6b-a5fc-dce287b89025)
 
+## Team Members:  
+- Member 1
+- Member 2  
+- Member 3  
+- Member 4
+- Member 5
+
 ## How to Contribute
 1. **Fork** this repository **OR** skip to step 4
-3. **Clone** the repository to your local machine.
-4. Create a new **branch** for your task.
-5. Make and **commit** your changes.
-6. (Only if Step 3 done) Submit a **pull request** for review.
+1. **Clone** the repository to your local machine.
+1. Create a new **branch** for your task.
+1. Make and **commit** your changes.
+1. (Only if Step 3 done) Submit a **pull request** for review.
+
+## Assignments
+- [Project Proposal](https://github.com/project-proposal.md)  
+- [Requirements for Software Security Engineering](https://github.com/software-security-requirements.md)
+<!-- 
+- [Assurance Cases for SSE](https://github.com/assignments/)    
+- [Designing for SSE](https://github.com/assignments/)   
+- [Code Review](https://github.com/assignments/)
+-->
 
 ## License
 This project follows the open-source license of CC0 1.0 Universal. See the [LICENSE](./LICENSE) file for more details.
