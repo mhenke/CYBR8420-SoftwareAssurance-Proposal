@@ -1,5 +1,5 @@
-### Use Case 1: Web-Based Admin Console
-**Overview:** Keycloak provides a web-based Admin Console for administrators (human interaction) to manage realms, users, roles, clients, identity brokering, and other security configurations.
+### Use Case 5: Implementing a Logging for Service Health Monitoring
+**Overview:** Configuring Keycloak to include logging and monitoring systems can be is important in order to properly maintain good system health. This includes tracking performance metrics and securing logs within a centralized log store to detect performance issues, potential security threats, or any other anomalies. Logs assist administrators with reviewing essential operational behaviors while also being able to investigate any suspicious activities.
 
 #### Diagram 
 ![Access Admin Console](/Software_Security_Requirements/web_console/Access_Admin_Console00.png)
