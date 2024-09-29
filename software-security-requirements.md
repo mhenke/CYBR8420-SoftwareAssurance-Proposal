@@ -11,7 +11,22 @@
    - Clean up notations, ensuring **actors**, **threats**, and **security requirements** are clearly defined and aligned with established standards.
 ```
 
-# Requirements for Software Security Engineering
+# Table of Contents
+
+- [Requirements for Software Security Engineering](#requirements-for-software-security-engineering)
+  - [Part 1: Essential Interactions](#part-1-essential-interactions)
+    - [Use Case 1: Blah blah blah](#use-case-1-blah-blah-blah)
+    - [Use Case 2: Blah blah blah](#use-case-2-blah-blah-blah)
+    - [Use Case 3: ldap-password-update-operation](#use-case-3-ldap-password-update-operation)
+    - [Use Case 4: blah blah blah](#use-case-4-blah-blah-blah)
+    - [Use Case 5: Blah blah blah](#use-case-5-blah-blah-blah)
+
+  - [Project Task Assignment and Collaboration](#project-task-assignment-and-collaboration)
+    - [Github Project Board Link](#github-project-board-link)
+    - [Individual Contributions](#individual-contributions)
+    - [Team Reflection](#team-reflection)
+ - [Part 2: Review OSS project documentation](#part-1-essential-interactions)
+
 ## Part 1: Essential Interactions
 ### Use Case 1: Blah blah blah
 **Objective:** Blah blah blah
@@ -177,4 +192,9 @@
 Show your internal project task assignments and collaborations to finish this task in a Github Project Board. 
 - **Github Project Board Link**: [Insert link here]
 - **Individual Contributions**: 
-- **Team Reflection**: 
+- **Team Reflection**:
+
+## Part 2: Review OSS project documentation
+- Review OSS project documentation for security-related configuration and installation issues. Summarize your observations.
+- The purpose of this task is to review security-related documentation of the project and find ways to improve it. Open source projects are always looking for contributors for their documentation. It may also allow you to get to know the open source community and procedures to contribute.
+
