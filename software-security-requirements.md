@@ -2,12 +2,14 @@
 ### Use Case 1: Web-Based Admin Console
 **Overview:** Keycloak provides a web-based Admin Console for administrators (human interaction) to manage realms, users, roles, clients, identity brokering, and other security configurations.
 
+### Use Case
+
 #### Use Case Diagram 
 ![Access Admin Console](/Software_Security_Requirements/web_console/Access_Admin_Console00.png)
 
-### **Misuse Case Analysis**
+###E Misuse Case
+Malicious Configuration Changes by Administrator (Insider Threat)
 
-#### Malicious Configuration Changes by Administrator (Insider Threat)
 Victor is a long-serving IT administrator who has grown increasingly bitter due to being overlooked for promotions. Despite his loyalty to the company, he feels neglected and wronged by management’s lack of recognition for his contributions. This frustration has turned into a vendetta, and he decides to "teach the company a lesson" by sabotaging the very systems he’s entrusted to maintain.
 
 - **Motives**: Victor seeks to sabotage operations due to grievances with management.
@@ -15,7 +17,7 @@ Victor is a long-serving IT administrator who has grown increasingly bitter due 
 - **Attack Methods**: Victor uses privilege abuse to take advantage of his high-level access to make unauthorized changes. He modifies user roles, removes security constraints, and elevates privileges for malicious actors or himself.
 - **Access Level**: Victor holds full administrative access within Keycloak. This enables him to manipulate all realms, users, roles, and security configurations, effectively giving him control over the organization’s entire authentication and authorization infrastructure.
 
-#### Misuse Diagram
+#### Misuse Case Diagram
 
 ![Mitigating Unauthorized User Modifications and Log Tampering in Keycloak](/Software_Security_Requirements/web_console/Audit_Logs.png)  
 
@@ -25,7 +27,7 @@ Victor is a long-serving IT administrator who has grown increasingly bitter due 
 - Conduct Regular Security Audits.
 - Implement Continuous Monitoring and Alerts.
 
-### Reflection
+#### Reflection
 
 Keycloak offers robust authentication and authorization capabilities, but its security effectiveness hinges on proper implementation. The misuse case analysis highlights key security requirements that organizations must address. Keycloak includes built-in audit logging for administrative actions, which is essential for tracking changes and detecting misuse. However, organizations should implement immutable audit logs to enhance log security and integrity. 
 
@@ -37,14 +39,14 @@ Additionally, while Keycloak provides role-based access control (RBAC), it lacks
 
 **Overview:** User authentication is a crucial aspect of any application, and Keycloak plays a vital role in this domain. As an identity and access management tool, Keycloak facilitates user authorizations and offers features like Single Sign-On (SSO) and Multi-Factor Authentication (MFA). Given its position as the gateway for numerous applications, it is imperative that user authentication is robust and secure. Ensuring that unauthorized individuals cannot impersonate legitimate users is essential to safeguard not only individual applications but the entire ecosystem.
 
+#### Use Case: 
+In this scenario, the system requesting authorized access could be an application or service interacting with Keycloak, rather than an individual user. For instance, when a user attempts to log in, Keycloak verifies the credentials and issues an access token. If SSO is enabled, once the user logs in to one application, Keycloak seamlessly authorizes access to other connected applications without prompting for credentials again. Additionally, if a new device is used for access, Keycloak can trigger multi-factor authentication to ensure secure access. Throughout this process, passwords and other sensitive information should be encrypted and stored securely, ensuring that access tokens, session cookies, and credentials are protected from unauthorized access.
+
 #### Diagram
 *Illustrate Use Case 1.*  
 ![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
 
-#### Use Case: 
-In this scenario, the system requesting authorized access could be an application or service interacting with Keycloak, rather than an individual user. For instance, when a user attempts to log in, Keycloak verifies the credentials and issues an access token. If SSO is enabled, once the user logs in to one application, Keycloak seamlessly authorizes access to other connected applications without prompting for credentials again. Additionally, if a new device is used for access, Keycloak can trigger multi-factor authentication to ensure secure access. Throughout this process, passwords and other sensitive information should be encrypted and stored securely, ensuring that access tokens, session cookies, and credentials are protected from unauthorized access.
-
-#### Misuse Case:
+#### Misuse Case
 A common misuse case involves attackers attempting to exploit vulnerabilities in the authentication process. For instance, an attacker might perform a session hijacking attack by intercepting session cookies or access tokens over unsecured connections. With these, they could gain unauthorized access to an active session without needing the user’s credentials. Another potential attack could involve credential stuffing, where compromised user credentials from other breaches are used to attempt logins, leveraging the fact that users often reuse passwords across different platforms. In more sophisticated attacks, adversaries might try SQL injection or similar exploits to compromise the backend database storing user credentials, which could lead to mass exposure of sensitive data. Even hashed passwords can be vulnerable if weak hashing algorithms are used, making it imperative that robust cryptographic methods are employed.
 
 
@@ -54,21 +56,21 @@ A common misuse case involves attackers attempting to exploit vulnerabilities in
 - Enforce Multi-Factor Authentication (MFA) to add an additional layer of security, especially for first-time logins or new devices.
 - Utilize strong pasword hashing algorithms to protect user passwords from brute-force attacks.
 
-### Reflection
+#### Reflection
 - Assess the alignment of security requirements derived from misuse case analysis with advertised features of the open-source software. Review OSS project documentation and codebase to support your observations. Provide a summary of your findings, reflecting on the sufficiency of security features offered by the open source project versus those expected by the mis use case analysis.
 
 ---
 
 ### Use Case 3: LDAP Password Update Operation
 
-**Objective:** Blah blah blah
+#### Overview: Blah blah blah
 
-**System of Interest:** XXXX
-#### Diagram
-*Illustrate Use Case 1.*  
+#### Use Case
+
+#### Use Case Diagram
 ![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
 
-### **Misuse Case Analysis**
+#### Misuse Case
 ```
 **Security Threats:** Identify potential threats from malicious actors (e.g., disgruntled employees or external attackers attempting impersonation).
 
@@ -78,7 +80,7 @@ A common misuse case involves attackers attempting to exploit vulnerabilities in
     - **Attack of Choice:** Specify types of attacks such as impersonation or brute force.
     - **Access Level:** Define the potential access misusers might achieve.
 ```
-#### Misuse Diagram
+#### Misuse Case Diagram
 *Include a visual representation of the misuse case tied to this interaction.*  
 
 ![Misuse-Case-1](https://placehold.co/400x200/EEE/31343C)  
@@ -86,7 +88,7 @@ A common misuse case involves attackers attempting to exploit vulnerabilities in
 #### Misuse Remedy
 - Build a list of security requirements derived from misuse case analysis. 
 
-### Reflection
+#### Security Requirements
 - Assess the alignment of security requirements derived from misuse case analysis with advertised features of the open-source software. Review OSS project documentation and codebase to support your observations. Provide a summary of your findings, reflecting on the sufficiency of security features offered by the open source project versus those expected by the mis use case analysis.
 
 ---
