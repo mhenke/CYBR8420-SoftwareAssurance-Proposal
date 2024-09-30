@@ -166,7 +166,7 @@ One of the main challenges we faced was identifying the five key interactions. I
 
 Keycloak does document their appropriate and recommended configuration.  Documentation includes how to set up, how to create the initial admin user, and optimizing your keycloak build (with warnings, such as that sensitive data should not be stored in build options as they are persistent as plain text).  There are separate sections for configuration, such as Configuring TLS, Configuring Trusted Certificates, and Enabling / Disabling Features.  These sections are available separately or there are also some sections that are combined (ie All Configuration).  
 
-### General Security Features
+### Security Features
 
 [Pass-Through Authentication](https://www.keycloak.org/server/reverseproxy): Allows integration with external identity providers (e.g., Kerberos, LDAP).
 
