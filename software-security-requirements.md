@@ -4,7 +4,7 @@
 Keycloak provides a web-based Admin Console for administrators (human interaction) to manage realms, users, roles, clients, identity brokering, and other security configurations.
 
 #### Use Case
-Administrator uses the Keycloak system to manage various administrative tasks through the web-based Admin Console. After accessing the console via a web browser, the Administrator can manage realms, users, roles, and clients, ensuring the smooth operation of the identity management system. We will focus on "Manage Users" which allows for adding, removing, or modifying user details in our misuse case.
+the administrator uses the Keycloak system to manage various administrative tasks through the web-based Admin Console. After accessing the console via a web browser, the Administrator can manage realms, users, roles, and clients, ensuring the smooth operation of the identity management system. We will focus on "Manage Users" which allows for adding, removing, or modifying user details in our misuse case.
 
 #### Use Case Diagram 
 ![Access Admin Console](/Software_Security_Requirements/web_console/Access_Admin_Console00.png)
