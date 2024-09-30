@@ -170,7 +170,7 @@ Keycloak does document their appropriate and recommended configuration.  Documen
 
 ### General Security Features
 
-[Pass-Through Authentication] (https://www.keycloak.org/server/reverseproxy): Allows integration with external identity providers (e.g., Kerberos, LDAP).
+[Pass-Through Authentication](https://www.keycloak.org/server/reverseproxy): Allows integration with external identity providers (e.g., Kerberos, LDAP).
 
 Network Security:
 
