@@ -192,7 +192,3 @@ Password Storage:
 Installation:
 
 A guide to installing and configuring different Keycloak components can be found here - [Keycloak Installation Documentation](https://www.keycloak.org/documentation)
-
-
-- Review OSS project documentation for security-related configuration and installation issues. Summarize your observations.
-- The purpose of this task is to review security-related documentation of the project and find ways to improve it. Open source projects are always looking for contributors for their documentation. It may also allow you to get to know the open source community and procedures to contribute.
