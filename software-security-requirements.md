@@ -109,12 +109,12 @@ In this scenario, when a user requests access to a resource, the application int
 *Illustrate Use Case 1.*  
 ![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
 
+#### Misuse Case
+Eve is a regular employee with the "User" role, giving her access to general information but barring her from sensitive resources or administrative actions. Eve is dissatisfied with the way other employees treat her and seeks to gain unauthorized privileges to view other employee's personal information. Eve attempts to exploit a misconfigured role that grants higher privileges than intended. She discovers an "Editor" role that was mistakenly given access to system settings and administrative tools. By escalating her privileges to this improperly secured role, Eve could manipulate the application in ways that go far beyond her legitimate permissions, threatening system integrity.
+
 #### Misuse Case Diagram
 *Illustrate Use Case 1.*  
 ![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
-
-#### Misuse Case
-Eve is a regular employee with the "User" role, giving her access to general information but barring her from sensitive resources or administrative actions. Eve is dissatisfied with the way other employees treat her and seeks to gain unauthorized privileges to view other employee's personal information. Eve attempts to exploit a misconfigured role that grants higher privileges than intended. She discovers an "Editor" role that was mistakenly given access to system settings and administrative tools. By escalating her privileges to this improperly secured role, Eve could manipulate the application in ways that go far beyond her legitimate permissions, threatening system integrity.
 
 #### Security Requirements
 - Implement the principle of least privilege by ensuring that roles are granted only the minimum permissions necessary.
