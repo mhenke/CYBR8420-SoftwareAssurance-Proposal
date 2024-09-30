@@ -45,12 +45,14 @@ User authentication is a crucial aspect of any application, and Keycloak plays a
 #### Use Case
 In this scenario, the system requesting authorized access could be an application or service interacting with Keycloak, rather than an individual user. For instance, when a user attempts to log in, Keycloak verifies the credentials and issues an access token. If SSO is enabled, once the user logs in to one application, Keycloak seamlessly authorizes access to other connected applications without prompting for credentials again. Additionally, if a new device is used for access, Keycloak can trigger multi-factor authentication to ensure secure access. Throughout this process, passwords and other sensitive information should be encrypted and stored securely, ensuring that access tokens, session cookies, and credentials are protected from unauthorized access.
 
-#### Diagram
-*Illustrate Use Case 1.*  
+#### Use Case Diagram
 ![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
 
 #### Misuse Case
 A common misuse case involves attackers attempting to exploit vulnerabilities in the authentication process. For instance, an attacker might perform a session hijacking attack by intercepting session cookies or access tokens over unsecured connections. With these, they could gain unauthorized access to an active session without needing the user’s credentials. Another potential attack could involve credential stuffing, where compromised user credentials from other breaches are used to attempt logins, leveraging the fact that users often reuse passwords across different platforms. In more sophisticated attacks, adversaries might try SQL injection or similar exploits to compromise the backend database storing user credentials, which could lead to mass exposure of sensitive data. Even hashed passwords can be vulnerable if weak hashing algorithms are used, making it imperative that robust cryptographic methods are employed.
+
+#### Misuse Case Diagram
+![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
 
 #### Security Requirements
 - Implement session expiration policies to limi the window for session hijacking.
