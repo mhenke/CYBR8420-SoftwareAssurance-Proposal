@@ -69,7 +69,7 @@ Assess the alignment of security requirements derived from misuse case analysis 
 
 # Overview
 
-Keycloak can federate identities by integrating with external Identity Providers (IDPs), which allows users to authenticate using existing credentials from external systems rather than creating or mainitaining a separate user account.
+One of the biggest challenges of user management is the never ending and ever growing list of unique applications that require unique logins.  A major advantage of applications like Keycloak is that they allow for User Federation or the ability to expand the use of existing login credentials to access otherwise unaffiliated resources.  This Use Case analysis focuses on the Use Case of that basic interaction, accessing that protected resource or Authenticating with an External IDP from the perspective of an Employee trying to access a protected resource. Misuse cases were iterated and developed from the perspective of a disgruntled employee.  
 
 # Use Case - Authenticate with External IDP
 
