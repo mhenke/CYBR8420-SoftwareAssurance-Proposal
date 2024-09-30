@@ -51,7 +51,6 @@ A common misuse case involves attackers attempting to exploit vulnerabilities in
 - Implement session expiration policies to limit the window for session hijacking.
 - Use device fingerprinting to ensure session tokens or cookies can only be used on authorized devices
 - Enforce Multi-Factor Authentication (MFA) to add an additional layer of security, especially for first-time logins or new devices.
-- Utilize strong password hashing algorithms to protect user passwords from brute-force attacks.
 
 #### Reflection
 Assess the alignment of security requirements derived from misuse case analysis with advertised features of the open-source software. Review OSS project documentation and codebase to support your observations. Provide a summary of your findings, reflecting on the sufficiency of security features offered by the open source project versus those expected by the misuse case analysis.
