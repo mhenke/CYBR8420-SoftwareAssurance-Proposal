@@ -4,20 +4,15 @@
 Keycloak provides a web-based Admin Console for administrators (human interaction) to manage realms, users, roles, clients, identity brokering, and other security configurations.
 
 #### Use Case
-blah blah
+Administrator uses the Keycloak system to manage various administrative tasks through the web-based Admin Console. After accessing the console via a web browser, the Administrator can manage realms, users, roles, and clients, ensuring the smooth operation of the identity management system. We will focus on "Manage Users" which allows for adding, removing, or modifying user details in our misuse case.
 
 #### Use Case Diagram 
 ![Access Admin Console](/Software_Security_Requirements/web_console/Access_Admin_Console00.png)
 
 #### Misuse Case
-Malicious Configuration Changes by Administrator (Insider Threat)
+***Malicious Configuration Changes by Administrator (Insider Threat)***
 
-Victor is a long-serving IT administrator who has grown increasingly bitter due to being overlooked for promotions. Despite his loyalty to the company, he feels neglected and wronged by management’s lack of recognition for his contributions. This frustration has turned into a vendetta, and he decides to "teach the company a lesson" by sabotaging the very systems he’s entrusted to maintain.
-
-- **Motives**: Victor seeks to sabotage operations due to grievances with management.
-- **Resources**: Victor has legitimate access credentials, knowledge of internal systems, policies, configurations, and administrative privileges within Keycloak for modifying roles, users, and security settings.
-- **Attack Methods**: Victor uses privilege abuse to take advantage of his high-level access to make unauthorized changes. He modifies user roles, removes security constraints, and elevates privileges for malicious actors or himself.
-- **Access Level**: Victor holds full administrative access within Keycloak. This enables him to manipulate all realms, users, roles, and security configurations, effectively giving him control over the organization’s entire authentication and authorization infrastructure.
+Victor, a long-serving IT administrator, feels overlooked and wronged by management, leading him to sabotage the systems he's entrusted with. Using his administrative privileges in Keycloak, Victor can modify configurations, elevate user roles, and disable security features. His attack would involve abusing his access to make unauthorized changes, weakening the system’s defenses and potentially granting access to malicious actors. With full administrative control over realms, users, roles, and security settings, Victor could effectively compromise the organization's entire authentication and authorization infrastructure. This miscase will focus on unauthorized user modifications and log Tampering.
 
 #### Misuse Case Diagram
 
