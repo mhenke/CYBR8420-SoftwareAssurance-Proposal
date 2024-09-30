@@ -1,13 +1,13 @@
 @startuml
-actor Administrator
+actor Administrator #White
 
 rectangle "Keycloak System" {
-    usecase "Access Admin Console" as AccessConsole
-    usecase "Manage Realms" as ManageRealms
-    usecase "Manage Users" as ManageUsers
-    usecase "Manage Roles" as ManageRoles
-    usecase "Manage Clients" as ManageClients
-    usecase "Identity Brokering" as IdentityBrokering
+    usecase "Access Admin Console" as AccessConsole #White
+    usecase "Manage Realms" as ManageRealms #White
+    usecase "Manage Users" as ManageUsers #White
+    usecase "Manage Roles" as ManageRoles #White
+    usecase "Manage Clients" as ManageClients #White
+    usecase "Identity Brokering" as IdentityBrokering #White
 }
 
 Administrator --> AccessConsole: Open Web Browser
