@@ -1,3 +1,5 @@
+# Use Case 3: User Federation
+
 # Overview
 
 Keycloak can federate identities by integrating with external Identity Providers (IDPs), which allows users to authenticate using existing credentials from external systems rather than creating or mainitaining a separate user account.
