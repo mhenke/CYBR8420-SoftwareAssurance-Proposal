@@ -17,6 +17,7 @@ An external malicious actor attempts to breach the Keycloak infrastructure with 
 - Procedure for revoking compromised certificates and regularly auditing valid trusted certificates.
 - Implement a robust security policy for the log store with MFA or a better password policy.
 - Utilize digital signatures or checksums within each log entry to verify its integrity along with encryption for each entry.
+- Implement TLS/SSL to encrypt data transmissions.
 
 ### Reflection
 - Assess the alignment of security requirements derived from misuse case analysis with advertised features of the open-source software. Review OSS project documentation and codebase to support your observations. Provide a summary of your findings, reflecting on the sufficiency of security features offered by the open-source project versus those expected by the misuse case analysis.
