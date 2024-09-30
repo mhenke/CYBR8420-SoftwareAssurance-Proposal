@@ -4,8 +4,8 @@ skinparam usecaseFontColor black
 skinparam usecaseBackgroundColor<<UnauthorizedMod>> black
 skinparam usecaseFontColor<<UnauthorizedMod>> white
 
-actor Administrator #White
-actor Victor #Black
+actor Administrator #FFFFFF
+actor Victor #000000
 
 rectangle "Access Admin Console" { 
     usecase "Manage Users" as ManageUsers
@@ -25,4 +25,5 @@ AuditLogs -[dashed]-> ImmutableLogs : <<includes>>
 AuditLogs -[dashed]-> UnauthorizedModification : <<mitigates>>
 EraseLogs -[dashed]-> AuditLogs : <<threatens>>
 ImmutableLogs -[dashed]-> EraseLogs : <<prevents>>
+
 @enduml
