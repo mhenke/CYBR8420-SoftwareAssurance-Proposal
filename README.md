@@ -4,9 +4,9 @@
 This repository contains the collaborative efforts of our team for the Software Assurance class (CYBR8420-850). The primary focus of this project is to analyze an open-source software's security features and threats, within the context of a hypothetical operational environment. The project includes tasks such as threat modeling, security feature evaluation, and project planning.
 
 ## Project Structure
-- **Assignments:** - Are in our top level folder with any supporting documents in subfolders.
+- **Assignments:** - The assignments are in the top level folder as markdown files with any supporting documents in subfolders.
 - **Task Assignments & Collaboration:** The GitHub Project Board is used to track internal task assignments and team collaboration. [View Project Board](https://github.com/users/mhenke/projects/3).
-- **Communication:** The discord group is used to facilitate team collaboration. [View Discord Group](https://discord.com/channels/@me/1280554491258732666).
+- **Communication:** The Discord group is used to facilitate team collaboration. [View Discord Group](https://discord.com/channels/@me/1280554491258732666).
 
 ## Team Members:  
 - Brian Dahlstrom
