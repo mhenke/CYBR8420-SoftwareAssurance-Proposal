@@ -61,7 +61,7 @@ A common misuse case involves attackers attempting to exploit vulnerabilities in
 - Utilize strong pasword hashing algorithms to protect user passwords from brute-force attacks.
 
 #### Reflection
-- Assess the alignment of security requirements derived from misuse case analysis with advertised features of the open-source software. Review OSS project documentation and codebase to support your observations. Provide a summary of your findings, reflecting on the sufficiency of security features offered by the open source project versus those expected by the mis use case analysis.
+Assess the alignment of security requirements derived from misuse case analysis with advertised features of the open-source software. Review OSS project documentation and codebase to support your observations. Provide a summary of your findings, reflecting on the sufficiency of security features offered by the open source project versus those expected by the mis use case analysis.
 
 ---
 
