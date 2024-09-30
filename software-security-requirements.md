@@ -158,6 +158,7 @@ Show your internal project task assignments and collaborations to finish this ta
 - **Github Project Board Link**: [Insert link here]
 - **Individual Contributions**: 
 - **Team Reflection**:
+- One of the main challenges we faced was identifying the five key interactions. Initially, our approach was for each member to independently explore multiple use and misuse cases related to their specific topic and report back to avoid duplication. However, we found it difficult to narrow down the scope and pinpoint the most critical interactions that aligned with the assignment's requirements. Our group may have been overly ambitious at first, attempting to cover 80% of our operational environment rather than focusing on four or five highly relevant cases that would do the same. Additionally, because Keycloak primarily serves as an authentication tool for applications, it was challenging to distinguish five distinct cases without overlap. After dedicating time to research material online and holding mutliple team meetings, we were able to identify the most essential cases for our operational needs, which allowed the team to focus on developing them further.
 
 ## Part 2: Review OSS project documentation
 - Review OSS project documentation for security-related configuration and installation issues. Summarize your observations.
