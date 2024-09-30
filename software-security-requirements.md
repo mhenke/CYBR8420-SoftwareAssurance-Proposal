@@ -3,11 +3,12 @@
 **Overview:** Keycloak provides a web-based Admin Console for administrators (human interaction) to manage realms, users, roles, clients, identity brokering, and other security configurations.
 
 ### Use Case
+blah blah
 
 #### Use Case Diagram 
 ![Access Admin Console](/Software_Security_Requirements/web_console/Access_Admin_Console00.png)
 
-###E Misuse Case
+#### Misuse Case
 Malicious Configuration Changes by Administrator (Insider Threat)
 
 Victor is a long-serving IT administrator who has grown increasingly bitter due to being overlooked for promotions. Despite his loyalty to the company, he feels neglected and wronged by management’s lack of recognition for his contributions. This frustration has turned into a vendetta, and he decides to "teach the company a lesson" by sabotaging the very systems he’s entrusted to maintain.
@@ -95,16 +96,17 @@ A common misuse case involves attackers attempting to exploit vulnerabilities in
 
 ### Use Case 4: Role and Permission Requests
 
-**Overview:** In identity and access management systems like Keycloak, handling roles and permission requests is critical for controlling user access within applications. Keycloak’s role-based access control (RBAC) system allows administrators to define roles and associate them with specific permissions, ensuring that users have appropriate levels of access based on their roles. Permissions can be applied at various levels, such as access to specific resources or the ability to perform certain actions within an application. By leveraging these features, applications can enforce fine-grained access control, minimizing security risks and ensuring that users only access the data and actions for which they are authorized.
-
-#### Diagram
-*Illustrate Use Case 1.*  
-![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
+#### Overview
+In identity and access management systems like Keycloak, handling roles and permission requests is critical for controlling user access within applications. Keycloak’s role-based access control (RBAC) system allows administrators to define roles and associate them with specific permissions, ensuring that users have appropriate levels of access based on their roles. Permissions can be applied at various levels, such as access to specific resources or the ability to perform certain actions within an application. By leveraging these features, applications can enforce fine-grained access control, minimizing security risks and ensuring that users only access the data and actions for which they are authorized.
 
 #### Use Case:
 In this scenario, when a user requests access to a resource, the application interacts with Keycloak to confirm whether the user holds the necessary permissions. Keycloak evaluates the user’s assigned roles and compares them with the permissions tied to the requested resource. If the user possesses sufficient privileges, access is granted. In Keycloak, roles can be defined at both the realm level (applicable across all applications) and the client level (specific to individual applications).
 
-#### Diagram
+#### Use Case Diagram
+*Illustrate Use Case 1.*  
+![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
+
+#### Misuse Case Diagram
 *Illustrate Use Case 1.*  
 ![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
 
