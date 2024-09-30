@@ -23,7 +23,7 @@ An external malicious actor attempts to breach the Keycloak infrastructure with 
 - Implement TLS/SSL to encrypt data transmissions.
 
 ### Reflection
-- Assess the alignment of security requirements derived from misuse case analysis with advertised features of the open-source software. Review OSS project documentation and codebase to support your observations. Provide a summary of your findings, reflecting on the sufficiency of security features offered by the open-source project versus those expected by the misuse case analysis.
+Keycloak's logging system captures important information on server health, authentication attempts, and user activities. While these logs are essential for maintaining and managing a Keycloak environment, inadequate security controls can expose them to potential abuse by attackers. To mitigate this risk, proper security measures must be implemented to protect logs from unauthorized access or tampering. Additionally, auditing and alert systems should be configured to detect anomalies, ensuring any suspicious activity is flagged and addressed before it impacts Keycloak or connected systems.
 
 
 
