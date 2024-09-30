@@ -19,11 +19,17 @@ Victor is a long-serving IT administrator who has grown increasingly bitter due 
 
 ![Mitigating Unauthorized User Modifications and Log Tampering in Keycloak](/Software_Security_Requirements/web_console/Audit_Logs.png)  
 
-#### Misuse Remedy
-- Build a list of security requirements derived from misuse case analysis. 
+#### Security Requirements
+- Implement Immutable Audit Logs.
+- Establish Change Approval Workflows.
+- Conduct Regular Security Audits.
+- Implement Continuous Monitoring and Alerts.
 
 ### Reflection
-- Assess the alignment of security requirements derived from misuse case analysis with advertised features of the open-source software. Review OSS project documentation and codebase to support your observations. Provide a summary of your findings, reflecting on the sufficiency of security features offered by the open source project versus those expected by the mis use case analysis.
+
+Keycloak offers robust authentication and authorization capabilities, but its security effectiveness hinges on proper implementation. The misuse case analysis highlights key security requirements that organizations must address. Keycloak includes built-in audit logging for administrative actions, which is essential for tracking changes and detecting misuse. However, organizations should implement immutable audit logs to enhance log security and integrity. 
+
+Additionally, while Keycloak provides role-based access control (RBAC), it lacks built-in approval workflows for administrative changes; thus, organizations need to establish change approval workflows to mitigate unauthorized modifications. To support comprehensive threat detection, organizations should implement continuous monitoring and alerts to identify suspicious activities effectively.
 
 ---
 
