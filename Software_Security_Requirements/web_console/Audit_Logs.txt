@@ -1,16 +1,26 @@
 @startuml
+skinparam usecaseBackgroundColor white
+skinparam usecaseFontColor black
 skinparam usecaseBackgroundColor<<UnauthorizedMod>> black
 skinparam usecaseFontColor<<UnauthorizedMod>> white
 
-actor Administrator #White
+actor Administrator
 actor Victor #Black
+
 rectangle "Keycloak System" { 
-    usecase "Manage Users" as ManageUsers #White
+    usecase "Manage Users" as ManageUsers
     usecase "Unauthorized User Modification" as UnauthorizedModification <<UnauthorizedMod>>
-    usecase "Audit Logs" as AuditLogs #White
+    usecase "Audit Logs" as AuditLogs
+    usecase "Erase Logs" as EraseLogs <<UnauthorizedMod>>
+    usecase "Immutable Logs" as ImmutableLogs
 }
-Administrator --> AuditLogs : Reviews Audit Logs
+
+Administrator --> ManageUsers : Modify User Details
 Victor --> UnauthorizedModification : Maliciously Modify User Roles
+Victor --> EraseLogs : Attempt to Erase Log Entries
+
 UnauthorizedModification -[dashed]-> ManageUsers : <<threatens>>
 ManageUsers -[dashed]-> AuditLogs : <<mitigates>>
+EraseLogs -[dashed]-> AuditLogs : <<threatens>>
+AuditLogs -[dashed]-> ImmutableLogs : <<mitigates>>
 @enduml
