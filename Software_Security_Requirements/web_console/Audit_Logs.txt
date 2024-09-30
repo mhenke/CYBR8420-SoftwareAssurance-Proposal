@@ -11,8 +11,8 @@ rectangle "Access Admin Console" {
     usecase "Manage Users" as ManageUsers
     usecase "Unauthorized User Modification" as UnauthorizedModification <<UnauthorizedMod>>
     usecase "Audit Logs" as AuditLogs
-    usecase "Erase Logs" as EraseLogs <<UnauthorizedMod>>
-    usecase "Immutable Logs" as ImmutableLogs
+    usecase "Erase Audit Logs" as EraseLogs <<UnauthorizedMod>>
+    usecase "Immutable Audit Logs" as ImmutableLogs
 }
 
 Administrator --> ManageUsers : Modify User Details
@@ -25,5 +25,4 @@ AuditLogs -[dashed]-> ImmutableLogs : <<includes>>
 AuditLogs -[dashed]-> UnauthorizedModification : <<mitigates>>
 EraseLogs -[dashed]-> AuditLogs : <<threatens>>
 ImmutableLogs -[dashed]-> EraseLogs : <<prevents>>
-
 @enduml
