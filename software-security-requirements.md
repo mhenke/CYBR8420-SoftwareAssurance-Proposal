@@ -168,5 +168,26 @@ One of the main challenges we faced was identifying the five key interactions. I
 
 Keycloak does document their appropriate and recommended configuration.  Documentation includes how to set up, how to create the initial admin user, and optimizing your keycloak build (with warnings, such as that sensitive data should not be stored in build options as they are persistent as plain text).  There are separate sections for configuration, such as Configuring TLS, Configuring Trusted Certificates, and Enabling / Disabling Features.  These sections are available separately or there are also some sections that are combined (ie All Configuration).  
 
+#General Security Features
+
+Network Security Features:
+
+    TLS for secure communication
+    Support for encrypted tokens and secure session management
+
+Data Integrity and Confidentiality Features:
+
+    OAuth 2.0, OIDC, and SAML protocols for secure authentication
+    Two-Factor Authentication (2FA) and social login options
+
+Password Storage:
+
+    PBKDF2 and bcrypt hashing
+    Password policy enforcement
+
+Pass-Through Authentication: Allows integration with external identity providers (e.g., Kerberos, LDAP).
+
+
+
 - Review OSS project documentation for security-related configuration and installation issues. Summarize your observations.
 - The purpose of this task is to review security-related documentation of the project and find ways to improve it. Open source projects are always looking for contributors for their documentation. It may also allow you to get to know the open source community and procedures to contribute.
