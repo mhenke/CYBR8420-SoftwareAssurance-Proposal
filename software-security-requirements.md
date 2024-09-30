@@ -157,7 +157,7 @@ Keycloak's logging system captures important information on server health, authe
 
 ## Project Task Assignment and Collaboration
 Show your internal project task assignments and collaborations to finish this task in a Github Project Board. 
-- **Github Project Board Link**: [Insert link here]
+- **Github Project Board Link**: [Project Board](https://github.com/users/mhenke/projects/6/views/1)
 - **Individual Contributions**: 
 - **Team Reflection**:
 One of the main challenges we faced was identifying the five key interactions. Initially, our approach was for each member to independently explore multiple use and misuse cases related to their specific topic and report back to avoid duplication. However, we found it difficult to narrow down the scope and pinpoint the most critical interactions that aligned with the assignment's requirements. Our group may have been overly ambitious at first, attempting to cover 80% of our operational environment rather than focusing on four or five highly relevant cases that would do the same. Additionally, because Keycloak primarily serves as an authentication tool for applications, it was challenging to distinguish five distinct cases without overlap. After dedicating time to research material online and holding mutliple team meetings, we were able to identify the most essential cases for our operational needs, which allowed the team to focus on developing them further. Our group didn’t make significant changes to our workflow moving forward, as we tend to over-prepare initially and then refine our work to make it more concise and accurate. We’ve been meeting 2-3 times a week, which has been effective in addressing any questions or issues well ahead of deadlines.
