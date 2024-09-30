@@ -95,6 +95,7 @@ One way that a motivated threat actor, such as a disgruntled former employee, ca
 
 # Reflection
 Documentation in Keycloak highlights HTTPS as a critical security measure and includes configuration options to enforce its use, including redirecting HTTP traffic to HTTPS.  By default, access tokens are short-lived, reducing the risk of compromise and, once expired, users must refresh tokens to request new access tokens.  Keycloak also provides customizable token expiration settings for both access and refresh tokens for administrators to customize to their security needs.  One way that Keycloak provides this control is to allow administrators to invalidate tokens that are compromised or not valid, either directly through the Keycloak Admin Console or to be automatically revoked when a user’s session ends or terminates.
+
 ---
 
 ### Use Case 4: Role and Permission Requests
