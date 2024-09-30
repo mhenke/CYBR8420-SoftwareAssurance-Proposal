@@ -4,16 +4,15 @@
 This repository contains the collaborative efforts of our team for the Software Assurance class (CYBR8420-850). The primary focus of this project is to analyze an open-source software's security features and threats, within the context of a hypothetical operational environment. The project includes tasks such as threat modeling, security feature evaluation, and project planning.
 
 ## Project Structure
-- **Project Proposal:** [project-proposal.md](./project-proposal.md) - Contains our project proposal outlining the open-source software selection, environment description, perceived threats, security features, and team reflection.
+- **Assignments:** - Are in our top level folder with any supporting documents in subfolders.
 - **Task Assignments & Collaboration:** The GitHub Project Board is used to track internal task assignments and team collaboration. [View Project Board](https://github.com/users/mhenke/projects/3).
-- **Diagram:** Systems engineering view representations of the project's operational environment are included. [Systems Engineering Diagram](https://github.com/user-attachments/assets/8ffcd9d6-e125-4c6b-a5fc-dce287b89025)
 
 ## Team Members:  
-- Member 1
-- Member 2  
-- Member 3  
-- Member 4
-- Member 5
+- Brian Dahlstrom
+- Connor Flood  
+- Damian Ramirez
+- Mike Henke
+- Nicholas Bohlen
 
 ## How to Contribute
 1. **Fork** this repository **OR** skip to step 4
@@ -23,8 +22,8 @@ This repository contains the collaborative efforts of our team for the Software 
 1. (Only if Step 3 done) Submit a **pull request** for review.
 
 ## Assignments
-- [Project Proposal](https://github.com/project-proposal.md)  
-- [Requirements for Software Security Engineering](https://github.com/software-security-requirements.md)
+- [Project Proposal](/project-proposal.md)  
+- [Requirements for Software Security Engineering](/software-security-requirements.md)
 <!-- 
 - [Assurance Cases for SSE](https://github.com/assignments/)    
 - [Designing for SSE](https://github.com/assignments/)   
