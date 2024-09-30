@@ -159,6 +159,16 @@ Keycloak's logging system captures important information on server health, authe
 Show your internal project task assignments and collaborations to finish this task in a Github Project Board. 
 - **Github Project Board Link**: [Project Board](https://github.com/users/mhenke/projects/6/views/1)
 - **Individual Contributions**: 
+Nick Bohlen was the first done with his use case over "Implementing a Logging for Service Health Monitoring" so we used his as a template.  He also contributed to the OSS section.
+
+Connor Flood contributed by working on IAM/RBAC (Identity and Access Management/Role-Based Access Control), ensuring that permission and role request use cases were thoroughly analyzed. Connor also collaborated with Mike on the web admin console use case, due to some overlap in their responsibilities.
+
+Damien focused on user authororization by refining the use and misuse cases. Dame cleaning up notations to ensure they met the rubric's standards.
+
+Mike Henke worked on admin console's use cases were mapped to security features and critical use cases. Mike also coordinated the project, organized the paper structure so it was consistant.
+
+Brian Dahlstrom focused on User Federation and contributed by designing use cases around federated logins. He ensured that the group was meeting the assignment requirements.
+
 - **Team Reflection**:
 One of the main challenges we faced was identifying the five key interactions. Initially, our approach was for each member to independently explore multiple use and misuse cases related to their specific topic and report back to avoid duplication. However, we found it difficult to narrow down the scope and pinpoint the most critical interactions that aligned with the assignment's requirements. Our group may have been overly ambitious at first, attempting to cover 80% of our operational environment rather than focusing on four or five highly relevant cases that would do the same. Additionally, because Keycloak primarily serves as an authentication tool for applications, it was challenging to distinguish five distinct cases without overlap. After dedicating time to research material online and holding mutliple team meetings, we were able to identify the most essential cases for our operational needs, which allowed the team to focus on developing them further. Our group didn’t make significant changes to our workflow moving forward, as we tend to over-prepare initially and then refine our work to make it more concise and accurate. We’ve been meeting 2-3 times a week, which has been effective in addressing any questions or issues well ahead of deadlines.
 
@@ -173,6 +183,10 @@ Keycloak does document their appropriate and recommended configuration.  Documen
 [Access Controls](https://www.keycloak.org/docs/nightly/authorization_services/index.html): Provide necessary means to create permissions and policies for protected resources (e.g., RBAC, ABAC)
 
 [Audit Logging](https://www.keycloak.org/server/configuration-production): Monitoring feature used to track user actions and security events (e.g., Admin Changes, Login Attemps)
+
+[Server Installation and Configuration Guide](https://www.keycloak.org/guides#server): Ensure a secure Keycloak installation from the ground up
+
+
 
 Network Security:
 
