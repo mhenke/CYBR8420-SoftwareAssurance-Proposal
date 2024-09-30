@@ -10,8 +10,6 @@ The administrator uses the Keycloak system to manage various administrative task
 ![Access Admin Console](/Software_Security_Requirements/web_console/Access_Admin_Console00.png)
 
 #### Misuse Case
-***Malicious Configuration Changes by Administrator (Insider Threat)***
-
 Victor, a long-serving IT administrator, feels overlooked and wronged by management, leading him to sabotage the systems he's entrusted with. Using his administrative privileges in Keycloak, Victor can modify configurations, elevate user roles, and disable security features. His attack would involve abusing his access to make unauthorized changes, weakening the system’s defenses and potentially granting access to malicious actors. With full administrative control over realms, users, roles, and security settings, Victor could effectively compromise the organization's entire authentication and authorization infrastructure. This miscase will focus on unauthorized user modifications and log tampering.
 
 #### Misuse Case Diagram
