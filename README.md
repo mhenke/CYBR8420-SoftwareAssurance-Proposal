@@ -6,7 +6,7 @@ This repository contains the collaborative efforts of our team for the Software 
 ## Project Structure
 - **Assignments:** - Are in our top level folder with any supporting documents in subfolders.
 - **Task Assignments & Collaboration:** The GitHub Project Board is used to track internal task assignments and team collaboration. [View Project Board](https://github.com/users/mhenke/projects/3).
-- **Communication:** The discord groups is used to facilitate team collaboration. [View Discord]([https://github.com/users/mhenke/projects/3](https://discord.com/channels/@me/1280554491258732666)).
+- **Communication:** The discord groups is used to facilitate team collaboration. [View Discord Group](https://discord.com/channels/@me/1280554491258732666).
 
 ## Team Members:  
 - Brian Dahlstrom
