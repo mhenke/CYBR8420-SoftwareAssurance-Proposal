@@ -170,22 +170,23 @@ Keycloak does document their appropriate and recommended configuration.  Documen
 
 #General Security Features
 
+Pass-Through Authentication: Allows integration with external identity providers (e.g., Kerberos, LDAP).
+
 Network Security Features:
 
-    TLS for secure communication
-    Support for encrypted tokens and secure session management
+- TLS for secure communication
+- Support for encrypted tokens and secure session management
 
 Data Integrity and Confidentiality Features:
 
-    OAuth 2.0, OIDC, and SAML protocols for secure authentication
-    Two-Factor Authentication (2FA) and social login options
+- OAuth 2.0, OIDC, and SAML protocols for secure authentication
+- Two-Factor Authentication (2FA) and social login options
 
 Password Storage:
 
-    PBKDF2 and bcrypt hashing
-    Password policy enforcement
+- PBKDF2 and bcrypt hashing
+- Password policy enforcement
 
-Pass-Through Authentication: Allows integration with external identity providers (e.g., Kerberos, LDAP).
 
 
 
