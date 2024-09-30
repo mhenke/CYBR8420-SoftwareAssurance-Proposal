@@ -173,7 +173,7 @@ Keycloak does document their appropriate and recommended configuration.  Documen
 
 [Access Controls](https://www.keycloak.org/docs/nightly/authorization_services/index.html): Provide necessary means to create permissions and policies for protected resources (e.g., RBAC, ABAC)
 
-[Audit Logging](https://www.keycloak.org/server/configuration-production): Monitoring feature used to track user actions to security events (e.g., Admin Changes, Login Attemps)
+[Audit Logging](https://www.keycloak.org/server/configuration-production): Monitoring feature used to track user actions and security events (e.g., Admin Changes, Login Attemps)
 
 Network Security:
 
