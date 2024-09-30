@@ -50,13 +50,13 @@ A common misuse case involves attackers attempting to exploit vulnerabilities in
 ![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
 
 #### Security Requirements
-- Implement session expiration policies to limi the window for session hijacking.
+- Implement session expiration policies to limit the window for session hijacking.
 - Use device fingerprinting to ensure session tokens or cookies can only be used on authorized devices
 - Enforce Multi-Factor Authentication (MFA) to add an additional layer of security, especially for first-time logins or new devices.
-- Utilize strong pasword hashing algorithms to protect user passwords from brute-force attacks.
+- Utilize strong password hashing algorithms to protect user passwords from brute-force attacks.
 
 #### Reflection
-Assess the alignment of security requirements derived from misuse case analysis with advertised features of the open-source software. Review OSS project documentation and codebase to support your observations. Provide a summary of your findings, reflecting on the sufficiency of security features offered by the open source project versus those expected by the mis use case analysis.
+Assess the alignment of security requirements derived from misuse case analysis with advertised features of the open-source software. Review OSS project documentation and codebase to support your observations. Provide a summary of your findings, reflecting on the sufficiency of security features offered by the open source project versus those expected by the misuse case analysis.
 
 ---
 
@@ -77,7 +77,7 @@ In this scenario, a user is requesting access to a Keycloak protected resource. 
 
 #### Misuse Case - Token Theft and Brute Force
 
-One way that a motivated threat actor, such as a disgruntled former employee, can attack this software is by Token Theft.  Token Theft is a known threat for an identity management system.  In the process of authenticating a user, tokens are exchanged to verify that Keycloak is actually communicating with the external IDP.  A threat actor could intercept those tokens, possibly through a man in the middle attack, to impersonate one or the other and infilitrate the system, gather information from the user, or seek other negative end results.  Another common approach is through a Brute Force attack, where an attacker attempts access by cracking passwords or otherwise producing several possible login interations in the hopes that some matching pair will allow access to the system.
+One way that a motivated threat actor, such as a disgruntled former employee, can attack this software is by Token Theft.  Token Theft is a known threat for an identity management system.  In the process of authenticating a user, tokens are exchanged to verify that Keycloak is actually communicating with the external IDP.  A threat actor could intercept those tokens, possibly through a man in the middle attack, to impersonate one or the other and infiltrate the system, gather information from the user, or seek other negative end results.  Another common approach is through a Brute Force attack, where an attacker attempts access by cracking passwords or otherwise producing several possible login interations in the hopes that some matching pair will allow access to the system.
 
 #### Misuse Case Diagram
 
