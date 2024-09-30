@@ -123,8 +123,10 @@ Meet Eve, an opportunistic attacker within the organization. Eve is a regular em
 - Use cryptographic token signing to prevent tampering of role and permission information within tokens.
 - Apply logging and monitoring to detect and respond to unauthorized access attempts based on roles and permissions.
 
-### Reflection
+#### Reflection
 After assessing Keycloak's role and permission management capabilities, it's evident that the platform offers a solid foundation for access control via RBAC. Keycloak's support for both realm-level and client-level roles provides flexibility in assigning and managing permissions across various applications. However, being an open-source tool, Keycloak demands careful configuration and routine audits to maintain security best practices. A review of Keycloak's documentation highlights its robust support for token-based authentication and cryptographic safeguards. Nevertheless, organizations must enforce strict role definitions and continuously review permission settings to minimize the risk of privilege escalation.
+
+---
 
 ### Use Case 5: Implementing a Logging for Service Health Monitoring
 **Overview:** Configuring Keycloak to include logging and monitoring systems is important to properly maintain good system health. This includes tracking performance metrics and securing logs within a centralized log store to detect performance issues, potential security threats, or any other anomalies. Logs assist administrators with reviewing essential operational behaviors while also being able to investigate any suspicious activities.
