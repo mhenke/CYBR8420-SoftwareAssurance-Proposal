@@ -4,10 +4,10 @@ skinparam usecaseFontColor black
 skinparam usecaseBackgroundColor<<UnauthorizedMod>> black
 skinparam usecaseFontColor<<UnauthorizedMod>> white
 
-actor Administrator
+actor Administrator #White
 actor Victor #Black
 
-rectangle "Keycloak System" { 
+rectangle "Access Admin Console" { 
     usecase "Manage Users" as ManageUsers
     usecase "Unauthorized User Modification" as UnauthorizedModification <<UnauthorizedMod>>
     usecase "Audit Logs" as AuditLogs
@@ -17,10 +17,12 @@ rectangle "Keycloak System" {
 
 Administrator --> ManageUsers : Modify User Details
 Victor --> UnauthorizedModification : Maliciously Modify User Roles
-Victor --> EraseLogs : Attempt to Erase Log Entries
+Victor --> EraseLogs : Attempt to Erase Logs
 
 UnauthorizedModification -[dashed]-> ManageUsers : <<threatens>>
-ManageUsers -[dashed]-> AuditLogs : <<mitigates>>
+ManageUsers -[dashed]-> AuditLogs : <<includes>>
+AuditLogs -[dashed]-> ImmutableLogs : <<includes>>
+AuditLogs -[dashed]-> UnauthorizedModification : <<mitigates>>
 EraseLogs -[dashed]-> AuditLogs : <<threatens>>
-AuditLogs -[dashed]-> ImmutableLogs : <<mitigates>>
+ImmutableLogs -[dashed]-> EraseLogs : <<prevents>>
 @enduml
