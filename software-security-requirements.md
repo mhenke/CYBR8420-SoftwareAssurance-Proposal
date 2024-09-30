@@ -60,31 +60,31 @@ Assess the alignment of security requirements derived from misuse case analysis 
 
 ---
 
-# Use Case 3: User Federation
+### Use Case 3: User Federation
 
-# Overview
+#### Overview
 
 One of the biggest challenges of user management is the never ending and ever growing list of unique applications that require unique logins.  A major advantage of applications like Keycloak is that they allow for User Federation or the ability to expand the use of existing login credentials to access otherwise unaffiliated resources.  This Use Case analysis focuses on the Use Case of that basic interaction, accessing that protected resource or Authenticating with an External IDP from the perspective of an Employee trying to access a protected resource. Misuse cases were iterated and developed from the perspective of a disgruntled employee.  
 
-# Use Case - Authenticate with External IDP
+#### Use Case - Authenticate with External IDP
 
 In this scenario, a user is requesting access to a Keycloak protected resource.  The request prompts the software to redirect the user to an external IDP (such as Google) for authentication and authorization for access.  
 
-# Use Case Diagram
+#### Use Case Diagram
 
 ![image](https://github.com/user-attachments/assets/702afa12-c349-43f2-94cf-53daa44ee3e0)
 
 
-# Misuse Case - Token Theft and Brute Force
+#### Misuse Case - Token Theft and Brute Force
 
 One way that a motivated threat actor, such as a disgruntled former employee, can attack this software is by Token Theft.  Token Theft is a known threat for an identity management system.  In the process of authenticating a user, tokens are exchanged to verify that Keycloak is actually communicating with the external IDP.  A threat actor could intercept those tokens, possibly through a man in the middle attack, to impersonate one or the other and infilitrate the system, gather information from the user, or seek other negative end results.  Another common approach is through a Brute Force attack, where an attacker attempts access by cracking passwords or otherwise producing several possible login interations in the hopes that some matching pair will allow access to the system.
 
-# Misuse Case Diagram
+#### Misuse Case Diagram
 
 ![image](https://github.com/user-attachments/assets/c36bfa9f-fee2-4ee0-843d-c0cfefca0410)
 
 
-# Security Requirements
+#### Security Requirements
 - Token Expiration and Refresh can minimize the window of exposure or opportunity
 - Transport Layer Security (TLS) prevents interception by encrypting the communication channel
 - Token Revocation can allow administrators to revoke tokens and render stolen tokens useless
@@ -92,7 +92,7 @@ One way that a motivated threat actor, such as a disgruntled former employee, ca
 - HTTPS Enforcement ensures tokens are transmitted securely between clients and servers
 - Rate Limiting and Account Lockout can be placed on login attempts to slow down or prevent attempts
 
-# Reflection
+#### Reflection
 In review of OSS documentation, Keycloak has had several updates tied to Brute Force Attacks and Token Theft, including enhancements applied in the latest release.  For example, Brute Force Attack protections were enhanced to allow an administrator to fully disable an account that was temporarily suspended too often.  For another example, deprecated methods were removed from several classes of token use.  Documentation in Keycloak highlights HTTPS as a critical security measure and includes configuration options to enforce its use, including redirecting HTTP traffic to HTTPS.  By default, access tokens are short-lived, reducing the risk of compromise and, once expired, users must refresh tokens to request new access tokens.  Keycloak also provides customizable token expiration settings for both access and refresh tokens for administrators to customize to their security needs.  One way that Keycloak provides this control is to allow administrators to invalidate tokens that are compromised or not valid, either directly through the Keycloak Admin Console or to be automatically revoked when a user’s session ends or terminates.  
 
 ---
