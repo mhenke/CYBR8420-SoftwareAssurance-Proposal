@@ -77,7 +77,8 @@ In this scenario, a user is requesting access to a Keycloak protected resource. 
 
 # Use Case Diagram
 
-![Authenticate with External IDP drawio](https://github.com/user-attachments/assets/27448592-ac96-4201-8fc2-c942d2dff8a6)
+![image](https://github.com/user-attachments/assets/702afa12-c349-43f2-94cf-53daa44ee3e0)
+
 
 # Misuse Case - Token Theft and Brute Force
 
