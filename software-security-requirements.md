@@ -117,11 +117,11 @@ In this scenario, when a user requests access to a resource, the application int
 Meet Eve, an opportunistic attacker within the organization. Eve is a regular employee with the "User" role, giving her access to general information but barring her from sensitive resources or administrative actions. Eve is dissatisfied and seeks to gain unauthorized privileges. Her attack of choice? Privilege Escalation. Eve attempts to exploit a misconfigured role that grants higher privileges than intended. For example, she discovers an "Editor" role that was mistakenly given access to system settings and administrative tools. By escalating her privileges to this improperly secured role, Eve could manipulate the application in ways that go far beyond her legitimate permissions, threatening system integrity.
 
 #### Security Requirements
--Implement the principle of least privilege by ensuring that roles are granted only the minimum permissions necessary.
--Regularly audit and update role assignments to ensure they align with current business needs and employee functions.
--Enforce Role-Based Access Control (RBAC) policies to limit access to sensitive resources.
--Use cryptographic token signing to prevent tampering of role and permission information within tokens.
--Apply logging and monitoring to detect and respond to unauthorized access attempts based on roles and permissions.
+- Implement the principle of least privilege by ensuring that roles are granted only the minimum permissions necessary.
+- Regularly audit and update role assignments to ensure they align with current business needs and employee functions.
+- Enforce Role-Based Access Control (RBAC) policies to limit access to sensitive resources.
+- Use cryptographic token signing to prevent tampering of role and permission information within tokens.
+- Apply logging and monitoring to detect and respond to unauthorized access attempts based on roles and permissions.
 
 ### Reflection
 After evaluating the role and permission handling features in Keycloak, it’s clear that Keycloak provides a robust framework for managing access control through RBAC. Keycloak’s ability to support both realm-level and client-level roles allows for flexibility in managing permissions across different applications. However, the open-source nature of Keycloak requires careful configuration and regular audits to ensure security best practices are followed. Reviewing Keycloak’s documentation reveals that it offers strong support for token-based authentication and cryptographic protections, though organizations must still ensure they apply strict role definitions and minimize the risks of privilege escalation by continuously reviewing permission configurations.
