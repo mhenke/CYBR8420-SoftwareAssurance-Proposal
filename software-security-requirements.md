@@ -104,8 +104,7 @@ In identity and access management systems like Keycloak, handling roles and perm
 In this scenario, when a user requests access to a resource, the application interacts with Keycloak to confirm whether the user holds the necessary permissions. Keycloak evaluates the user’s assigned roles and compares them with the permissions tied to the requested resource. If the user possesses sufficient privileges, access is granted. In Keycloak, roles can be defined at both the realm level (applicable across all applications) and the client level (specific to individual applications).
 
 #### Use Case Diagram
-*Illustrate Use Case 1.*  
-![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
+![Access Admin Console](/Software_Security_Requirements/web_console/CFusecase_RBAC.png)
 
 #### Misuse Case
 Eve is a regular employee with the "User" role, giving her access to general information but barring her from sensitive resources or administrative actions. Eve is dissatisfied with the way other employees treat her and seeks to gain unauthorized privileges to view other employee's personal information. Eve attempts to exploit a misconfigured role that grants higher privileges than intended. She discovers an "Editor" role that was mistakenly given access to system settings and administrative tools. By escalating her privileges to this improperly secured role, Eve could manipulate the application in ways that go far beyond her legitimate permissions, threatening system integrity.
