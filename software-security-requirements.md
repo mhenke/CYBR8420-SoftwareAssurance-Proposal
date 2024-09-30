@@ -45,7 +45,7 @@ In this scenario, the system requesting authorized access could be an applicatio
 A common misuse case involves attackers attempting to exploit vulnerabilities in the authentication process. For instance, an attacker might perform a session hijacking attack by intercepting session cookies or access tokens over unsecured connections. With these, they could gain unauthorized access to an active session without needing the user’s credentials. Another potential attack could involve credential stuffing, where compromised user credentials from other breaches are used to attempt logins, leveraging the fact that users often reuse passwords across different platforms. In more sophisticated attacks, adversaries might try SQL injection or similar exploits to compromise the backend database storing user credentials, which could lead to mass exposure of sensitive data. Even hashed passwords can be vulnerable if weak hashing algorithms are used, making it imperative that robust cryptographic methods are employed.
 
 #### Misuse Case Diagram
-![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
+![Use-Case-1](/Software_Security_Requirements/MisuseCase.png)
 
 #### Security Requirements
 - Implement session expiration policies to limit the window for session hijacking.
