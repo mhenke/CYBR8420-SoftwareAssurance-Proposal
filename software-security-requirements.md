@@ -51,7 +51,7 @@ A common misuse case involves attackers attempting to exploit vulnerabilities in
 
 #### Security Requirements
 - Implement session expiration policies to limi the window for session hijacking.
-- Use device fingerpirintg to ensure session tokens or cookies can only be used on authorized devices
+- Use device fingerprinting to ensure session tokens or cookies can only be used on authorized devices
 - Enforce Multi-Factor Authentication (MFA) to add an additional layer of security, especially for first-time logins or new devices.
 - Utilize strong pasword hashing algorithms to protect user passwords from brute-force attacks.
 
