@@ -65,34 +65,33 @@ Assess the alignment of security requirements derived from misuse case analysis 
 
 ---
 
-### Use Case 3: LDAP Password Update Operation
+# Use Case 3: User Federation
 
-#### Overview
-Blah blah blah
+# Overview
 
-#### Use Case
-Blah blah blah
+Keycloak can federate identities by integrating with external Identity Providers (IDPs), which allows users to authenticate using existing credentials from external systems rather than creating or mainitaining a separate user account.
 
-#### Use Case Diagram
-![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
+# Use Case - Authenticate with External IDP
 
-#### Misuse Case
-```
-**Security Threats:** Identify potential threats from malicious actors (e.g., disgruntled employees or external attackers attempting impersonation).
+In this scenario, a user is requesting access to a Keycloak protected resource.  The request prompts the software to redirect the user to an external IDP (such as Google) for authentication and authorization for access.  
 
-- Misuser Details:
-    - **Motives:** Understanding user motives such as insider threats or unauthorized access.
-    - **Resources:** Identify the resources misusers might leverage (e.g., stolen credentials).
-    - **Attack of Choice:** Specify types of attacks such as impersonation or brute force.
-    - **Access Level:** Define the potential access misusers might achieve.
-```
-#### Misuse Case Diagram
-*Include a visual representation of the misuse case tied to this interaction.*  
+# Diagram
 
-![Misuse-Case-1](https://placehold.co/400x200/EEE/31343C)  
+![Authenticate with External IDP drawio](https://github.com/user-attachments/assets/27448592-ac96-4201-8fc2-c942d2dff8a6)
 
-#### Security Requirements
-- Build a list of security requirements derived from misuse case analysis. 
+# Misuse Case - Token Theft
+
+One way that a motivated threat actor, such as a disgruntled former employee, can attack this software is by Token Theft.  Token Theft is a known threat for an identity management system.  In the process of authenticating a user, tokens are exchanged to verify that Keycloak is actually communicating with the external IDP.  A threat actor could intercept those tokens, possibly through a man in the middle attack, to impersonate one or the other and infilitrate the system, gather information from the user, or seek other negative end results.  
+
+# Diagram
+
+![image](https://github.com/user-attachments/assets/a8677924-e870-4d02-8112-220270b77113)
+
+# Security Requirements
+- Token Expiration and Refresh can minimize the window of exposure or opportunity
+- Token Revocation can allow administrators to revoke tokens and render stolen tokens useless
+- Client Configuration can allow the client to control access and ensure tokens are only issued to authorized clients
+- HTTPS Enforcement ensures tokens are transmitted securely between clients and servers
 
 #### Reflection
 Assess the alignment of security requirements derived from misuse case analysis with advertised features of the open-source software. Review OSS project documentation and codebase to support your observations. Provide a summary of your findings, reflecting on the sufficiency of security features offered by the open source project versus those expected by the mis use case analysis.
