@@ -89,6 +89,7 @@ One way that a motivated threat actor, such as a disgruntled former employee, ca
 
 # Security Requirements
 - Token Expiration and Refresh can minimize the window of exposure or opportunity
+- Transport Layer Security (TLS) prevents interception by encrypting the communication channel
 - Token Revocation can allow administrators to revoke tokens and render stolen tokens useless
 - Client Configuration can allow the client to control access and ensure tokens are only issued to authorized clients
 - HTTPS Enforcement ensures tokens are transmitted securely between clients and servers
