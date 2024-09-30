@@ -109,26 +109,18 @@ A common misuse case involves attackers attempting to exploit vulnerabilities in
 #### Use Case:
 In this scenario, when a user requests access to a resource, the application interacts with Keycloak to confirm whether the user holds the necessary permissions. Keycloak evaluates the user’s assigned roles and compares them with the permissions tied to the requested resource. If the user possesses sufficient privileges, access is granted. In Keycloak, roles can be defined at both the realm level (applicable across all applications) and the client level (specific to individual applications).
 
-### **Misuse Case Analysis**
-```
-**Security Threats:** Identify potential threats from malicious actors (e.g., disgruntled employees or external attackers attempting impersonation).
+#### Diagram
+*Illustrate Use Case 1.*  
+![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
 
-- Misuser Details:
-    - **Motives:** Understanding user motives such as insider threats or unauthorized access.
-    - **Resources:** Identify the resources misusers might leverage (e.g., stolen credentials).
-    - **Attack of Choice:** Specify types of attacks such as impersonation or brute force.
-    - **Access Level:** Define the potential access misusers might achieve.
-```
-#### Misuse Diagram
-*Include a visual representation of the misuse case tied to this interaction.*  
+#### Misuse Case:
+Meet Eve, an opportunistic attacker within the organization. Eve is a regular employee with the "User" role, giving her access to general information but barring her from sensitive resources or administrative actions. Eve is dissatisfied and seeks to gain unauthorized privileges. Her attack of choice? Privilege Escalation. Eve attempts to exploit a misconfigured role that grants higher privileges than intended. For example, she discovers an "Editor" role that was mistakenly given access to system settings and administrative tools. By escalating her privileges to this improperly secured role, Eve could manipulate the application in ways that go far beyond her legitimate permissions, threatening system integrity.
 
-![Misuse-Case-1](https://placehold.co/400x200/EEE/31343C)  
+#### Security Requirements
 
-#### Misuse Remedy
-- Build a list of security requirements derived from misuse case analysis. 
 
 ### Reflection
-- Assess the alignment of security requirements derived from misuse case analysis with advertised features of the open-source software. Review OSS project documentation and codebase to support your observations. Provide a summary of your findings, reflecting on the sufficiency of security features offered by the open source project versus those expected by the mis use case analysis.
+
 
 ---
 
