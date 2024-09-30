@@ -172,7 +172,9 @@ Keycloak does document their appropriate and recommended configuration.  Documen
 
 [Pass-Through Authentication](https://www.keycloak.org/server/reverseproxy): Allows integration with external identity providers (e.g., Kerberos, LDAP).
 
-[Access Controls](https://www.keycloak.org/docs/nightly/authorization_services/index.html): Provide nessecary means to create permissions and policies for protected resources (e.g., RBAC, ABAC)
+[Access Controls](https://www.keycloak.org/docs/nightly/authorization_services/index.html): Provide necessary means to create permissions and policies for protected resources (e.g., RBAC, ABAC)
+
+[Audit Logging](https://www.keycloak.org/server/configuration-production): Monitoring feature used to track user actions to security events (e.g., Admin Changes, Login Attemps)
 
 Network Security:
 
@@ -189,7 +191,9 @@ Password Storage:
 - PBKDF2 and bcrypt hashing
 - Password policy enforcement
 
+Installation:
 
+A guide to installing and configuring different Keycloak components can be found here - [Keycloak Installation Guide](https://www.keycloak.org/documentation)
 
 
 - Review OSS project documentation for security-related configuration and installation issues. Summarize your observations.
