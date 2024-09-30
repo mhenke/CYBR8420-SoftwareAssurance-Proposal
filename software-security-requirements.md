@@ -79,13 +79,14 @@ In this scenario, a user is requesting access to a Keycloak protected resource. 
 
 ![Authenticate with External IDP drawio](https://github.com/user-attachments/assets/27448592-ac96-4201-8fc2-c942d2dff8a6)
 
-# Misuse Case - Token Theft
+# Misuse Case - Token Theft and Brute Force
 
-One way that a motivated threat actor, such as a disgruntled former employee, can attack this software is by Token Theft.  Token Theft is a known threat for an identity management system.  In the process of authenticating a user, tokens are exchanged to verify that Keycloak is actually communicating with the external IDP.  A threat actor could intercept those tokens, possibly through a man in the middle attack, to impersonate one or the other and infilitrate the system, gather information from the user, or seek other negative end results.  
+One way that a motivated threat actor, such as a disgruntled former employee, can attack this software is by Token Theft.  Token Theft is a known threat for an identity management system.  In the process of authenticating a user, tokens are exchanged to verify that Keycloak is actually communicating with the external IDP.  A threat actor could intercept those tokens, possibly through a man in the middle attack, to impersonate one or the other and infilitrate the system, gather information from the user, or seek other negative end results.  Another common approach is through a Brute Force attack, where an attacker attempts access by cracking passwords or otherwise producing several possible login interations in the hopes that some matching pair will allow access to the system.
 
 # Misuse Case Diagram
 
-![image](https://github.com/user-attachments/assets/a8677924-e870-4d02-8112-220270b77113)
+![image](https://github.com/user-attachments/assets/c36bfa9f-fee2-4ee0-843d-c0cfefca0410)
+
 
 # Security Requirements
 - Token Expiration and Refresh can minimize the window of exposure or opportunity
