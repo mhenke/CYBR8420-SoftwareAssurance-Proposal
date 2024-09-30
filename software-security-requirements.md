@@ -193,7 +193,7 @@ Password Storage:
 
 Installation:
 
-A guide to installing and configuring different Keycloak components can be found here - [Keycloak Installation Guide](https://www.keycloak.org/documentation)
+A guide to installing and configuring different Keycloak components can be found here - [Keycloak Installation Documentation](https://www.keycloak.org/documentation)
 
 
 - Review OSS project documentation for security-related configuration and installation issues. Summarize your observations.
