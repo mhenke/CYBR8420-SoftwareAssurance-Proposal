@@ -171,6 +171,7 @@ Keycloak does document their appropriate and recommended configuration.  Documen
 ### General Security Features
 
 [Pass-Through Authentication](https://www.keycloak.org/server/reverseproxy): Allows integration with external identity providers (e.g., Kerberos, LDAP).
+
 [Access Controls](https://www.keycloak.org/docs/nightly/authorization_services/index.html): Provide nessecary means to create permissions and policies for protected resources (e.g., RBAC, ABAC)
 
 Network Security:
