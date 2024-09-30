@@ -39,9 +39,10 @@ Additionally, while Keycloak provides role-based access control (RBAC), it lacks
 
 ### Use Case 2: User Authorization
 
-**Overview:** User authentication is a crucial aspect of any application, and Keycloak plays a vital role in this domain. As an identity and access management tool, Keycloak facilitates user authorizations and offers features like Single Sign-On (SSO) and Multi-Factor Authentication (MFA). Given its position as the gateway for numerous applications, it is imperative that user authentication is robust and secure. Ensuring that unauthorized individuals cannot impersonate legitimate users is essential to safeguard not only individual applications but the entire ecosystem.
+#### Overview 
+User authentication is a crucial aspect of any application, and Keycloak plays a vital role in this domain. As an identity and access management tool, Keycloak facilitates user authorizations and offers features like Single Sign-On (SSO) and Multi-Factor Authentication (MFA). Given its position as the gateway for numerous applications, it is imperative that user authentication is robust and secure. Ensuring that unauthorized individuals cannot impersonate legitimate users is essential to safeguard not only individual applications but the entire ecosystem.
 
-#### Use Case: 
+#### Use Case
 In this scenario, the system requesting authorized access could be an application or service interacting with Keycloak, rather than an individual user. For instance, when a user attempts to log in, Keycloak verifies the credentials and issues an access token. If SSO is enabled, once the user logs in to one application, Keycloak seamlessly authorizes access to other connected applications without prompting for credentials again. Additionally, if a new device is used for access, Keycloak can trigger multi-factor authentication to ensure secure access. Throughout this process, passwords and other sensitive information should be encrypted and stored securely, ensuring that access tokens, session cookies, and credentials are protected from unauthorized access.
 
 #### Diagram
@@ -50,7 +51,6 @@ In this scenario, the system requesting authorized access could be an applicatio
 
 #### Misuse Case
 A common misuse case involves attackers attempting to exploit vulnerabilities in the authentication process. For instance, an attacker might perform a session hijacking attack by intercepting session cookies or access tokens over unsecured connections. With these, they could gain unauthorized access to an active session without needing the user’s credentials. Another potential attack could involve credential stuffing, where compromised user credentials from other breaches are used to attempt logins, leveraging the fact that users often reuse passwords across different platforms. In more sophisticated attacks, adversaries might try SQL injection or similar exploits to compromise the backend database storing user credentials, which could lead to mass exposure of sensitive data. Even hashed passwords can be vulnerable if weak hashing algorithms are used, making it imperative that robust cryptographic methods are employed.
-
 
 #### Security Requirements
 - Implement session expiration policies to limi the window for session hijacking.
@@ -65,9 +65,11 @@ A common misuse case involves attackers attempting to exploit vulnerabilities in
 
 ### Use Case 3: LDAP Password Update Operation
 
-#### Overview: Blah blah blah
+#### Overview
+Blah blah blah
 
 #### Use Case
+Blah blah blah
 
 #### Use Case Diagram
 ![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
@@ -100,7 +102,7 @@ Assess the alignment of security requirements derived from misuse case analysis 
 #### Overview
 In identity and access management systems like Keycloak, handling roles and permission requests is critical for controlling user access within applications. Keycloak’s role-based access control (RBAC) system allows administrators to define roles and associate them with specific permissions, ensuring that users have appropriate levels of access based on their roles. Permissions can be applied at various levels, such as access to specific resources or the ability to perform certain actions within an application. By leveraging these features, applications can enforce fine-grained access control, minimizing security risks and ensuring that users only access the data and actions for which they are authorized.
 
-#### Use Case:
+#### Use Case
 In this scenario, when a user requests access to a resource, the application interacts with Keycloak to confirm whether the user holds the necessary permissions. Keycloak evaluates the user’s assigned roles and compares them with the permissions tied to the requested resource. If the user possesses sufficient privileges, access is granted. In Keycloak, roles can be defined at both the realm level (applicable across all applications) and the client level (specific to individual applications).
 
 #### Use Case Diagram
@@ -111,7 +113,7 @@ In this scenario, when a user requests access to a resource, the application int
 *Illustrate Use Case 1.*  
 ![Use-Case-1](https://placehold.co/400x200/EEE/31343C)
 
-#### Misuse Case:
+#### Misuse Case
 Eve is a regular employee with the "User" role, giving her access to general information but barring her from sensitive resources or administrative actions. Eve is dissatisfied with the way other employees treat her and seeks to gain unauthorized privileges to view other employee's personal information. Eve attempts to exploit a misconfigured role that grants higher privileges than intended. She discovers an "Editor" role that was mistakenly given access to system settings and administrative tools. By escalating her privileges to this improperly secured role, Eve could manipulate the application in ways that go far beyond her legitimate permissions, threatening system integrity.
 
 #### Security Requirements
@@ -127,7 +129,8 @@ After assessing Keycloak's role and permission management capabilities, it's evi
 ---
 
 ### Use Case 5: Implementing a Logging for Service Health Monitoring
-**Overview:** Configuring Keycloak to include logging and monitoring systems is important to properly maintain good system health. This includes tracking performance metrics and securing logs within a centralized log store to detect performance issues, potential security threats, or any other anomalies. Logs assist administrators with reviewing essential operational behaviors while also being able to investigate any suspicious activities.
+#### Overview
+Configuring Keycloak to include logging and monitoring systems is important to properly maintain good system health. This includes tracking performance metrics and securing logs within a centralized log store to detect performance issues, potential security threats, or any other anomalies. Logs assist administrators with reviewing essential operational behaviors while also being able to investigate any suspicious activities.
 
 #### Use Case
 A non-privileged user connects to an external server via a Keycloak authentication method. The user is able to log in to the resource successfully. With no prior knowledge relating to the security infrastructure of the method they are using to log in, the user expects their information and credentials to be properly protected and stored when logging in. This essentially means that a standard user would expect all necessary configurations in the security of the application that they are logging in with have been set up to prevent any breaches of security or information to external threats. 
