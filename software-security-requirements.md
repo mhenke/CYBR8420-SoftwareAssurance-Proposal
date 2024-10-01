@@ -158,13 +158,13 @@ Keycloak's logging system captures important information on server health, authe
 Show your internal project task assignments and collaborations to finish this task in a Github Project Board. 
 - **Github Project Board Link**: [Project Board](https://github.com/users/mhenke/projects/6/views/1)
 - **Individual Contributions**: 
-Nick Bohlen was the first done with his use case over "Implementing a Logging for Service Health Monitoring" so we used his as a template.  He also contributed to the OSS section.
+Nick Bohlen was the first to complete his use case, "Implementing Logging for Service Health Monitoring," so we used his as a template. He also contributed to the OSS section.
 
-Connor Flood contributed by working on IAM/RBAC (Identity and Access Management/Role-Based Access Control), ensuring that permission and role request use cases were thoroughly analyzed. Connor also collaborated with Mike on the web admin console use case, due to some overlap in their responsibilities.
+Connor Flood contributed by working on IAM/RBAC (Identity and Access Management/Role-Based Access Control), ensuring that permission and role request use cases were thoroughly analyzed. Connor also collaborated with Mike on the web admin console use case due to some overlap in their responsibilities.
 
-Damien focused on user authororization by refining the use and misuse cases. Dame cleaning up notations to ensure they met the rubric's standards.
+Damien focused on user authorization by refining the use and misuse cases. He also cleaned up notations to ensure they met the rubric's standards.
 
-Mike Henke worked on admin console's use cases were mapped to security features and critical use cases. Mike also coordinated the project, organized the paper structure so it was consistant.
+Mike Henke worked on mapping the admin console's use cases to security features and critical use cases. He also coordinated the project and organized the paper structure to ensure consistency.
 
 Brian Dahlstrom focused on User Federation and contributed by designing use cases around federated logins. He ensured that the group was meeting the assignment requirements.
 
