@@ -52,7 +52,7 @@ Keycloak allows platform integration, necessitating the secure passage of creden
 
 Regular auditing of system logs is critical to ensure the truststore remains uncompromised. System configurations enforce strong encryption protocols (E1), and real-time certificate status-checking mechanisms are in place (E3). SSL security becomes unreliable if the truststore becomes compromised, allowing a rogue entity to impersonate endpoints and steal credentials. Logs and monitoring confirm that invalid certificates are rejected (E2), further strengthening security. Additionally, weak or self-signed certificates increase the risk of interception, which is mitigated by obtaining SSL certificates from trusted Certificate Authorities (CAs) and ensuring that configuration files and system policies enforce robust key management rules (E4).
 
-In conclusion, implementing a truststore significantly enhances Keycloak’s security against man-in-the-middle attacks. By ensuring high-bit certificates and regular audits, risks are minimized, and no significant gaps were detected in this approach.
+Implementing a truststore significantly enhances Keycloak’s security against man-in-the-middle attacks. By ensuring high-bit certificates and regular audits, risks are minimized, and no significant gaps were detected in this approach.
 
 #### Assurance Case 2:
 
