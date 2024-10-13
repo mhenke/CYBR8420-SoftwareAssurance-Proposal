@@ -48,11 +48,17 @@
 ### Alignment of Evidence
 
 #### Assurance Case 1: Encrypted Credentials During Transit
-Keycloak allows platform integration, necessitating the secure passage of credentials between endpoints. To prevent credential theft via network eavesdropping, a properly configured truststore is essential, as it enables encrypted SSL connections to protect user credentials in transit.
+Keycloak allows for integration between multiple platforms, which can require credentials to be passed between endpoints. Credential theft through network eavesdropping is a risk that can be mitigated using a properly configured truststore. The truststore enables encrypted SSL connections, thereby protecting user credentials.
 
-Regular auditing of system logs is critical to ensure the truststore remains uncompromised. System configurations enforce strong encryption protocols (E1), and real-time certificate status-checking mechanisms are in place (E3). SSL security becomes unreliable if the truststore becomes compromised, allowing a rogue entity to impersonate endpoints and steal credentials. Logs and monitoring confirm that invalid certificates are rejected (E2), further strengthening security. Additionally, weak or self-signed certificates increase the risk of interception, which is mitigated by obtaining SSL certificates from trusted Certificate Authorities (CAs) and ensuring that configuration files and system policies enforce robust key management rules (E4).
+E1: System configuration enforces strong encryption protocols, ensuring that any communication using the truststore is secure. Regular auditing of system logs is essential to protect the integrity of the truststore; a compromised truststore undermines the reliability of SSL connections, potentially allowing rogue entities to impersonate endpoints and gather user credentials.
 
-Implementing a truststore significantly enhances Keycloak’s security against man-in-the-middle attacks. By ensuring high-bit certificates and regular audits, risks are minimized, and no significant gaps were detected in this approach.
+E2: Logs and monitoring confirm that invalid certificates are rejected. Using SSL certificates with weak encryption can facilitate credential interception; thus, SSL certificates must be acquired from trusted Certificate Authorities, adhering to industry-standard RSA 2048-bit or higher key lengths.
+
+E3: Real-time certificate status checking mechanisms are in place to ensure that only valid and current certificates are used, further safeguarding against unauthorized access.
+
+E4: Configuration files and system policies enforce key management rules, ensuring that cryptographic keys are handled securely and comply with best practices.
+
+Conclusion and Gaps: Implementing a truststore significantly enhances the security of a Keycloak instance, effectively eliminating man-in-the-middle attacks. The simplicity of adding a truststore means the potential for gaps is minimal, with none detected in this case. SSL handshakes are binary, established only if both parties agree. The key consideration is to utilize a high-bit certificate issued by a trusted authority, easily verifiable through modern browsers that warn against weak or untrusted certificates. Additional responsibilities fall on the Keycloak administrator to regularly audit changes to the truststore.
 
 #### Assurance Case 2:
 
