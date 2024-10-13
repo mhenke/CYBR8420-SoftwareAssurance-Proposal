@@ -1,4 +1,3 @@
-# Assurance Cases for Software Security Engineering
 ## Part 1
 
 <!--- Nick --->
