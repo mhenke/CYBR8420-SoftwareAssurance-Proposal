@@ -2,7 +2,7 @@
 
 <!--- Nick --->
 ### Assurance Case 1: SSL Implementation Minimizes Man-in-the-Middle Attack
-![Assurance Case SSL drawio](https://github.com/user-attachments/assets/e2a8465d-0810-471a-b6ee-35b0b35824e4)
+![image](https://github.com/user-attachments/assets/b2f57380-d0c2-4b13-bfb3-4674c3816168)
 
 
 <!--- End- Nick --->
