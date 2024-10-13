@@ -3,6 +3,7 @@
 <!--- Nick --->
 ### Assurance Case 1: Encrypted Credentials During Transit
 **Assurance Case:** SSL Implementation Minimizes Man-in-the-Middle Attack
+
 ![image](https://github.com/user-attachments/assets/704dbc07-1008-4689-a111-3adc051ce6c6)
 
 
