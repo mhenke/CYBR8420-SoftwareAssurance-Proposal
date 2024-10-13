@@ -31,6 +31,7 @@
 
 <!--- Start - Brian --->
 ### Assurance Case 5: 
+![image](https://github.com/user-attachments/assets/bb9d4a4e-216a-434f-a210-923ca81b40f6)
 
 
 
