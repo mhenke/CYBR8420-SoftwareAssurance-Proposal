@@ -27,7 +27,7 @@ Implementing a truststore significantly enhances the security of a Keycloak inst
 
 <!--- Start- Mike --->
 ### Assurance Case 2:  Keycloak minimizes undetected changes to administrative operations
-![image](/Assurance_Cases/web_console/%20undetected-changes%20.png)
+![image](/Assurance_Cases/web_console/%20undetected-changes.png)
 
 Keycloak's security framework is designed to minimize undetected changes to administrative operations through strong authentication, comprehensive audit logging, and strict authorization controls.
 
@@ -93,5 +93,5 @@ Keycloak itsellf shows an ongoing, regular interaction between the open source c
 ### Link to project board: 
 
 ### Reflection on work:
-
+The team has started to gel well, and our communication in Discord has been effective. However, we fell short with maintaining our meeting schedule after our Wednesday professor meeting and missed our usual review of the professor meeting along with our typical Sunday evening review meeting. Despite this, we each shared our top-level claims in Discord prior to the Wednesday meeting, which helped us prepare. After the meeting with the professor, we were able to reassess and refine our top-level claims for the project. Following this, each team member took responsibility for a specific claim, created a corresponding diagram, and identified gaps between the claims and the features offered by Keycloak. We also made improvements in our use of a markdown assignment template, ensuring better organization and structure in our submission.
 
