@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:130.0) Gecko/20100101 Firefox/130.0" version="24.7.17">
   <diagram name="Keycloak Assurance Case" id="keycloak-assurance-case">
-    <mxGraphModel dx="2772" dy="1105" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1296" dy="1105" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -143,6 +143,14 @@
             <mxPoint x="780" y="320" as="sourcePoint" />
             <mxPoint x="803" y="372" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qHbx8lhPrlRKxokrEPVt-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" parent="1" target="qHbx8lhPrlRKxokrEPVt-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="521" y="65" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qHbx8lhPrlRKxokrEPVt-31" value="Context: CT1 Administrative operations refer to actions performed by system administrators that can affect the security configuration and user management." style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;" vertex="1" parent="1">
+          <mxGeometry x="600" y="17.5" width="190" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
