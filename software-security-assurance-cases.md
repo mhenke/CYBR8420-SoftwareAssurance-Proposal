@@ -60,7 +60,7 @@ Conclusion and Gaps: After review of Keycloak documentation, the following parti
 
 <!--- Start - Connor --->
 ### Assurance Case 3: Keycloak Diminishes Database Misuse
-![image](/Assurance_Cases/web_console/CFfinal.png)
+![image](/Assurance_Cases/web_console/CFfinal1.png)
 
 Keycloak uses databases for various reasons, necessitating vigorous measures to prevent database misuse. This includes everything from input validation to securely hashed passwords, protecting against all types of potential attacks.
 
