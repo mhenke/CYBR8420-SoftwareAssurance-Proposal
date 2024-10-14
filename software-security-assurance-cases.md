@@ -60,7 +60,7 @@ Conclusion and Gaps: After review of Keycloak documentation, the following parti
 
 <!--- Start - Connor --->
 ### Assurance Case 3: Keycloak Diminishes Database Misuse
-
+![image](/Assurance_Cases/web_console/AssuranceCF.png)
 Keycloak uses databases for various reasons, necessitating vigorous measures to prevent database misuse. This includes everything from input validation to securely hashed passwords, protecting against all types of potential attacks.
 
 E1: The Protection API is instrumental in encrypting and securely transmitting protected data. Keycloak uses the Protection API to secure OAuth2 tokens, ensuring they are encrypted and safely transmitted between the client and server.  Keycloak employs input validation mechanisms to sanitize and validate data before processing, mitigating injection attacks. This evidence correlates to Assurance Case 1.
