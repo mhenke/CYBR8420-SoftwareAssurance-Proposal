@@ -86,7 +86,8 @@ Secondly, the protection API is crucial for data encryption and transmission, en
 
 
 <!--- Start - Brian --->
-### Assurance Case 5: 
+### Assurance Case 5: Keycloak minimizes unauthorized access to the identity provider configuration settings in user federation
+
 ![image](https://github.com/user-attachments/assets/ed0d6003-5492-4a7c-918c-8ea73d9e549f)
 
 
