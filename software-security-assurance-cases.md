@@ -91,7 +91,8 @@ Keycloak itsellf shows an ongoing, regular interaction between the open source c
 ## Part 2
 
 ### Link to project board: 
+[Project board](https://github.com/users/mhenke/projects/7)
 
 ### Reflection on work:
-The team has started to gel well, and our communication in Discord has been effective. However, we fell short with maintaining our team meeting schedule after our Wednesday professor meeting and missed our usual review of the professor feedback along with our typical Friday and Sunday evening meetings. Despite this, we each shared our top-level claims in Discord prior to the Wednesday meeting, which helped us prepare. After the meeting with the professor, we were able to reassess and refine our top-level claims for the project. Following this, each team member took responsibility for a specific claim, created a corresponding diagram, and identified gaps between the claims and the features offered by Keycloak. We also made improvements in our use of a markdown assignment template, ensuring better organization and structure in our submission.
+The team has started to gel well, and our communication in Discord has been effective. However, we fell short with maintaining our team meeting schedule after our Wednesday Dr. Gandhi  meeting and missed our usual review of the feedback along with our typical Friday and Sunday evening meetings. Despite this, we each shared our top-level claims in Discord prior to the Wednesday meeting, which helped us prepare. After the meeting with the professor, we were able to reassess and refine our top-level claims for the project. Following this, each team member took responsibility for a specific claim, created a corresponding diagram, and identified gaps between the claims and the features offered by Keycloak. We also made improvements in our use of a markdown assignment template, ensuring better organization and structure in our submission.
 
