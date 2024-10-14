@@ -16,7 +16,7 @@ E3: Real-time certificate status-checking mechanisms are in place to ensure that
 
 E4: Configuration files and system policies enforce key management rules ensure that cryptographic keys are handled securely and comply with best practices.
 
-E5: Legacy system upgrade documentation or security policies enforcing the restriction, ensuring the implementation is up to date with the most recent security updates that are provided.
+E5: Legacy system upgrade documentation or security policies enforcing the restriction, ensuring the implementation is up to date with the most recent security standards and updates that are provided.
 
 Conclusion and Gaps: Implementing a truststore significantly enhances the security of a Keycloak instance, effectively eliminating man-in-the-middle attacks. The simplicity of adding a truststore means the potential for gaps is minimal, with none detected in this case. SSL handshakes are binary, established only if both parties agree. The key consideration is to utilize a high-bit certificate issued by a trusted authority, easily verifiable through modern browsers that warn against weak or untrusted certificates. Additional responsibilities fall on the Keycloak administrator to regularly audit changes to the truststore.
 
