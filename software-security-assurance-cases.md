@@ -88,7 +88,8 @@ Secondly, the protection API is crucial for data encryption and transmission, en
 <!--- Start - Brian --->
 ### Assurance Case 5: Keycloak minimizes unauthorized access to the identity provider configuration settings in user federation
 
-![image](https://github.com/user-attachments/assets/ed0d6003-5492-4a7c-918c-8ea73d9e549f)
+![image](https://github.com/user-attachments/assets/dd4900eb-512f-403c-8daa-e89963d921ef)
+
 
 Keycloak provides a means for user federation via integrating with external Identity Providers or IDPs, but the connection can only be as secure as the configuration or settings.  Minimizing the unauthorized access to IDP configuration settings strengthens the security of Keycloak and the data it protects.
 
