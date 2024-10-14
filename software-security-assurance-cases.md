@@ -16,9 +16,13 @@ E3: Real-time certificate status-checking mechanisms are in place to ensure that
 
 E4: Configuration files and system policies enforce key management rules ensure that cryptographic keys are handled securely and comply with best practices.
 
+<<<<<<< HEAD
 E5: Legacy system upgrade documentation or security policies enforcing the restriction, ensuring the implementation is up to date with the most recent security updates that are provided.
 
 Conclusion and Gaps: Implementing a truststore significantly enhances the security of a Keycloak instance, effectively eliminating man-in-the-middle attacks. The simplicity of adding a truststore means the potential for gaps is minimal, with none detected in this case. SSL handshakes are binary, established only if both parties agree. The key consideration is to utilize a high-bit certificate issued by a trusted authority, easily verifiable through modern browsers that warn against weak or untrusted certificates. Additional responsibilities fall on the Keycloak administrator to regularly audit changes to the truststore.
+=======
+Implementing a truststore significantly enhances the security of a Keycloak instance, effectively eliminating man-in-the-middle attacks. The simplicity of adding a truststore means the potential for gaps is minimal, with none detected in this case. SSL handshakes are binary, established only if both parties agree. The key consideration is to utilize a high-bit certificate issued by a trusted authority, easily verifiable through modern browsers that warn against weak or untrusted certificates. Additional responsibilities fall on the Keycloak administrator to regularly audit changes to the truststore.
+>>>>>>> mike-3
 
 <!--- End- Nick --->
 
@@ -28,23 +32,31 @@ Conclusion and Gaps: Implementing a truststore significantly enhances the securi
 
 Keycloak's security framework is designed to minimize undetected changes to administrative operations through strong authentication, comprehensive audit logging, and strict authorization controls.
 
-E1: Penetration testing results for authentication system
+E1: Dynamic Application Security Testing
+Context: This evidence relates to testing the authentication system for vulnerabilities through active probing and analysis of the system while it's running. 
 
-E2: Log integrity checks and access controls
-Keycloak provides comprehensive audit logging capabilities for both user and admin events. The system allows configuration of which events to save and for how long in the Keycloak Admin Console8
+E2: Static Application Security Testing
+Context: This involves analyzing the source code or compiled version of the authentication system without executing it, to find potential security vulnerabilities. 
 
-E3: Code review findings for access control implementation
-While Keycloak is an open-source project with its code available for review, there's no public documentation of formal code review findings specifically for access control implementation. This represents a gap in the evidence. However, the project's active development and community involvement suggest ongoing code review processes.
+E3: Log integrity checks and access controls
+Context: This evidence pertains to the audit logging system, ensuring that logs cannot be tampered with and that access to logs is properly controlled. E4: Documentation on master realm access control mechanisms
 
-Conclusion and Gaps: After review of Keycloak documentation, the following partial gap and observations were identified:
+E5: Configuration of dedicated realm admin consoles
+
+E6: Implementation of fine-grained admin permissions
+Context: These three pieces of evidence relate to the authorization controls in Keycloak, specifically how access is managed for administrative operations across different realms and with granular permissions.
+
+Conclusion and Gaps: After review of Keycloak documentation, the following partial gaps and observations were identified:
 
 - Strong authentication mechanisms (C2):
-    Keycloak provides robust [authentication features](https://www.keycloak.org/docs/latest/server_admin/#configuring-authentication_server_administration_guide), including multi-factor authentication, social login, and customizable password policies. - No Gap
+    Keycloak provides robust [authentication features](https://www.keycloak.org/docs/latest/server_admin/#configuring-authentication_server_administration_guide), including multi-factor authentication, social login, and customizable password policies. Evidence E1 (Dynamic Application Security Testing) and E2 (Static Application Security Testing) are not explicitly mentioned in Keycloak's documentation, representing a potential gap in publicly available security assurance information. - Partial Gap
 - Comprehensive audit logging (C3):
     Keycloak offers extensive auditing capabilities for both user and [admin events](https://www.keycloak.org/docs/latest/server_admin/#auditing-admin-events_).
     Partial Gap: While audit logging is comprehensive, there's no explicit mention of log integrity checks (E2) in the available documentation. - Partial Gap
 - Proper authorization controls (C4):
     Keycloak implements fine-grained authorization policies for [admin permissions](https://www.keycloak.org/docs/latest/server_admin/#_admin_permissions) - No Gap
+
+ Overall, while Keycloak provides robust security features that align with the claim of minimizing undetected changes to administrative operations, there are some gaps in the publicly available evidence, particularly regarding security testing results and log integrity checks.   
 
 <!--- End- Mike --->
 
@@ -69,18 +81,12 @@ Conclusion and Gaps: After review of Keycloak documentation, the following parti
 ![image](https://github.com/user-attachments/assets/bb9d4a4e-216a-434f-a210-923ca81b40f6)
 
 
-
+Keycloak itsellf shows an ongoing, regular interaction between the open source community and updates with clear notation on update coverage.  Keycloak provides detailed documentation on client certificate authentication and configurations regarding user identity mapping, which helps ensure that unauthorized users do not gain access to IDP configurations.  Documentation available also highlights specific vulnerabilities, such as a privilege escalation flaw in the token exchange feature and patching details for effected versions.  This documentation provides solid evidence about security patches and vulnerability handling in Keycloak.  However, there are some gaps.  For example, Keycloak mentions support for data protection features, including access control and user federation settings, but additional documentation would be needed to show explicit measures regarding GDPR security requirements.  Specific tests or audits may also be needed to prove Keycloak’s compliance with privacy and security laws.  Also, while the documentation covers authentication and access control, additional steps like security audits or code reviews would help collect robust evidence on preventing unauthorized access, specifically to identify provider configuration settings.
 
 <!--- End - Brian --->
 
 
 ## Part 2
-
-### Alignment of Evidence
-
-#### Assurance Case 5:
-
-Keycloak itsellf shows an ongoing, regular interaction between the open source community and updates with clear notation on update coverage.  Keycloak provides detailed documentation on client certificate authentication and configurations regarding user identity mapping, which helps ensure that unauthorized users do not gain access to IDP configurations.  Documentation available also highlights specific vulnerabilities, such as a privilege escalation flaw in the token exchange feature and patching details for effected versions.  This documentation provides solid evidence about security patches and vulnerability handling in Keycloak.  However, there are some gaps.  For example, Keycloak mentions support for data protection features, including access control and user federation settings, but additional documentation would be needed to show explicit measures regarding GDPR security requirements.  Specific tests or audits may also be needed to prove Keycloak’s compliance with privacy and security laws.  Also, while the documentation covers authentication and access control, additional steps like security audits or code reviews would help collect robust evidence on preventing unauthorized access, specifically to identify provider configuration settings.
 
 ### Link to project board: 
 
