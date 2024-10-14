@@ -1,8 +1,11 @@
 ## Part 1
 
 <!--- Nick --->
-### Assurance Case 1: SSL Implementation Minimizes Man-in-the-Middle Attack
-![image](https://github.com/user-attachments/assets/b2f57380-d0c2-4b13-bfb3-4674c3816168)
+### Assurance Case 1: Encrypted Credentials During Transit
+**Assurance Case:** SSL Implementation Minimizes Man-in-the-Middle Attack
+
+![image](https://github.com/user-attachments/assets/704dbc07-1008-4689-a111-3adc051ce6c6)
+
 
 
 <!--- End- Nick --->
@@ -62,6 +65,25 @@ Conclusion and Gaps: After review of Keycloak documentation, the following parti
 ## Part 2
 
 ### Alignment of Evidence
+
+#### Assurance Case 1: Encrypted Credentials During Transit
+Keycloak allows for integration between multiple platforms, which commonly require credentials to be passed between endpoints. Credential theft through network eavesdropping is a risk that can be mitigated using a properly configured truststore. A truststore that enables encrypted SSL connections would greatly assist in protecting user credentials.
+
+E1: System configuration enforces strong encryption protocols, effectively ensuring that any communication using the truststore is secure. This allows for regular auditing of system logs at it is essential to protect the integrity of the truststore. A compromised truststore undermines the reliability of SSL connections, potentially allowing rogue entities to impersonate endpoints and gather user credentials.
+
+E2: Logs and monitoring confirm that invalid certificates are rejected. Using SSL certificates with weak encryption can facilitate credential interception; thus, SSL certificates must be acquired from trusted Certificate Authorities, adhering to industry-standard RSA 2048-bit or higher key lengths.
+
+E3: Real-time certificate status-checking mechanisms are in place to ensure that only valid and current certificates are used, further safeguarding against unauthorized access.
+
+E4: Configuration files and system policies enforce key management rules ensure that cryptographic keys are handled securely and comply with best practices.
+
+Implementing a truststore significantly enhances the security of a Keycloak instance, effectively eliminating man-in-the-middle attacks. The simplicity of adding a truststore means the potential for gaps is minimal, with none detected in this case. SSL handshakes are binary, established only if both parties agree. The key consideration is to utilize a high-bit certificate issued by a trusted authority, easily verifiable through modern browsers that warn against weak or untrusted certificates. Additional responsibilities fall on the Keycloak administrator to regularly audit changes to the truststore.
+
+#### Assurance Case 2:
+
+#### Assurance Case 3:
+
+#### Assurance Case 4:
 
 #### Assurance Case 5:
 
