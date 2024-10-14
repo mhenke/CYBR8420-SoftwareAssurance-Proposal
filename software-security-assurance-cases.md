@@ -32,18 +32,21 @@ Implementing a truststore significantly enhances the security of a Keycloak inst
 Keycloak's security framework is designed to minimize undetected changes to administrative operations through strong authentication, comprehensive audit logging, and strict authorization controls.
 
 E1: Dynamic Application Security Testing
-Context: This evidence relates to testing the authentication system for vulnerabilities through active probing and analysis of the system while it's running. 
+This evidence relates to testing the authentication system for vulnerabilities through active probing and analysis of the system while it's running. 
 
 E2: Static Application Security Testing
-Context: This involves analyzing the source code or compiled version of the authentication system without executing it, to find potential security vulnerabilities. 
+This involves analyzing the source code or compiled version of the authentication system without executing it, to find potential security vulnerabilities. 
 
 E3: Log integrity checks and access controls
-Context: This evidence pertains to the audit logging system, ensuring that logs cannot be tampered with and that access to logs is properly controlled. E4: Documentation on master realm access control mechanisms
+This evidence pertains to the audit logging system, ensuring that logs cannot be tampered with and that access to logs is properly controlled. 
+
+E4: Documentation on master realm access control mechanisms
 
 E5: Configuration of dedicated realm admin consoles
 
 E6: Implementation of fine-grained admin permissions
-Context: These three pieces of evidence relate to the authorization controls in Keycloak, specifically how access is managed for administrative operations across different realms and with granular permissions.
+
+The above three pieces of evidence relate to the authorization controls in Keycloak, specifically how access is managed for administrative operations across different realms and with granular permissions.
 
 Conclusion and Gaps: After review of Keycloak documentation, the following partial gaps and observations were identified:
 
