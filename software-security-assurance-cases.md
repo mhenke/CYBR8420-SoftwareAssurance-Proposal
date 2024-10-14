@@ -59,7 +59,7 @@ Conclusion and Gaps: After review of Keycloak documentation, the following parti
 <!--- End- Mike --->
 
 <!--- Start - Connor --->
-### Assurance Case 3:
+### Assurance Case 3: Keycloak Diminishes Database Misuse
 
 
 
@@ -67,7 +67,7 @@ Conclusion and Gaps: After review of Keycloak documentation, the following parti
 
 
 <!--- Start - Damian --->
-### Assurance Case 4: Keycloak Diminishes Database Misuse 
+### Assurance Case 4:  
 
 
 
