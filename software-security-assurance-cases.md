@@ -61,6 +61,16 @@ Conclusion and Gaps: After review of Keycloak documentation, the following parti
 <!--- Start - Connor --->
 ### Assurance Case 3: Keycloak Diminishes Database Misuse
 
+Keycloak uses databases for various reasons, necessitating vigorous measures to prevent database misuse. This includes everything from input validation to securely hashed passwords, protecting against all types of potential attacks.
+
+E1: The Protection API is instrumental in encrypting and securely transmitting protected data. Keycloak uses the Protection API to secure OAuth2 tokens, ensuring they are encrypted and safely transmitted between the client and server.  Keycloak employs input validation mechanisms to sanitize and validate data before processing, mitigating injection attacks. This evidence correlates to Assurance Case 1.
+
+E2: The Policy Information Point (PIP) in Keycloak’s architecture plays a crucial role in auditing all events occurring within Keycloak. This evidence is directly related to Assurance Case 2 E3.
+
+E3: This evidence is directly related in Assurance Case 5. Passwords are stored quite safely in a hashed format utilizing a strong hashing algorithm (PBKDF2) with a default of 27,500 hashing iterations per hashed password.  
+
+Conclusion and Gaps: While Keycloak does mitigate database misuse effectively, it’s reliance on databases isn’t as frequent as one might think. So while the mechanisms are in place, they aren’t constantly being utilized, which would gives the user a false sense of security.
+Secondly, the protection API is crucial for data encryption and transmission, ensuring that sensitive information is protected when it travels between clients and servers. However, the Protection API primarily employs BASE64 encoding for data encryption. While BASE64 helps in encoding the data, it's not an encryption method on its own. This makes it more susceptible to man-in-the-middle attacks, where an attacker could intercept the data and potentially decode it if additional security layers aren't in place. Some suggestions for improving the gaps would be to move towards AES-256 protocols for stronger encryption, make sure strong transport layer security exists with all data transmissions, ensure the Protection API integrates with RBAC policies, and implement a strict security audit and update schedule for databases. 
 
 
 <!--- End - Connor --->
