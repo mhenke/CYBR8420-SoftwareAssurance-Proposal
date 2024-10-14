@@ -27,7 +27,7 @@ Implementing a truststore significantly enhances the security of a Keycloak inst
 
 <!--- Start- Mike --->
 ### Assurance Case 2:  Keycloak minimizes undetected changes to administrative operations
-![image](/Assurance_Cases/web_console/%20undetected-changes.png)
+![image](/Assurance_Cases/web_console/undetected-changes.png)
 
 Keycloak's security framework is designed to minimize undetected changes to administrative operations through strong authentication, comprehensive audit logging, and strict authorization controls.
 
