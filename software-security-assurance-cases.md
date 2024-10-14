@@ -30,7 +30,7 @@ Conclusion and Gaps: After review of Keycloak documentation, the following parti
     Keycloak provides robust [authentication features](https://www.keycloak.org/docs/latest/server_admin/#configuring-authentication_server_administration_guide), including multi-factor authentication, social login, and customizable password policies. - No Gap
 - Comprehensive audit logging (C3):
     Keycloak offers extensive auditing capabilities for both user and [admin events](https://www.keycloak.org/docs/latest/server_admin/#auditing-admin-events_).
-    Partial Gap: While audit logging is comprehensive, there's no explicit mention of log integrity checks (E2) in the available documentation.
+    Partial Gap: While audit logging is comprehensive, there's no explicit mention of log integrity checks (E2) in the available documentation. - Partial Gap
 - Proper authorization controls (C4):
     Keycloak implements fine-grained authorization policies for [admin permissions](https://www.keycloak.org/docs/latest/server_admin/#_admin_permissions) - No Gap
 
