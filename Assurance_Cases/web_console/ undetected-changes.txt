@@ -1,0 +1,27 @@
+@startuml
+rectangle "C1: Keycloak minimizes undetected\nchanges to administrative operations" as C1
+
+rectangle "C2: Strong authentication\nmechanisms are implemented" as C2
+rectangle "C3: Comprehensive audit\nlogging is in place" as C3
+rectangle "C4: Proper authorization\ncontrols are enforced" as C4
+
+file "R1: Unless there are vulnerabilities\nin the authentication system" as R1 
+file "R2: Unless audit logs can be\ntampered with or disabled" as R2 
+file "R3: Unless there are flaws in the\nauthorization logic" as R3
+
+usecase "E1: Penetration testing results\nfor authentication system" as E1
+usecase "E2: Log integrity checks\nand access controls" as E2
+usecase "E3: Code review findings\nfor access control implementation" as E3
+
+C1 -down-> C2
+C1 -down-> C3
+C1 -down-> C4
+
+C2 -down-> R1
+C3 -down-> R2
+C4 -down-> R3
+
+R1 -down-> E1
+R2 -down-> E2
+R3 -down-> E3
+@enduml
