@@ -8,9 +8,28 @@
 <!--- End- Nick --->
 
 <!--- Start- Mike --->
-### Assurance Case 2: 
+### Assurance Case 2:  Keycloak minimizes undetected changes to administrative operations
+![image](/Assurance_Cases/web_console/%20undetected-changes%20.png)
 
+Keycloak's security framework is designed to minimize undetected changes to administrative operations through strong authentication, comprehensive audit logging, and strict authorization controls.
 
+E1: Penetration testing results for authentication system
+
+E2: Log integrity checks and access controls
+Keycloak provides comprehensive audit logging capabilities for both user and admin events. The system allows configuration of which events to save and for how long in the Keycloak Admin Console8
+
+E3: Code review findings for access control implementation
+While Keycloak is an open-source project with its code available for review, there's no public documentation of formal code review findings specifically for access control implementation. This represents a gap in the evidence. However, the project's active development and community involvement suggest ongoing code review processes.
+
+Conclusion and Gaps: After review of Keycloak documentation, the following partial gap and observations were identified:
+
+- Strong authentication mechanisms (C2):
+    Keycloak provides robust [authentication features](https://www.keycloak.org/docs/latest/server_admin/#configuring-authentication_server_administration_guide), including multi-factor authentication, social login, and customizable password policies. - No Gap
+- Comprehensive audit logging (C3):
+    Keycloak offers extensive auditing capabilities for both user and [admin events](https://www.keycloak.org/docs/latest/server_admin/#auditing-admin-events_).
+    Partial Gap: While audit logging is comprehensive, there's no explicit mention of log integrity checks (E2) in the available documentation.
+- Proper authorization controls (C4):
+    Keycloak implements fine-grained authorization policies for [admin permissions](https://www.keycloak.org/docs/latest/server_admin/#_admin_permissions) - No Gap
 
 <!--- End- Mike --->
 
