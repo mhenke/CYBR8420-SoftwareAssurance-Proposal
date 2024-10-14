@@ -78,7 +78,8 @@ Secondly, the protection API is crucial for data encryption and transmission, en
 
 
 <!--- Start - Damian --->
-### Assurance Case 4:  
+### Assurance Case 4:  Single Sign-On (SSO) Implementation Minimizes Session Hijacking 
+![image](/Assurance_Cases/web_console/AssuranceCaseDR.png)
 
 
 
