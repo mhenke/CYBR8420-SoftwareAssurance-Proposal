@@ -76,7 +76,8 @@ Conclusion and Gaps: After review of Keycloak documentation, the following parti
 
 <!--- Start - Brian --->
 ### Assurance Case 5: 
-![image](https://github.com/user-attachments/assets/bb9d4a4e-216a-434f-a210-923ca81b40f6)
+![image](https://github.com/user-attachments/assets/ed0d6003-5492-4a7c-918c-8ea73d9e549f)
+
 
 
 Keycloak itsellf shows an ongoing, regular interaction between the open source community and updates with clear notation on update coverage.  Keycloak provides detailed documentation on client certificate authentication and configurations regarding user identity mapping, which helps ensure that unauthorized users do not gain access to IDP configurations.  Documentation available also highlights specific vulnerabilities, such as a privilege escalation flaw in the token exchange feature and patching details for effected versions.  This documentation provides solid evidence about security patches and vulnerability handling in Keycloak.  However, there are some gaps.  For example, Keycloak mentions support for data protection features, including access control and user federation settings, but additional documentation would be needed to show explicit measures regarding GDPR security requirements.  Specific tests or audits may also be needed to prove Keycloak’s compliance with privacy and security laws.  Also, while the documentation covers authentication and access control, additional steps like security audits or code reviews would help collect robust evidence on preventing unauthorized access, specifically to identify provider configuration settings.
