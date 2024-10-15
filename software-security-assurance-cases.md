@@ -81,6 +81,16 @@ Secondly, the protection API is crucial for data encryption and transmission, en
 ### Assurance Case 4:  Single Sign-On (SSO) Implementation Minimizes Session Hijacking 
 ![image](/Assurance_Cases/web_console/AssuranceCaseDR.png)
 
+Keycloak allows for integration of SSO which allows users to authenticate once and gain access to multiple applications without re-authenticating. SSO mechanisms protect against attacks such as session hijacking, replay attacks, and unauthorized access across integrated services. 
+
+E1: Security audit logs can confirm that TLS/SSL is enforced for all communication between clients. These logs document that encryption is consistently applied during token transmission, ensuring that session tokens are can't be obtained by unauthorized entities. Additionally, security audits verify that TLS/SSL configurations are up-to-date and compliant with industry standards, further reducing the risk of session hijacking through network eavesdropping. 
+
+E2: Session management logs demonstrate that session tokens have short expiration times and that token revocation mechanisms are in place. These logs include timestamps of session terminations, confirming that tokens are invalidated as soon as user logs out or when a session expires. Additionally, the system monitors to prevent attackers from exploiting stolen tokens for unauthorized reuse.
+
+E3: OAuth 2.0 implementation outlines the use of Proof Key for Code Exchange (PKCE) which ensure tokens are securely exchanged between clients and servers. It highlights the mechanisms that prevent code interceptions and misuse during the authorization process. 
+
+Conclusion and Gaps: Keycloak's SSO implementation minimizes session hijacking by enforcing multiple mechanisms to mitigate risks associated with toke interception, reuse, and misuse. However, some gaps remain such as the need for improved cross application token manaagement,s real-time monitoring for suspicious token activity, timely token revocation across systems, and securing client-side token storage. Address these gaps would further enhancse Keycloak's overall ability to defend against session hijacking attacks. 
+
 
 
 <!--- End - Damian --->
