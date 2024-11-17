@@ -10,7 +10,9 @@
 ---
 # Design Assignment
 ## Introduction
+# Part 1: Threat Modeling
 ## Data Flow Diagram
 ## Threat Modeling Report
+# Part 2: Observations
 ## Observations  
 ## Project Collaboration
