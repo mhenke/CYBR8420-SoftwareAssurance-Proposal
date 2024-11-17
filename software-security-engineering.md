@@ -10,9 +10,7 @@
 ---
 # Design Assignment
 ## Introduction
-## Threat Modeling
-### Data Flow Diagram
-### Threat Modeling Report
-## Mitigation Quality
+## Data Flow Diagram
+## Threat Modeling Report
 ## Observations  
 ## Project Collaboration
