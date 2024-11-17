@@ -26,8 +26,8 @@ This repository contains the collaborative efforts of our team for the Software 
 - [Project Proposal](/project-proposal.md)  
 - [Requirements for Software Security Engineering](/software-security-requirements.md)
 - [Assurance Cases for SSE](/software-security-assurance-cases.md)    
+- [Designing for SSE](/software-security-engineering.md)
 <!-- 
-- [Designing for SSE](https://github.com/assignments/)   
 - [Code Review](https://github.com/assignments/)
 -->
 
