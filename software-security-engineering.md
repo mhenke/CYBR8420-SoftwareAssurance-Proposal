@@ -9,12 +9,12 @@ This document provides a detailed overview of our team's Software Assurance proj
 ### Keycloak - Backend
 ![image](https://github.com/user-attachments/assets/e63efedd-5bc8-43df-9801-e30d38d3be73)
 
+Threat Modeling Report: [Sensitive Data Access DFD](https://htmlpreview.github.io/?https://github.com/mhenke/CYBR8420-SoftwareAssurance-Proposal/blob/main/Data%20Flow%20Diagrams/Sensitive%20Data%20Access%20DFD.htm)
+
 ### Keycloak - Web App
 ![image](https://github.com/user-attachments/assets/3ac3e9d2-0e83-4071-932d-e389d47057b2)
 
-Threat Modeling Report: [Sensitive Data Access DFD](https://htmlpreview.github.io/?https://github.com/mhenke/CYBR8420-SoftwareAssurance-Proposal/blob/main/Data%20Flow%20Diagrams/Sensitive%20Data%20Access%20DFD.htm)
-
-[Web App DFD](https://htmlpreview.github.io/?https://github.com/mhenke/CYBR8420-SoftwareAssurance-Proposal/blob/main/Data%20Flow%20Diagrams/Keycloak%20Web%20App.htm)
+Threat Modeling Report: [Web App DFD](https://htmlpreview.github.io/?https://github.com/mhenke/CYBR8420-SoftwareAssurance-Proposal/blob/main/Data%20Flow%20Diagrams/Keycloak%20Web%20App.htm)
 
 # Part 2: Observations
 ## Observations
