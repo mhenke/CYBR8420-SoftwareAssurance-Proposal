@@ -51,20 +51,6 @@ Keycloak's design includes several built-in security features that effectively m
 
 The identified gaps primarily require configuration improvements and implementation of additional security controls rather than fundamental architectural changes to Keycloak's design.
 
-### Alignment with Threat Analysis
-Our observations directly align with the threat modeling results which identified:
-- 11 threats needing investigation
-- 16 threats with existing mitigations  
-- Total of 28 potential threats across the system
-
-The identified gaps map to the high-priority threats found in our DFD analysis, particularly around:
-- Elevation of privilege risks through backend systems
-- Denial of service vulnerabilities in resource management
-- Information disclosure through insufficient logging
-- Spoofing threats in federation services
-
-While Keycloak has strong security foundations with built-in mitigations for many threats, these design gaps require attention for a fully secure implementation. The modular architecture allows for addressing these issues through proper configuration and implementation of additional security controls rather than requiring fundamental architectural changes.
-
 ## Reflection
 Our team successfully completed the project through effective division of responsibilities and collaborative effort. Damien focused on refining our Data Flow Diagrams (DFD) and backend reporting, while Nick provided essential groundwork with the Microsoft Threat Modeling Tool and initial DFD drafts. Brian handled critical editing duties, and Mike maintained our documentation and organizational structure through markdown creation and workboard management. Connor contributed to the web application report, facilitated team communication, and assisted with the project summary.
 
