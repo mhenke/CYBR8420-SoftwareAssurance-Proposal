@@ -17,8 +17,6 @@ Threat Modeling Report: [Sensitive Data Access DFD](https://htmlpreview.github.i
 Threat Modeling Report: [Web App DFD](https://htmlpreview.github.io/?https://github.com/mhenke/CYBR8420-SoftwareAssurance-Proposal/blob/main/Data%20Flow%20Diagrams/Keycloak%20Web%20App.htm)
 
 # Part 2: Observations
-
-## Design-Related Issues from DFD-based Threat Analysis
 Through our DFD-based threat analysis of Keycloak, examining both backend authentication flows and web application user management, we identified several significant design-related issues requiring attention. The threat modeling revealed 28 potential threats, with 11 needing investigation and 16 having existing mitigations.
 
 ### High-Priority Design Gaps
