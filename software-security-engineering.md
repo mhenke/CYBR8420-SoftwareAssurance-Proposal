@@ -24,10 +24,6 @@ Threat Modeling Report: [Sensitive Data Access DFD](https://htmlpreview.github.i
 
 [Web App DFD](https://htmlpreview.github.io/?https://github.com/mhenke/CYBR8420-SoftwareAssurance-Proposal/blob/main/Data%20Flow%20Diagrams/Keycloak%20Web%20App.htm)
 
-## Web App Authentication DFD
-
-Threat Modeling Report:
-
 # Part 2: Observations
 ## Observations  
 ## Reflection
