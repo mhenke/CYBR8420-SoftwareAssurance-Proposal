@@ -1,6 +1,4 @@
 # Part 1: Threat Modeling
-## Sensitive Data Access DFD
-
 ### Keycloak - Backend
 ![image](https://github.com/user-attachments/assets/e63efedd-5bc8-43df-9801-e30d38d3be73)
 
