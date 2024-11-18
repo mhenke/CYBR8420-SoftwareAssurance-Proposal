@@ -1,4 +1,3 @@
-# Design Assignment
 # Part 1: Threat Modeling
 ## Sensitive Data Access DFD
 
