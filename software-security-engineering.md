@@ -1,8 +1,4 @@
 # Design Assignment
-
-## Introduction
-This document provides a detailed overview of our team's Software Assurance project for the CYBR8420-850 class (24FA). The project focuses on threat modeling and analysis, specifically examining the security of sensitive data access within an open-source software project. We have divided the project into several key parts, including the creation of Data Flow Diagrams (DFDs), threat modeling, and observations. Our team has worked collaboratively to ensure a comprehensive analysis and to propose improvements for future projects.
-
 # Part 1: Threat Modeling
 ## Sensitive Data Access DFD
 
