@@ -10,27 +10,27 @@ Threat Modeling Report: [Sensitive Data Access DFD](https://htmlpreview.github.i
 Threat Modeling Report: [Web App DFD](https://htmlpreview.github.io/?https://github.com/mhenke/CYBR8420-SoftwareAssurance-Proposal/blob/main/Data%20Flow%20Diagrams/Keycloak%20Web%20App.htm)
 
 # Part 2: Observations
-Through our DFD-based threat analysis of Keycloak, examining both backend authentication flows and web application user management, we identified several significant design-related issues requiring attention. The threat modeling revealed 28 potential threats, with 11 needing investigation and 16 having existing mitigations.
+Through our DFD-based threat analysis of Keycloak, examining both backend authentication flows and web application user management, we identified several design-related issues that may need to be addressed. The threat modeling revealed 28 potential threats, with 11 threats needing further investigation and 16 threats having existing mitigations in place.
 
 ### High-Priority Design Gaps
 
 1. **Backend Security Architecture**
-- Elevation of privilege risks through inadequate backend client role mapping and scope configurations
-- Remote code execution vulnerabilities due to insufficient token validation mechanisms
-- Input validation weaknesses in the backend API design
-These gaps are highlighted by multiple "Needs Investigation" findings in our threat analysis related to backend security configurations.
+The gaps highlighted below are related to backend security configurations. 
+- Elevation of privilege risks through inadequate backend client role mapping and scope configurations.
+- Remote code execution vulnerabilities due to insufficient token validation mechanisms.
+- Input validation weaknesses in the backend API design.
 
 2. **Resource Management Design**
-- No built-in rate limiting architecture for preventing denial of service attacks
-- Insufficient session management controls in the base design
-- Lack of automated resource consumption controls for database connections
-Our DFD analysis specifically identified these as high-priority threats that could impact system availability.
+The gaps highlighted below were identified as high-priority threats that could impact system availability.
+- No built-in rate limiting architecture for preventing denial of service attacks.
+- Insufficient session management controls in the base design.
+- Lack of automated resource consumption controls for database connections.
 
 3. **Authentication Flow Design**
+The gaps highlighted beloew related to authentication integrity.
 - Session persistence architecture needs improvement for failover scenarios
 - Event logging system lacks comprehensive coverage of backend operations
 - LDAP federation security requires enhanced logging capabilities
-These issues align with the threat modeling findings around information disclosure and authentication integrity.
 
 ### Existing Security Strengths
 Keycloak's design includes several built-in security features that effectively mitigate many threats:
