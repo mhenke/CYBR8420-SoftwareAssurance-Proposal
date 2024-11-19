@@ -28,17 +28,17 @@ The gaps highlighted below were identified as high-priority threats that could i
 
 3. **Authentication Flow Design**
 The gaps highlighted beloew related to authentication integrity.
-- Session persistence architecture needs improvement for failover scenarios
-- Event logging system lacks comprehensive coverage of backend operations
-- LDAP federation security requires enhanced logging capabilities
+- Session persistence architecture needs improvement for failover scenarios.
+- Event logging system lacks comprehensive coverage of backend operations.
+- LDAP federation security requires enhanced logging capabilities.
 
 ### Existing Security Strengths
 Keycloak's design includes several built-in security features that effectively mitigate many threats:
-- CSRF protection through multiple security layers
-- TLS encryption for authentication flows
+- CSRF protection through multiple security layers.
+- TLS encryption for authentication flows.
 - Role-based access control (RBAC)
-- Input validation for authentication processes
-- Secure database connections using SSL/TLS
+- Input validation for authentication processes.
+- Secure database connections using SSL/TLS.
 
 The identified gaps primarily require configuration improvements and implementation of additional security controls rather than fundamental architectural changes to Keycloak's design.
 
