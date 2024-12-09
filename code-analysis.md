@@ -7,14 +7,14 @@ Ensuring proper software assurance begins with analyzing potential attack scenar
 CWE Checklist:
 | Serial | CWE | Type | Name | Focus |
 |:-------|:------|:-------|:------------------------------------------|:-------------------------------------------|
-| 1 | CWE-287 | Base | Improper Authentication | Verify OAuth/OIDC authentication flows (UC-1/MUC-1) |
-| 2 | CWE-613 | Base | Insufficient Session Expiration | Token lifespan and refresh token handling (UC-2/MUC-2) |
-| 3 | CWE-295 | Base | Improper Certificate Validation | IDP certificate validation routines (UC-3/MUC-3) |
-| 4 | CWE-601 | Base | URL Redirection | OAuth redirect validation logic (UC-1/MUC-1) |
-| 5 | CWE-347 | Base | Improper Crypto Signature Verification | JWT signature validation code (UC-2/MUC-2) |
-| 6 | CWE-522 | Base | Insufficient Protection of Credentials | Credential storage/transmission security (UC-1/MUC-1) |
-| 7 | CWE-346 | Base | Origin Validation Error | Federation origin verification (UC-3/MUC-3) |
-| 8 | CWE-502 | Base | Deserialization of Untrusted Data | Token/session object deserialization (UC-2/MUC-2) |
+| 1 | [CWE-287](https://cwe.mitre.org/data/definitions/287.html) | Base | Improper Authentication | Verify OAuth/OIDC authentication flows (UC-1/MUC-1) |
+| 2 | [CWE-613](https://cwe.mitre.org/data/definitions/613.html) | Base | Insufficient Session Expiration | Token lifespan and refresh token handling (UC-2/MUC-2) |
+| 3 | [CWE-295](https://cwe.mitre.org/data/definitions/295.html) | Base | Improper Certificate Validation | IDP certificate validation routines (UC-3/MUC-3) |
+| 4 | [CWE-601](https://cwe.mitre.org/data/definitions/601.html) | Base | URL Redirection | OAuth redirect validation logic (UC-1/MUC-1) |
+| 5 | [CWE-347](https://cwe.mitre.org/data/definitions/347.html) | Base | Improper Crypto Signature Verification | JWT signature validation code (UC-2/MUC-2) |
+| 6 | [CWE-522](https://cwe.mitre.org/data/definitions/522.html) | Base | Insufficient Protection of Credentials | Credential storage/transmission security (UC-1/MUC-1) |
+| 7 | [CWE-346](https://cwe.mitre.org/data/definitions/346.html) | Base | Origin Validation Error | Federation origin verification (UC-3/MUC-3) |
+| 8 | [CWE-502](https://cwe.mitre.org/data/definitions/502.html) | Base | Deserialization of Untrusted Data | Token/session object deserialization (UC-2/MUC-2) |
 
 **Code Review Tool Selection:**
 
