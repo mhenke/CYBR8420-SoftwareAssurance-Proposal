@@ -10,13 +10,13 @@ CWE Checklist:
 | Serial | CWE | Type | Name | Focus |
 |:-------|:------|:-------|:------------------------------------------|:-------------------------------------------|
 | 1 | [CWE-287](https://cwe.mitre.org/data/definitions/287.html) | Base | Improper Authentication | Verify OAuth/OIDC authentication flows ([UC-1/MUC-1](software-security-assurance-cases.md#assurance-case-1-encrypted-credentials-during-transit)) |
-| 2 | [CWE-613](https://cwe.mitre.org/data/definitions/613.html) | Base | Insufficient Session Expiration | Token lifespan and refresh token handling ([UC-2/MUC-2](software-security-assurance-cases.md#assurance-case-2-keycloak-minimizes-undetected-changes-to-administrative-operations)) |
-| 3 | [CWE-295](https://cwe.mitre.org/data/definitions/295.html) | Base | Improper Certificate Validation | IDP certificate validation routines ([UC-3/MUC-3](software-security-assurance-cases.md#assurance-case-1-encrypted-credentials-during-transit)) |
+| 2 | [CWE-613](https://cwe.mitre.org/data/definitions/613.html) | Base | Insufficient Session Expiration | Token lifespan and refresh token handling ([UC-2/MUC-2](software-security-assurance-cases.md#assurance-case-2--keycloak-minimizes-undetected-changes-to-administrative-operations)) |
+| 3 | [CWE-295](https://cwe.mitre.org/data/definitions/295.html) | Base | Improper Certificate Validation | IDP certificate validation routines ([UC-3/MUC-3](software-security-assurance-cases.md#assurance-case-3-keycloak-diminishes-database-misuse)) |
 | 4 | [CWE-601](https://cwe.mitre.org/data/definitions/601.html) | Base | URL Redirection | OAuth redirect validation logic ([UC-1/MUC-1](software-security-assurance-cases.md#assurance-case-1-encrypted-credentials-during-transit)) |
-| 5 | [CWE-347](https://cwe.mitre.org/data/definitions/347.html) | Base | Improper Crypto Signature Verification | JWT signature validation code ([UC-2/MUC-2](software-security-assurance-cases.md#assurance-case-2-keycloak-minimizes-undetected-changes-to-administrative-operations)) |
+| 5 | [CWE-347](https://cwe.mitre.org/data/definitions/347.html) | Base | Improper Crypto Signature Verification | JWT signature validation code ([UC-2/MUC-2](software-security-assurance-cases.md#assurance-case-2--keycloak-minimizes-undetected-changes-to-administrative-operations)) |
 | 6 | [CWE-522](https://cwe.mitre.org/data/definitions/522.html) | Base | Insufficient Protection of Credentials | Credential storage/transmission security ([UC-1/MUC-1](software-security-assurance-cases.md#assurance-case-1-encrypted-credentials-during-transit)) |
-| 7 | [CWE-346](https://cwe.mitre.org/data/definitions/346.html) | Base | Origin Validation Error | Federation origin verification ([UC-3/MUC-3](software-security-assurance-cases.md#assurance-case-1-encrypted-credentials-during-transit)) |
-| 8 | [CWE-502](https://cwe.mitre.org/data/definitions/502.html) | Base | Deserialization of Untrusted Data | Token/session object deserialization ([UC-2/MUC-2](software-security-assurance-cases.md#assurance-case-2-keycloak-minimizes-undetected-changes-to-administrative-operations)) |
+| 7 | [CWE-346](https://cwe.mitre.org/data/definitions/346.html) | Base | Origin Validation Error | Federation origin verification ([UC-3/MUC-3](software-security-assurance-cases.md#assurance-case-3-keycloak-diminishes-database-misuse)) |
+| 8 | [CWE-502](https://cwe.mitre.org/data/definitions/502.html) | Base | Deserialization of Untrusted Data | Token/session object deserialization ([UC-2/MUC-2](software-security-assurance-cases.md#assurance-case-2--keycloak-minimizes-undetected-changes-to-administrative-operations)) |
 
 **Code Review Tool Selection:**
 
