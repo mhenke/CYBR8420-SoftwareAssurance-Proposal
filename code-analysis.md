@@ -4,12 +4,24 @@
 
 Ensuring proper software assurance begins with analyzing potential attack scenarios and identifying the requirements to secure the software and validate its functionality. With these threats addressed and security measures planned, we shift our focus to source code review. This step determines whether the current code meets assurance standards or requires modifications to address security gaps. Our approach integrates automated scanning tools, manual reviews, and cross-referencing findings against identified threats and vulnerabilities.
 
+CWE Checklist:
+| Serial   | CWE |  Type | Name |
+|:------------|:---------- | :----------| :---------- |
+|1| CWE- | Variant | Stack-based Buffer Overflow |
+|2| CWE- | Variant | Heap-based Buffer Overflow |
+|3| CWE- | Base | Buffer Underwrite ('Buffer Underflow') |
+|4| CWE- | Base | Use of Externally-Controlled Format String |
+|5| CWE- | Variant | Integer Coercion Error |
+|6| CWE- | Base | Numeric Truncation Error |
+|7| CWE- | Base | Signal Handler Race Condition |
+|8| CWE- | Class | Incorrect Type Conversion or Cast |
+|9| CWE-789 | Variant | Memory Allocation with Excessive Size Value |
 
+**Code Review Tool Selection:**
 
+Our team obtained a list of CWEs from a database and we found x vulnerabilities.
 
-
-
-
+We utilized SonarCloud to perform an automation code scan on Keyclock to idetnfiy Common Weakness Enumrations (CWEs) which are common software and hardwware weaknesses. 
 
 
 
