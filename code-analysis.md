@@ -20,7 +20,9 @@ CWE Checklist:
 
 **Code Review Tool Selection:**
 
-Our team obtained a list of CWEs from a database and we found x vulnerabilities.
+Our team obtained a list of CWEs from Claude AI. We verified the list was appropriate and valid for our misuse cases, assurance claims, and threat models. We iterated through this several times finalizing with our list above.
+
+Then we struggled getting a code scanner working trying Fortify, SonarQube, GitHub CodeQL, and PMD. We finally were able to obtain scans using SonarCloud and CodeQL.
 
 We utilized SonarCloud, a widely-used cloud-based static code analysis tool, to perform an automated scan on Keycloak. This scan was specifically aimed at identifying Common Weakness Enumerations (CWEs), which represent a standard list of common software vulnerabilities and weaknesses. Utilizing this tool allowed us to identify vulnerabilites such as input validation errors, authentication flaws, and insecure configurations, which are often associated with CWEs.
 
