@@ -28,6 +28,18 @@ SonarCloud scan resulted in 59 issues. Again a high number were related to testi
 
 [SonarCloud scan results](https://sonarcloud.io/summary/overall?id=mhenke_keycloak&branch=main)
 
+## Findings
+
+Most serious findings cluster around certificate validation (CWE-295) and XML parsing vulnerabilities. Multiple instances of credential protection issues (CWE-522).
+
+Notable gaps - no direct findings related to:
+
+- CWE-287 (Improper Authentication)
+- CWE-613 (Insufficient Session Expiration)
+- CWE-601 (URL Redirection)
+- CWE-347 (Improper Crypto Signature Verification)
+- CWE-346 (Origin Validation Error)
+
 ## Reflection
 
 This part of the project was the first time we had to actually dive into the code of the software, which can be daunting in and of itself. Combined with the holiday break (Thanksgiving) and the feelings that come with being almost done with the semester, we knew this would be a challenging section. We worked on those hurdles by maintaining contact through our Discord chat as much as possible to develop our strategy over the holiday. We each delved into possible CWEs through various methods including Keycloak documentation, our own project documentation thus far, and AI support (ChatGPT, Claude). After meeting with the professor, we had a clearer idea of our options on approaching this and developed our automated review strategy of the code. Mike was particularly great at sending regular communication on Discord and Damian helped us stay on task with the assignment requirements. Brian helped to create and review the markdown file and project boards while Nick and Connor were instrumental in narrowing down the CWE lists that we each put together individually. Everyone contributed to the manual and automated code review as well as attending our ongoing team meetings on Discord.
