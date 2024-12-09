@@ -24,7 +24,7 @@ Then we struggled to get a code scanner working, trying Fortify and SonarQube us
 
 We utilized SonarCloud, a widely-used cloud-based static code analysis tool, to perform an automated scan on Keycloak. This scan was specifically aimed at identifying Common Weakness Enumerations (CWEs), which represent a standard list of common software vulnerabilities and weaknesses. Utilizing this tool allowed us to identify vulnerabilities such as input validation errors, authentication flaws, and insecure configurations, which are often associated with CWEs.
 
-**link to SonarCloud scan:** [SonarCloud](https://sonarcloud.io/summary/overall?id=mhenke_keycloak&branch=main)
+[SonarCloud scan results](https://sonarcloud.io/summary/overall?id=mhenke_keycloak&branch=main)
 
 ## Reflection
 
