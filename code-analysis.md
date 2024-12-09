@@ -21,7 +21,8 @@ CWE Checklist:
 
 Our team obtained a list of CWEs from a database and we found x vulnerabilities.
 
-We utilized SonarCloud to perform an automation code scan on Keyclock to idetnfiy Common Weakness Enumrations (CWEs) which are common software and hardwware weaknesses. 
+We utilized SonarCloud, a widely-used cloud-based static code analysis tool, to perform an automated scan on Keycloak. This scan was specifically aimed at identifying Common Weakness Enumerations (CWEs), which represent a standard list of common software vulnerabilities and weaknesses. Utilizing this tool allowed us to identify vulnerabilites such as input validation errors, authentication flaws, and insecure configurations, which are often associated with CWEs. 
+
 
 
 
