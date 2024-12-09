@@ -22,7 +22,9 @@ Our team obtained a list of CWEs from Claude AI. We verified the list was approp
 
 Then we struggled to get a code scanner working, trying Fortify and SonarQube using Docker. Nick tried PMD. We finally were able to obtain scans using SonarCloud and CodeQL with GitHub Actions.
 
-We utilized SonarCloud, a widely-used cloud-based static code analysis tool, to perform an automated scan on Keycloak. This scan was specifically aimed at identifying Common Weakness Enumerations (CWEs), which represent a standard list of common software vulnerabilities and weaknesses. Utilizing this tool allowed us to identify vulnerabilities such as input validation errors, authentication flaws, and insecure configurations, which are often associated with CWEs.
+CodeQL scan resulted in 32 issues. 14 had a Test label indicating the issue is related to testing. Exluding the testing labels, we had 2 Critical, 12 High, 4 Medium, and 0 Low.
+
+SonarCloud scan resulted in 59 issues. Again a high number were related to testing (41). Excluding the testing labels, we had 16 High and 2 Medium.
 
 [SonarCloud scan results](https://sonarcloud.io/summary/overall?id=mhenke_keycloak&branch=main)
 
