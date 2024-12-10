@@ -37,7 +37,7 @@ PMD scan resulted in 15 security-related issues with all of them pertaining to t
 
 [SonarCloud scan results](https://sonarcloud.io/summary/overall?id=mhenke_keycloak&branch=main)
 
-## Findings
+## Part 2: Key Findings and Contributions
 
 Most serious findings cluster around certificate validation (CWE-295) and XML parsing vulnerabilities. Multiple instances of credential protection issues (CWE-522).
 
