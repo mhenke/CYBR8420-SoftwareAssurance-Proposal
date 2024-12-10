@@ -74,7 +74,7 @@ Based on our thorough security analysis of Keycloak, our planned contributions c
 
 Before beginning the Keycloak code review, we anticipated challenges due to the Java-based codebase, as our team lacked extensive familiarity with Java. This limitation made it more difficult to understand the code structure, Keycloak’s architecture, and the interactions between its components.
 
-Another significant challenge was selecting an appropriate scanning tool to analyze the code effectively. Damian recommended Fortify based on his prior experience, while Nick proposed incorporating PMD into the setup. Mike Henke experimented with SonarCloud and CodeQ, after some trial and error, successfully configured it. Nick was able to complate a local scan with PMD. The tool-related challenges extended beyond selection and setup, encompassing the learning curve for new analysis tools and the complexity of managing and integrating outputs from multiple scanners while filtering out false positives.
+Another significant challenge was selecting an appropriate scanning tool to analyze the code effectively. Damian recommended Fortify based on his prior experience, while Nick proposed incorporating PMD into the setup. Mike Henke experimented with SonarCloud and CodeQ, after some trial and error, successfully configured it. Nick was able to complete a local scan with PMD. The tool-related challenges extended beyond selection and setup, encompassing the learning curve for new analysis tools and the complexity of managing and integrating outputs from multiple scanners while filtering out false positives.
 
 **How did your code review strategy attempt to address the anticipated challenges?**
 
