@@ -82,10 +82,6 @@ Initially, we did not anticipate encountering such a high number of CWEs, partic
 
 **Document findings from a manual code review**
 
-@Damian, please provide your manual code review findings here or remove.
-
-**Document findings from a manual code review**
-
 - **CWE-295 (Improper Certificate Validation):**
 
   - **Files:**
