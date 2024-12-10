@@ -58,9 +58,9 @@ Notable gaps - no direct findings related to:
 
 **What challenges did you expect before starting the code review?** (Damian)
 
-Before starting the code review for Keycloak, one of the anticipated challenges was that the codebase is Java-based, and our team lacked extensive familiarity with Java. This made it more difficult to understand the code structure, Keycloak’s architecture, and its interaction between components.
+Before beginning the Keycloak code review, we anticipated challenges due to the Java-based codebase, as our team lacked extensive familiarity with Java. This limitation made it more difficult to understand the code structure, Keycloak’s architecture, and the interactions between its components.
 
-Another challenge was identifying the appropriate scanning tool to analyze the code effectively. Damian suggested using Fortify based on his work experience, while Nick proposed using Docker as part of the setup. Mike Henke tried SonarCloud, and after some trial and error, he was able to configure it successfully. Ultimately, we decided to use SonarCloud for our code review due to its compatibility and ease of integration with the project. Tool-related challenges extended beyond just selection and setup, including the learning curve for new analysis tools and the need to effectively manage and integrate outputs from multiple scanning tools while filtering out false positives.
+Another significant challenge was selecting an appropriate scanning tool to analyze the code effectively. Damian recommended Fortify based on his prior experience, while Nick proposed incorporating Docker into the setup. Mike Henke experimented with SonarCloud and, after some trial and error, successfully configured it. Ultimately, we conducted successful scans using CodeQL with GitHub Actions, SonarCloud, and a local scan with PMD. The tool-related challenges extended beyond selection and setup, encompassing the learning curve for new analysis tools and the complexity of managing and integrating outputs from multiple scanners while filtering out false positives.
 
 
 **How did your code review strategy attempt to address the anticipated challenges?** (Damian)
