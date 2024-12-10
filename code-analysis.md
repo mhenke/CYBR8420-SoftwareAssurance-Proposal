@@ -99,6 +99,10 @@ Initially, we did not anticipate encountering such a high number of CWEs, partic
     - [services/.../util/AuthenticatorUtils.java:72](https://github.com/mhenke/keycloak/security/code-scanning/55) - Hard-coded credentials but seems to be dummy.
     - [server-spi-private/.../utils/DefaultAuthenticationFlow:130](https://github.com/mhenke/keycloak/security/code-scanning/37) - Exposed reCaptcha keys: It is commented out, but still present in the code.
 
+### Planned Contributions to Upstream Project
+
+Based on our security analysis of Keycloak, our planned contributions would focus on addressing the identified vulnerabilities in certificate validation (CWE-295) and credential protection (CWE-522). We would submit detailed documentation updates highlighting secure configuration practices for SSL/TLS certificate validation in HttpClientBuilder and TruststoreConfiguration components. For the XML parsing vulnerabilities found in core SAML functionality, we would propose architectural improvements to prevent XXE attacks and enhance security in the XML processing pipeline. These contributions would aim to improve Keycloak's security posture while maintaining its functionality and performance.
+
 ## Reflection
 
 This part of the project was the first time we had to actually dive into the code of the software, which can be daunting in and of itself. Combined with the holiday break (Thanksgiving) and the feelings that come with being almost done with the semester, we knew this would be a challenging section.
