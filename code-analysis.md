@@ -76,6 +76,8 @@ Another significant challenge was selecting an appropriate scanning tool to anal
 
 **How did your code review strategy attempt to address the anticipated challenges?** (Damian)
 
+Initially, we did not anticipate encountering such a high number of CWEs, particularly with a well-established and widely regarded tool like Keycloak. This unexpectedly large volume of vulnerabilities suggests that there may be underlying architectural issues within Keycloak itself that warrant closer examination.
+
 **Document findings from a manual code review** (Damian)
 
 ## Reflection
