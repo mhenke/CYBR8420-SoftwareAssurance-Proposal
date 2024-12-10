@@ -70,7 +70,7 @@ Notable gaps - no direct findings related to:
 
 Based on our thorough security analysis of Keycloak, our planned contributions center on enhancing core security components through the implementation of adaptive session timeout mechanisms based on user activity and risk levels, alongside real-time token status verification with rate limiting for validation requests. Our recommendations extend to federation provider security, implementing provider-specific security checks, while also addressing identified vulnerabilities related to CWE-295 and CWE-522 through detailed documentation updates and architectural improvements.
 
-**What challenges did you expect before starting the code review?** (Damian)
+**What challenges did you expect before starting the code review?**
 
 Before beginning the Keycloak code review, we anticipated challenges due to the Java-based codebase, as our team lacked extensive familiarity with Java. This limitation made it more difficult to understand the code structure, Keycloak’s architecture, and the interactions between its components.
 
@@ -81,6 +81,7 @@ Another significant challenge was selecting an appropriate scanning tool to anal
 Initially, we did not anticipate encountering such a high number of CWEs, particularly with a well-established and widely regarded tool like Keycloak. This unexpectedly large volume of vulnerabilities suggests that there may be underlying architectural issues within Keycloak itself that warrant closer examination.
 
 **Document findings from a manual code review**
+
 @Damian, please provide your manual code review findings here or remove.
 
 ## Reflection
