@@ -99,10 +99,6 @@ Initially, we did not anticipate encountering such a high number of CWEs, partic
     - `services/.../util/AuthenticatorUtils.java:72` - Hard-coded credentials
     - `server-spi-private/.../utils/DefaultAuthenticationFlow:130` - Exposed reCaptcha keys
 
-- **CWE-347 (Improper Crypto Signature Verification):**
-  - **Files:**
-    - `saml-core/.../util/XMLSignatureUtil.java:553` - Insecure XML signature validation
-
 ## Reflection
 
 This part of the project was the first time we had to actually dive into the code of the software, which can be daunting in and of itself. Combined with the holiday break (Thanksgiving) and the feelings that come with being almost done with the semester, we knew this would be a challenging section.
