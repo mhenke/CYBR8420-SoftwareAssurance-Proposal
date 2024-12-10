@@ -30,14 +30,14 @@ Next, we turned our attention to automated code scanning tools. Our initial atte
 
 The CodeQL scan identified 32 issues, with 14 flagged as related to testing. This left 18 issues of interest:
 
--2 Critical
--12 High
--4 Medium
+- 2 Critical
+- 12 High
+- 4 Medium
 
 The SonarCloud scan we opted to utilize for an additional layer of analysis detected 59 issues, with 41 tied to testing. Excluding these, the remaining results included:
 
--16 High
--2 Medium
+- 16 High
+- 2 Medium
 
 Furthermore, we conducted a local scan using PMD, which resulted in 15 security-related issues with all being related to testing and decided not to look any further. 
 
