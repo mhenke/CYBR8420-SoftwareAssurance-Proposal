@@ -68,7 +68,7 @@ Notable gaps - no direct findings related to:
 - CWE-346 (Origin Validation Error)
 - CWE-502 (Deserialization of Untrusted Data)
 
-Based on our comprehensive security analysis of Keycloak, our planned contributions center on enhancing core security components through the implementation of adaptive session timeout mechanisms based on user activity and risk levels, alongside real-time token status verification with rate limiting for validation requests. Our recommendations extend to federation provider security, implementing provider-specific security checks, while also addressing identified vulnerabilities related to CWE-295 and CWE-522 through detailed documentation updates and architectural improvements. 
+Based on our thorough security analysis of Keycloak, our planned contributions center on enhancing core security components through the implementation of adaptive session timeout mechanisms based on user activity and risk levels, alongside real-time token status verification with rate limiting for validation requests. Our recommendations extend to federation provider security, implementing provider-specific security checks, while also addressing identified vulnerabilities related to CWE-295 and CWE-522 through detailed documentation updates and architectural improvements. 
 
 **What challenges did you expect before starting the code review?** (Damian)
 
