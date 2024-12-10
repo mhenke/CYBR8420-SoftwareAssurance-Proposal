@@ -89,7 +89,7 @@ Initially, we did not anticipate encountering such a high number of CWEs, partic
 - **CWE-295 (Improper Certificate Validation):**
 
   - **Files:**
-    - `services/.../httpclient/HttpClientBuilder.java:61,66` - SSL/TLS certificate validation issues
+    - `services/.../httpclient/HttpClientBuilder.java:[61](https://github.com/mhenke/keycloak/security/code-scanning/76),[66](https://github.com/mhenke/CYBR8420-SoftwareAssurance-Proposal/blob/main/code-analysis.md)` - SSL/TLS certificate validation issues
     - `services/.../truststore/JSSETruststoreConfiguration:86,89` - Improper certificate validation
     - adapters/.../cloned/HttpClientBuilder.java:[90](https://github.com/mhenke/keycloak/security/code-scanning/65),[94](https://github.com/mhenke/keycloak/security/code-scanning/66) - SSL/TLS verification issues: Undetermined if vulnerable
 
