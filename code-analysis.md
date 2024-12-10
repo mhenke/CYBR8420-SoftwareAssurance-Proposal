@@ -34,12 +34,12 @@ The CodeQL scan identified 32 issues, with 14 flagged as related to testing. Thi
 - 12 High
 - 4 Medium
 
-The SonarCloud scan we opted to utilize for an additional layer of analysis detected 59 issues, with 41 tied to testing. Excluding these, the remaining results included:
+The SonarCloud scan, which we opted to utilize for an additional layer of analysis, detected 59 issues, with 41 tied to testing. Excluding these, the remaining results included:
 
 - 16 High
 - 2 Medium
 
-Furthermore, we conducted a local scan using PMD, which resulted in 15 security-related issues with all being related to testing and decided not to look any further.
+Furthermore, we conducted a local scan using PMD, which resulted in 15 security-related issues, all related to testing, and decided not to look any further.
 
 [SonarCloud scan results](https://sonarcloud.io/summary/overall?id=mhenke_keycloak&branch=main)
 
@@ -76,11 +76,12 @@ Before beginning the Keycloak code review, we anticipated challenges due to the 
 
 Another significant challenge was selecting an appropriate scanning tool to analyze the code effectively. Damian recommended Fortify based on his prior experience, while Nick proposed incorporating PMD into the setup. Mike Henke experimented with SonarCloud and, after some trial and error, successfully configured it. Ultimately, we conducted successful scans using CodeQL with GitHub Actions, SonarCloud, and a local scan with PMD. The tool-related challenges extended beyond selection and setup, encompassing the learning curve for new analysis tools and the complexity of managing and integrating outputs from multiple scanners while filtering out false positives.
 
-**How did your code review strategy attempt to address the anticipated challenges?** (Damian)
+**How did your code review strategy attempt to address the anticipated challenges?**
 
 Initially, we did not anticipate encountering such a high number of CWEs, particularly with a well-established and widely regarded tool like Keycloak. This unexpectedly large volume of vulnerabilities suggests that there may be underlying architectural issues within Keycloak itself that warrant closer examination.
 
-**Document findings from a manual code review** (Damian)
+**Document findings from a manual code review**
+@Damian, please provide your manual code review findings here or remove.
 
 ## Reflection
 
@@ -90,4 +91,4 @@ We worked on those hurdles by maintaining contact through our Discord chat as mu
 
 Mike was particularly great at sending regular communication on Discord, and Damian helped us stay on task with the assignment requirements. Brian helped to create and review the markdown file and project boards, while Nick and Connor were instrumental in narrowing down the CWE lists that we each put together individually. Everyone contributed to the manual and automated code review as well as attending our ongoing team meetings on Discord.
 
-This experience highlighted that our team's strength lies in our ability to adapt and support each other, especially when facing technical challenges or scheduling constraints. The holiday break, while challenging, actually helped us develop better asynchronous working methods that we can apply to future projects. Going forward, I think our team would schedule more evenly spaced milestones rather than larger deadlines, reduce time spent on setup issues by documenting successful configurations and environment settings before the scheduled check-in, and creating clearer task divisions upfront to avoid overlap.
+This experience highlighted that our team's strength lies in our ability to adapt and support each other, especially when facing technical challenges or scheduling constraints. The holiday break, while challenging, actually helped us develop better asynchronous working methods that we can apply to future projects. Going forward, I think our team would schedule more evenly spaced milestones rather than larger deadlines, reduce time spent on setup issues by documenting successful configurations and environment settings before the scheduled check-in, and create clearer task divisions upfront to avoid overlap.
