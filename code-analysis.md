@@ -84,6 +84,25 @@ Initially, we did not anticipate encountering such a high number of CWEs, partic
 
 @Damian, please provide your manual code review findings here or remove.
 
+**Document findings from a manual code review**
+
+- **CWE-295 (Improper Certificate Validation):**
+
+  - **Files:**
+    - `services/.../httpclient/HttpClientBuilder.java:61,66` - SSL/TLS certificate validation issues
+    - `services/.../truststore/JSSETruststoreConfiguration:86,89` - Improper certificate validation
+    - `adapters/.../cloned/HttpClientBuilder.java:90,94` - SSL/TLS verification issues
+
+- **CWE-522 (Insufficient Protection of Credentials):**
+
+  - **Files:**
+    - `services/.../util/AuthenticatorUtils.java:72` - Hard-coded credentials
+    - `server-spi-private/.../utils/DefaultAuthenticationFlow:130` - Exposed reCaptcha keys
+
+- **CWE-347 (Improper Crypto Signature Verification):**
+  - **Files:**
+    - `saml-core/.../util/XMLSignatureUtil.java:553` - Insecure XML signature validation
+
 ## Reflection
 
 This part of the project was the first time we had to actually dive into the code of the software, which can be daunting in and of itself. Combined with the holiday break (Thanksgiving) and the feelings that come with being almost done with the semester, we knew this would be a challenging section.
@@ -93,3 +112,5 @@ We worked on those hurdles by maintaining contact through our Discord chat as mu
 Mike was particularly great at sending regular communication on Discord, and Damian helped us stay on task with the assignment requirements. Brian helped to create and review the markdown file and project boards, while Nick and Connor were instrumental in narrowing down the CWE lists that we each put together individually. Everyone contributed to the manual and automated code review as well as attending our ongoing team meetings on Discord.
 
 This experience highlighted that our team's strength lies in our ability to adapt and support each other, especially when facing technical challenges or scheduling constraints. The holiday break, while challenging, actually helped us develop better asynchronous working methods that we can apply to future projects. Going forward, I think our team would schedule more evenly spaced milestones rather than larger deadlines, reduce time spent on setup issues by documenting successful configurations and environment settings before the scheduled check-in, and create clearer task divisions upfront to avoid overlap.
+
+[Project Board](https://github.com/users/bdahlstrom/projects/1/views/1
