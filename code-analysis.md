@@ -11,7 +11,7 @@ Ensuring proper software assurance begins with analyzing potential attack scenar
 We started by reviewing known CWEs associated with both Keycloak and Java-based systems in general. To analyze Keycloak-specific vulnerabilities, we used Snyk, which provides a comprehensive list of CVEs linked to Keycloak along with their corresponding CWEs. Furthermore, we decided to perform a broader analysis of Keycloak to capture any potential security issues or CWEs that might be relevant to the platform and the topics we have covered previously.
 
 
-CWE Checklist:
+**CWE Checklist:**
 | Serial | CWE | Type | Name | Focus |
 |:-------|:------|:-------|:------------------------------------------|:-------------------------------------------|
 | 1 | [CWE-287](https://cwe.mitre.org/data/definitions/287.html) | Base | Improper Authentication | Verify OAuth/OIDC authentication flows ([UC-1/MUC-1](software-security-assurance-cases.md#assurance-case-1-encrypted-credentials-during-transit)) |
