@@ -24,15 +24,22 @@ We started by reviewing known CWEs associated with both Keycloak and Java-based 
 
 **Code Review Tool Selection:**
 
-Our team obtained a list of CWEs from Claude AI. We verified the list was appropriate and valid for our misuse cases, assurance claims, and threat models. We iterated through this several times, finalizing with our list above.
+To develop a robust understanding of potential vulnerabilities, we began by obtaining a list of CWEs using Claude AI. This list underwent a review and validation to ensure its relevance to our misuse cases, assurance claims, and threat models. After several iterations, we finalized the refined list presented earlier.
 
-Then we struggled to get a code scanner working, trying Fortify and SonarQube using Docker. We finally were able to obtain scans using SonarCloud and CodeQL with GitHub Actions and a local scan with PMD.
+Next, we turned our attention to automated code scanning tools. Our initial attempts involved setting up Fortify and SonarQube via Docker, but these proved challenging. Ultimately, we successfully executed scans using CodeQL with GitHub Actions, SonarCloud, and a local scan with PMD.
 
-CodeQL scan resulted in 32 issues. 14 had a Test label indicating the issue is related to testing. Exluding the testing labels, we had 2 Critical, 12 High, 4 Medium, and 0 Low.
+The CodeQL scan identified 32 issues, with 14 flagged as related to testing. This left 18 issues of interest:
 
-SonarCloud scan resulted in 59 issues. Again a high number were related to testing (41). Excluding the testing labels, we had 16 High and 2 Medium.
+    2 Critical
+    12 High
+    4 Medium
 
-PMD scan resulted in 15 security-related issues with all of them pertaining to testing files.
+The SonarCloud scan we opted to utilize for an additional layer of analysis detected 59 issues, with 41 tied to testing. Excluding these, the remaining results included:
+
+    16 High
+    2 Medium
+
+Furthermore, we conducted a local scan using PMD, which resulted in 15 security-related issues with all being related to testing and decided not to look any further. 
 
 [SonarCloud scan results](https://sonarcloud.io/summary/overall?id=mhenke_keycloak&branch=main)
 
