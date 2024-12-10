@@ -47,17 +47,17 @@ Furthermore, we conducted a local scan using PMD, which resulted in 15 security-
 
 Most serious findings cluster around certificate validation (CWE-295), XML parsing vulnerabilities, and credential protection issues (CWE-522). The certificate validation issues appear in both core services and adapters, while XML parsing vulnerabilities affect critical SAML functionality. Credential protection findings include hard-coded credentials and exposed secrets.
 
-CWE-295 (Improper Certificate Validation)
+CWE-295 (Improper Certificate Validation):
   -Risk Level: Critical
   -Operational Impact: Potential for man-in-the-middle attacks in production environment
   -Findings: Multiple instances of insufficient certificate chain validation
-CWE-522 (Insufficient Protection of Credentials)
+CWE-522 (Insufficient Protection of Credentials):
   -Risk Level: High
-	-Operational Impact: Possible exposure of sensitive credentials
-	-Findings: Hard-coded credentials and exposed secrets in configuration
-XML Parsing Vulnerabilities
-	-Risk Level: High
-	-Operational Impact: Affects critical SAML functionality
+  -Operational Impact: Possible exposure of sensitive credentials
+  -Findings: Hard-coded credentials and exposed secrets in configuration
+XML Parsing Vulnerabilities:
+  -Risk Level: High
+  -Operational Impact: Affects critical SAML functionality
 
 Notable gaps - no direct findings related to:
 
