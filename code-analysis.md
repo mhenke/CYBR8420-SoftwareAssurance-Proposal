@@ -8,8 +8,7 @@ Ensuring proper software assurance begins with analyzing potential attack scenar
 
 **Scope and Strategy:**
 
-We started by reviewing known CWEs associated with both Keycloak and Java-based systems in general. To analyze Keycloak-specific vulnerabilities, we used Snyk, which provides a comprehensive list of CVEs linked to Keycloak along with their corresponding CWEs. Furthermore, we decided to perform a broader analysis of Keycloak to capture any potential security issues or CWEs that might be relevant to the platform and the topics we have covered previously.
-
+We started by reviewing known CWEs associated with both Keycloak and Java-based systems in general. To analyze Keycloak-specific vulnerabilities, we used [Snyk](https://security.snyk.io/package/maven/org.keycloak%3Akeycloak-core), which provides a comprehensive list of CVEs linked to Keycloak along with their corresponding CWEs for a starting point. Furthermore, we decided to perform a broader analysis of Keycloak to capture any potential security issues or CWEs that might be relevant to the platform and the topics we have covered previously.
 
 **CWE Checklist:**
 | Serial | CWE | Type | Name | Focus |
@@ -50,7 +49,7 @@ Notable gaps - no direct findings related to:
 - CWE-346 (Origin Validation Error)
 - CWE-502 (Deserialization of Untrusted Data)
 
-**What challenges did you expect before starting the code review?** (Damian) 
+**What challenges did you expect before starting the code review?** (Damian)
 
 Before starting the code review for Keycloak, one of the anticipated challenges was that the codebase is Java-based, and our team lacked extensive familiarity with Java. This made it more difficult to understand the code structure, Keycloak’s architecture, and its interaction between components.
 
