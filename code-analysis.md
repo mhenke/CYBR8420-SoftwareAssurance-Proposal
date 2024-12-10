@@ -27,11 +27,13 @@ We started by reviewing known CWEs associated with both Keycloak and Java-based 
 
 Our team obtained a list of CWEs from Claude AI. We verified the list was appropriate and valid for our misuse cases, assurance claims, and threat models. We iterated through this several times, finalizing with our list above.
 
-Then we struggled to get a code scanner working, trying Fortify and SonarQube using Docker. Nick tried PMD. We finally were able to obtain scans using SonarCloud and CodeQL with GitHub Actions.
+Then we struggled to get a code scanner working, trying Fortify and SonarQube using Docker. We finally were able to obtain scans using SonarCloud and CodeQL with GitHub Actions and a local scan with PMD.
 
 CodeQL scan resulted in 32 issues. 14 had a Test label indicating the issue is related to testing. Exluding the testing labels, we had 2 Critical, 12 High, 4 Medium, and 0 Low.
 
 SonarCloud scan resulted in 59 issues. Again a high number were related to testing (41). Excluding the testing labels, we had 16 High and 2 Medium.
+
+PMD scan resulted in 15 security-related issues with all of them pertaining to testing files.
 
 [SonarCloud scan results](https://sonarcloud.io/summary/overall?id=mhenke_keycloak&branch=main)
 
