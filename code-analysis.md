@@ -95,7 +95,7 @@ Initially, we did not anticipate encountering such a high number of CWEs, partic
 
 ### Planned Contributions
 
-Based on our security analysis of Keycloak, our planned contributions center on enhancing core security components through adaptive session timeout mechanisms based on user activity and risk levels, alongside real-time token status verification with rate limiting. We would address identified vulnerabilities in certificate validation (CWE-295) and credential protection (CWE-522) through detailed documentation updates highlighting secure configuration practices for SSL/TLS validation in HttpClientBuilder and TruststoreConfiguration components. For XML parsing vulnerabilities in core SAML functionality, we propose architectural improvements to prevent XXE attacks and enhance federation provider security through provider-specific security checks. These contributions aim to improve Keycloak's security posture while maintaining functionality and performance.
+Based on our security analysis of Keycloak, our planned contributions center on enhancing core security components through adaptive session timeout mechanisms based on user activity and risk levels, alongside real-time token status verification with rate limiting. We would address identified vulnerabilities in certificate validation (CWE-295) and credential protection (CWE-522) through detailed documentation updates highlighting secure configuration practices for SSL/TLS validation in HttpClientBuilder and TruststoreConfiguration components. Additionally, we would propose a comprehensive review of XML parsing vulnerabilities to mitigate potential SAML-related risks.
 
 ## Reflection
 
