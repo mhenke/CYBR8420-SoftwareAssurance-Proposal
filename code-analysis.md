@@ -96,7 +96,7 @@ Initially, we did not anticipate encountering such a high number of CWEs, partic
 - **CWE-522 (Insufficient Protection of Credentials):**
 
   - **Files:**
-    - `services/.../util/AuthenticatorUtils.java:72` - Hard-coded credentials
+    - [services/.../util/AuthenticatorUtils.java:72](https://github.com/mhenke/keycloak/security/code-scanning/55) - Hard-coded credentials but seems to be dummy.
     - `server-spi-private/.../utils/DefaultAuthenticationFlow:130` - Exposed reCaptcha keys
 
 ## Reflection
