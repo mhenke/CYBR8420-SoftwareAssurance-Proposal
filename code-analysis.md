@@ -89,8 +89,8 @@ Initially, we did not anticipate encountering such a high number of CWEs, partic
 - **CWE-295 (Improper Certificate Validation):**
 
   - **Files:**
-    - services/.../httpclient/HttpClientBuilder.java:[61](https://github.com/mhenke/keycloak/security/code-scanning/76),[66](https://github.com/mhenke/CYBR8420-SoftwareAssurance-Proposal/blob/main/code-analysis.md) - SSL/TLS certificate validation issues: Needs more investigation into checkClientTrusted method
-    - `services/.../truststore/JSSETruststoreConfiguration:86,89` - Improper certificate validation
+    - services/.../httpclient/HttpClientBuilder.java:[61](https://github.com/mhenke/keycloak/security/code-scanning/76),[66](https://github.com/mhenke/CYBR8420-SoftwareAssurance-Proposal/blob/main/code-analysis.md) - SSL/TLS certificate validation issues: Needs further analysis into checkClientTrusted method
+    - services/.../truststore/JSSETruststoreConfiguration:[86](https://github.com/mhenke/keycloak/security/code-scanning/62),[89](https://github.com/mhenke/keycloak/security/code-scanning/63) - Improper certificate validation: Needs further analysis into checkClientTrusted method
     - adapters/.../cloned/HttpClientBuilder.java:[90](https://github.com/mhenke/keycloak/security/code-scanning/65),[94](https://github.com/mhenke/keycloak/security/code-scanning/66) - SSL/TLS verification issues: Undetermined if vulnerable
 
 - **CWE-522 (Insufficient Protection of Credentials):**
