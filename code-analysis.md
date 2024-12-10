@@ -60,7 +60,7 @@ Notable gaps - no direct findings related to:
 
 Before starting the code review for Keycloak, one of the anticipated challenges was that the codebase is Java-based, and our team lacked extensive familiarity with Java. This made it more difficult to understand the code structure, Keycloak’s architecture, and its interaction between components.
 
-Another challenge was identifying the appropriate scanning tool to analyze the code effectively. Damian suggested using Fortify based on his work experience, while Nick proposed using Docker as part of the setup. Mike Henke tried SonarCloud, and after some trial and error, he was able to configure it successfully. Ultimately, we decided to use SonarCloud for our code review due to its compatibility and ease of integration with the project.
+Another challenge was identifying the appropriate scanning tool to analyze the code effectively. Damian suggested using Fortify based on his work experience, while Nick proposed using Docker as part of the setup. Mike Henke tried SonarCloud, and after some trial and error, he was able to configure it successfully. Ultimately, we decided to use SonarCloud for our code review due to its compatibility and ease of integration with the project. Tool-related challenges extended beyond just selection and setup, including the learning curve for new analysis tools and the need to effectively manage and integrate outputs from multiple scanning tools while filtering out false positives.
 
 
 **How did your code review strategy attempt to address the anticipated challenges?** (Damian)
