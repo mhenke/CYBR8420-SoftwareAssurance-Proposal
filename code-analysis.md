@@ -48,7 +48,9 @@ Notable gaps - no direct findings related to:
 - CWE-346 (Origin Validation Error)
 
 **What challenges did you expect before starting the code review?** (Damian) 
+
 **How did your code review strategy attempt to address the anticipated challenges?** (Damian)
+
 **Document findings from a manual code review**
 
 ## Reflection
