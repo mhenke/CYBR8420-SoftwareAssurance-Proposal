@@ -4,6 +4,8 @@
 
 Ensuring proper software assurance begins with analyzing potential attack scenarios and identifying the requirements to secure the software and validate its functionality. With these threats addressed and security measures planned, we shift our focus to source code review. This step determines whether the current code meets assurance standards or requires modifications to address security gaps. Our approach integrates automated scanning tools, manual reviews, and cross-referencing findings against identified threats and vulnerabilities.
 
+## Code Review
+
 **Scope and Strategy:**
 
 We started by reviewing known CWEs associated with both Keycloak and Java-based systems in general. To analyze Keycloak-specific vulnerabilities, we used Snyk, which provides a comprehensive list of CVEs linked to Keycloak along with their corresponding CWEs. Furthermore, we decided to perform a broader analysis of Keycloak to capture any potential security issues or CWEs that might be relevant to the platform and the topics we have covered previously.
