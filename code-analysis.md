@@ -51,7 +51,7 @@ Notable gaps - no direct findings related to:
 
 **How did your code review strategy attempt to address the anticipated challenges?** (Damian)
 
-**Document findings from a manual code review**
+**Document findings from a manual code review** (Damian)
 
 ## Reflection
 
