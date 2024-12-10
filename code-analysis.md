@@ -39,8 +39,7 @@ PMD scan resulted in 15 security-related issues with all of them pertaining to t
 
 ## Part 2: Key Findings and Contributions
 
-Most serious findings cluster around certificate validation (CWE-295) and XML parsing vulnerabilities. Multiple instances of credential protection issues (CWE-522).
-
+Most serious findings cluster around certificate validation (CWE-295), XML parsing vulnerabilities, and credential protection issues (CWE-522). The certificate validation issues appear in both core services and adapters, while XML parsing vulnerabilities affect critical SAML functionality. Credential protection findings include hard-coded credentials and exposed secrets.
 Notable gaps - no direct findings related to:
 
 - CWE-287 (Improper Authentication)
@@ -48,6 +47,7 @@ Notable gaps - no direct findings related to:
 - CWE-601 (URL Redirection)
 - CWE-347 (Improper Crypto Signature Verification)
 - CWE-346 (Origin Validation Error)
+- CWE-502 (Deserialization of Untrusted Data)
 
 **What challenges did you expect before starting the code review?** (Damian) 
 
