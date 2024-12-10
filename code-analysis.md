@@ -26,7 +26,7 @@ We started by reviewing known CWEs associated with both Keycloak and Java-based 
 
 To develop a robust understanding of potential vulnerabilities, we began by obtaining a list of CWEs using Claude AI. This list underwent a review and validation to ensure its relevance to our misuse cases, assurance claims, and threat models. After several iterations, we finalized the refined list presented earlier.
 
-Next, we turned our attention to automated code scanning tools. Our initial attempts involved setting up Fortify and SonarQube via Docker, but these proved challenging. Ultimately, we successfully executed scans using CodeQL with GitHub Actions, SonarCloud, and a local scan with PMD.
+Next, we turned our attention to automated code scanning tools. Our initial attempts involved setting up Fortify and SonarQube via Docker, but these proved challenging. Ultimately, we successfully executed scans using CodeQL, SonarCloud (both using GitHub Actions), and a local scan with PMD.
 
 The CodeQL scan identified 32 issues, with 14 flagged as related to testing. This left 18 issues of interest:
 
@@ -39,7 +39,7 @@ The SonarCloud scan we opted to utilize for an additional layer of analysis dete
 - 16 High
 - 2 Medium
 
-Furthermore, we conducted a local scan using PMD, which resulted in 15 security-related issues with all being related to testing and decided not to look any further. 
+Furthermore, we conducted a local scan using PMD, which resulted in 15 security-related issues with all being related to testing and decided not to look any further.
 
 [SonarCloud scan results](https://sonarcloud.io/summary/overall?id=mhenke_keycloak&branch=main)
 
@@ -62,7 +62,6 @@ Before beginning the Keycloak code review, we anticipated challenges due to the 
 
 Another significant challenge was selecting an appropriate scanning tool to analyze the code effectively. Damian recommended Fortify based on his prior experience, while Nick proposed incorporating PMD into the setup. Mike Henke experimented with SonarCloud and, after some trial and error, successfully configured it. Ultimately, we conducted successful scans using CodeQL with GitHub Actions, SonarCloud, and a local scan with PMD. The tool-related challenges extended beyond selection and setup, encompassing the learning curve for new analysis tools and the complexity of managing and integrating outputs from multiple scanners while filtering out false positives.
 
-
 **How did your code review strategy attempt to address the anticipated challenges?** (Damian)
 
 **Document findings from a manual code review** (Damian)
@@ -71,4 +70,4 @@ Another significant challenge was selecting an appropriate scanning tool to anal
 
 This part of the project was the first time we had to actually dive into the code of the software, which can be daunting in and of itself. Combined with the holiday break (Thanksgiving) and the feelings that come with being almost done with the semester, we knew this would be a challenging section. We worked on those hurdles by maintaining contact through our Discord chat as much as possible to develop our strategy over the holiday. We each delved into possible CWEs through various methods including Keycloak documentation, our own project documentation thus far, and AI support (ChatGPT, Claude). After meeting with the professor, we had a clearer idea of our options on approaching this and developed our automated review strategy of the code. Mike was particularly great at sending regular communication on Discord and Damian helped us stay on task with the assignment requirements. Brian helped to create and review the markdown file and project boards while Nick and Connor were instrumental in narrowing down the CWE lists that we each put together individually. Everyone contributed to the manual and automated code review as well as attending our ongoing team meetings on Discord.
 
-This experience highlighted that our team's strength lies in our ability to adapt and support each other, especially when facing technical challenges or scheduling constraints. The holiday break, while challenging, actually helped us develop better asynchronous working methods that we can apply to future projects. Going forward, I think our team would schedule more evenly spaced milestones rather than larger deadlines, reduce time spent on setup issues by documenting successful configurations and environment settings before the scheduled check-in, and creating clearer task divisions upfront to avoid overlap. 
+This experience highlighted that our team's strength lies in our ability to adapt and support each other, especially when facing technical challenges or scheduling constraints. The holiday break, while challenging, actually helped us develop better asynchronous working methods that we can apply to future projects. Going forward, I think our team would schedule more evenly spaced milestones rather than larger deadlines, reduce time spent on setup issues by documenting successful configurations and environment settings before the scheduled check-in, and creating clearer task divisions upfront to avoid overlap.
