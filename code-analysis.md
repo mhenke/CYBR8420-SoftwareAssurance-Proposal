@@ -109,4 +109,4 @@ Mike was particularly great at sending regular communication on Discord, and Dam
 
 This experience highlighted that our team's strength lies in our ability to adapt and support each other, especially when facing technical challenges or scheduling constraints. The holiday break, while challenging, actually helped us develop better asynchronous working methods that we can apply to future projects. Going forward, I think our team would schedule more evenly spaced milestones rather than larger deadlines, reduce time spent on setup issues by documenting successful configurations and environment settings before the scheduled check-in, and create clearer task divisions upfront to avoid overlap.
 
-[Project Board](https://github.com/users/bdahlstrom/projects/1/views/1
+[Project Board](https://github.com/users/bdahlstrom/projects/1/views/1)
